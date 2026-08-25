@@ -86,9 +86,6 @@ AI が支援する 4 つのステージ：
 | ハンズオン形式 | Microsoft 365 Copilot ライセンスがあり、Outlook / Teams / Excel / Word の Copilot、Researcher、Analyst、Agent Builder にアクセスできる少人数 | 参加者が自分で全演習を実施 |
 | ファシリテーター デモ形式 | Microsoft 365 Copilot Business ライセンスがない、試用開始前、本番/サンプルデータを当日使えない、時間が限られている | ファシリテーターが実演し、参加者は自社での適用を議論 |
 
-> ライセンスがない場合は、無償トライアル版の体験として Copilot Immersion Briefing Guide（https://aka.ms/CopilotImmersionBriefingGuide）を案内します。
-> トライアルは 25 ユーザー ライセンス／30 日間（1 か月）の評価期間で、25 席すべてが自動的に有料サブスクリプションへ移行する設定になっている点に注意してください。
-
 ---
 
 ## 事前準備チェックリスト
