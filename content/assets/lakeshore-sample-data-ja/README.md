@@ -45,11 +45,11 @@ M365 Copilot + Agents SMB Guided Experience（Copilot Experience Lab 日本語�
 | 発売企画書（骨子） | 社内の企画書 | である調。目的／骨子／対象／留意点の構成 |
 | 共同販促キャンペーン提案書 | 取引先からの対外提案書 | ですます調。「貴社」「弊社」「ご提案申し上げます」等の商慣行に沿った敬語 |
 | エージェント運用ガイド | 社内の運用手順書 | である調の指示形 |
-| お申し出一覧 | カスタマーサービスの受付台帳 | 業務記録調。お客様に関する記述は敬語 |
+| お申し出一覧 | カスタマーサポートの受付台帳 | 業務記録調。お客様に関する記述は敬語 |
 
 ### 主な表記の調整
 
-- 部門名を日本企業の一般的な名称に：カスタマーサービス部、店舗運営部、物流部、商品部、マーケティング部、品質管理部
+- 部門名を日本企業の一般的な名称に：カスタマーサポート部、店舗運営部、物流部、商品企画部、マーケティング部、品質管理部
 - チャネル表記を小売実務に合わせる：店舗／EC／モール／卸売
 - 「地域」→「エリア」、「製品」→「商品」など、小売業で使われる語に統一
 - 対応状況を台帳表記に：未着手／対応中／先方回答待ち
@@ -60,7 +60,7 @@ M365 Copilot + Agents SMB Guided Experience（Copilot Experience Lab 日本語�
 - 架空の企業名：Lakeshore Retail、Northwind Outfitters、Adventure Works Cycles、Alpine Ski House、Boulder Innovations
 - 架空の商品名：Summit Pro Jacket、Alpine Storm Shell、TrailFlex Hiking Pant など（ブランド名として機能するため）
 - SKU コード：JKT-1001、WTB-6001 など
-- 人物名：Eugenia Lopez、D. Patel など
+- 人物名：大沢澪さん、D. Patel など
 - 数値・日付・金額（USD 表記を維持）
 - ファイル名
 

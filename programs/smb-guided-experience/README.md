@@ -16,12 +16,12 @@
 
 | 登場人物 | 役割 | 担当する体験 |
 |---|---|---|
-| Briana Hernandez | マーチャンダイジング リード | CHAT-01 / CHAT-05 / XLS-01 |
-| Eugenia Lopez | マーケティング マネージャー | CHAT-02 / WRD-01 |
-| Avery Howard | カスタマー サービス責任者 | CHAT-03 / AGT-03 |
-| Hazel Rodriguez | パートナーシップ責任者 | CHAT-04 / AGT-03 / AGT-04 |
-| Monica Thompson | 店舗オペレーション責任者 | MTG-01 |
-| リーダーシップ チーム | 経営層 | AGT-01 / AGT-02 |
+| 曽根拓海 | 商品企画部長 | CHAT-01 / CHAT-05 / XLS-01 |
+| 大沢澪 | マーケティング部長 | CHAT-02 / WRD-01 |
+| 遠藤淳也 | カスタマーサポート責任者 | CHAT-03 / AGT-03 |
+| 松吉優香 | パートナー連携責任者 | CHAT-04 / AGT-03 / AGT-04 |
+| 山本夏帆 | 店舗運営部長 | MTG-01 |
+| リーダーシップ チーム | 経営陣 | AGT-01 / AGT-02 |
 
 AI が支援する 4 つのステージ：
 
