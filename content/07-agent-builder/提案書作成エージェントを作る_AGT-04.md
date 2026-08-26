@@ -1,15 +1,4 @@
----
-id: EXP-AGT-004
-title: 提案書作成エージェントを作る
-category: 07-agent-builder
-product: Agent Builder
-level: 応用（任意）
-duration: 15分（目安）
-data: northwind-outfitters-proposal.docx / agent-knowledge-pack.docx（任意）
-source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 / 4B
----
-
-# EXP-AGT-004｜提案書作成エージェントを作る
+# 提案書作成エージェントを作る｜AGT-04
 
 | 項目 | 内容 |
 |---|---|
@@ -18,7 +7,6 @@ source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 /
 | **利用** | Agent Builder |
 | **入力** | エージェント名・説明・指示・スターター プロンプト（＋許可されたナレッジ ソース） |
 | **成果** | 動作する「Proposal Assistant」 |
-| **証跡** | テスト出力を保存し、正確性・スコープの明確さ・前提の抜けを評価する |
 
 > **実施条件**：時間があれば実施する 2 つ目のエージェント作成です。
 
@@ -97,18 +85,18 @@ Northwind は有料ソーシャル費用の一部を負担する可能性があ�
 9. 出力を、正確性、スコープの明確さ、抜けている前提、顧客に出せる状態かどうかの観点でレビューする
 
 ---
-
+<!--
 ## WATCH
 
 `../assets/EXP-AGT-004/` に動画 / GIF を配置してください。
 
 ---
-
+-->
 ## REFLECT — 振り返り
 
 - 「価格・法務条件・納品コミットメント・顧客承認を創作しない」という制約は、実務でなぜ重要か
 - エージェントが**前提条件と要レビュー項目を明示する**ことは、レビュー担当者にどう効くか
-- [EXP-CHAT-004](../01-copilot-chat/EXP-CHAT-004_パートナー提案書を要約し確認すべき質問を洗い出す.md) の提案書要約と組み合わせると、どんな業務フローが作れるか
+- [CHAT-04](../01-copilot-chat/EXP-CHAT-004_パートナー提案書を要約し確認すべき質問を洗い出す.md) の提案書要約と組み合わせると、どんな業務フローが作れるか
 
 ---
 
