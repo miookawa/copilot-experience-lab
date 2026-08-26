@@ -11,13 +11,13 @@ M365 Copilot + Agents SMB Guided Experience（Copilot Experience Lab 日本語�
 
 | ファイル | 内容 | 使用する体験 |
 |---|---|---|
-| `lakeshore-prior-season-strategy.docx` | 前期施策振り返り（総括、エリア別・チャネル別、今期方針） | EXP-CHAT-005 / EXP-WRD-001 |
-| `lakeshore-brand-playbook.docx` | ブランドガイドライン（表現トーン、メッセージの柱、推奨・非推奨表現） | EXP-CHAT-005 / EXP-WRD-001 |
-| `lakeshore-q4-sales.xlsx` | 2025年 第4四半期 売上実績（明細20,000行＋集計＋エリア別分析） | EXP-XLS-001 / EXP-WRD-001 / EXP-AGT-002 |
-| `lakeshore-launch-brief-template.docx` | 発売企画書（骨子）※Copilot in Word への入力用 | EXP-WRD-001 |
-| `northwind-outfitters-proposal.docx` | 取引先からの共同販促キャンペーン提案書 | EXP-CHAT-004 / EXP-AGT-004 |
-| `agent-knowledge-pack.docx` | エージェント運用ガイド | EXP-AGT-003 / EXP-AGT-004 |
-| `customer-complaint-cases.xlsx` | お申し出一覧10件＋エスカレーション基準 | EXP-CHAT-003（発展） |
+| `lakeshore-prior-season-strategy.docx` | 前期施策振り返り（総括、エリア別・チャネル別、今期方針） | CHAT-05 / WRD-01 |
+| `lakeshore-brand-playbook.docx` | ブランドガイドライン（表現トーン、メッセージの柱、推奨・非推奨表現） | CHAT-05 / WRD-01 |
+| `lakeshore-q4-sales.xlsx` | 2025年 第4四半期 売上実績（明細20,000行＋集計＋エリア別分析） | XLS-01 / WRD-01 / AGT-02 |
+| `lakeshore-launch-brief-template.docx` | 発売企画書（骨子）※Copilot in Word への入力用 | WRD-01 |
+| `northwind-outfitters-proposal.docx` | 取引先からの共同販促キャンペーン提案書 | CHAT-04 / AGT-04 |
+| `agent-knowledge-pack.docx` | エージェント運用ガイド | AGT-03 / AGT-04 |
+| `customer-complaint-cases.xlsx` | お申し出一覧10件＋エスカレーション基準 | CHAT-03（発展） |
 
 ---
 
@@ -75,7 +75,7 @@ M365 Copilot + Agents SMB Guided Experience（Copilot Experience Lab 日本語�
 - シート構成：`売上明細`（20,000行）／`集計`（SUMIFS による集計）／`エリア別分析`
 - 列見出しの日本語化にあわせ、テーブル `SalesQ4` の列定義と `集計` シートの SUMIFS 数式を更新しています
 - 数式が正しく計算されることを確認済みです（店舗チャネル合計 17,854,493.97 USD、北東部 13,113,555.29 USD ほか）
-- EXP-XLS-001 のプロンプトは、日本語の列見出しのままで動作します
+- XLS-01 のプロンプトは、日本語の列見出しのままで動作します
 
 **`customer-complaint-cases.xlsx`**
 

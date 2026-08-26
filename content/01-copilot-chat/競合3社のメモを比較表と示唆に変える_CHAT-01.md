@@ -1,15 +1,4 @@
----
-id: EXP-CHAT-001
-title: 競合3社のメモを比較表と示唆に変える
-category: 01-copilot-chat
-product: Copilot Chat
-level: 基礎
-duration: 10分（目安）
-data: プロンプト内完結（ファイル不要）
-source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 / 1A
----
-
-# EXP-CHAT-001｜競合3社のメモを比較表と示唆に変える
+# 競合3社のメモを比較表と示唆に変える｜CHAT-01
 
 | 項目 | 内容 |
 |---|---|
@@ -18,7 +7,6 @@ source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 /
 | **利用** | Copilot Chat |
 | **入力** | 競合 3 社のメモ（下記プロンプトに含む） |
 | **成果** | 比較表 ＋ ポジショニングの示唆（3〜4 文） |
-| **証跡** | 出力を保存し、役立ち度を記録する |
 
 ---
 
@@ -77,11 +65,13 @@ Boulder Innovations
 
 ---
 
+<!--
 ## WATCH
 
-`../assets/EXP-CHAT-001/` に動画 / GIF を配置してください。
+`../assets/CHAT-01/` に動画 / GIF を配置してください。
 
 ---
+-->
 
 ## REFLECT — 振り返り
 
@@ -101,5 +91,5 @@ Boulder Innovations
 
 ## NEXT
 
-- [EXP-CHAT-002｜キャンペーンブリーフと役員向けプレゼン骨子を作る](EXP-CHAT-002_キャンペーンブリーフと役員向けプレゼン骨子を作る.md)
-- 発展：[EXP-CHAT-005｜自社ファイルを根拠に競合分析を自社視点へ引き上げる](../02-microsoft365-copilot/EXP-CHAT-005_自社ファイルを根拠に競合分析を自社視点へ引き上げる.md)（同じ問いを、自社の業務コンテキスト付きで）
+- [キャンペーンブリーフと役員向けプレゼン骨子を作る｜CHAT-02](キャンペーンブリーフと役員向けプレゼン骨子を作る_CHAT-02.md)
+- 発展：[自社ファイルを根拠に競合分析を自社視点へ引き上げる｜CHAT-05](../02-microsoft365-copilot/自社ファイルを根拠に競合分析を自社視点へ引き上げる_CHAT-05.md)（同じ問いを、自社の業務コンテキスト付きで）

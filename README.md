@@ -29,7 +29,7 @@ copilot-experience-lab/
 │  ├─ 08-powerpoint/                 # Copilot in PowerPoint（今後追加）
 │  ├─ 09-personas/                   # 職種別（今後追加）
 │  └─ assets/                        # 動画 / GIF / サンプル（体験 ID のフォルダーで管理）
-│     └─ EXP-CHAT-001/ ...
+│     └─ CHAT-01/ ...
 ├─ programs/                         # 参照先・順番・必須/選択・演出
 │  ├─ smb-guided-experience/README.md
 │  ├─ copilot-in-30/                 # 今後追加
@@ -50,20 +50,20 @@ copilot-experience-lab/
 
 | 体験 ID | タイトル | 利用サービス | データ | 元教材 |
 |---|---|---|---|---|
-| [EXP-SETUP-001](content/00-setup/EXP-SETUP-001_サインイン確認と安全なAI利用の土台づくり.md) | サインイン確認と安全なAI利用の土台づくり | Copilot Chat | ― | Before You Begin / Secure AI in Practice |
-| [EXP-CHAT-001](content/01-copilot-chat/EXP-CHAT-001_競合3社のメモを比較表と示唆に変える.md) | 競合3社のメモを比較表と示唆に変える | Copilot Chat | プロンプト内完結 | 1A |
-| [EXP-CHAT-002](content/01-copilot-chat/EXP-CHAT-002_キャンペーンブリーフと役員向けプレゼン骨子を作る.md) | キャンペーンブリーフと役員向けプレゼン骨子を作る | Copilot Chat | プロンプト内完結 | 1B |
-| [EXP-CHAT-003](content/01-copilot-chat/EXP-CHAT-003_顧客クレームを論点整理し返信案まで作る.md) | 顧客クレームを論点整理し返信案まで作る | Copilot Chat | プロンプト内完結 | 1C |
-| [EXP-CHAT-004](content/01-copilot-chat/EXP-CHAT-004_パートナー提案書を要約し確認すべき質問を洗い出す.md) | パートナー提案書を要約し確認すべき質問を洗い出す | Copilot Chat | プロンプト内完結 | 1D |
-| [EXP-CATCH-001](content/03-outlook-teams/EXP-CATCH-001_メールとチャットから未対応のフォローアップを洗い出す.md) | メールとチャットから未対応のフォローアップを洗い出す | Microsoft 365 Copilot | 自分の業務データ | 2A |
-| [EXP-CHAT-005](content/02-microsoft365-copilot/EXP-CHAT-005_自社ファイルを根拠に競合分析を自社視点へ引き上げる.md) | 自社ファイルを根拠に競合分析を自社視点へ引き上げる | Microsoft 365 Copilot | Lakeshore サンプル | 2B |
-| [EXP-XLS-001](content/04-excel/EXP-XLS-001_売上データから地域別の弱点と価格施策を導く.md) | 売上データから地域別の弱点と価格施策を導く | Copilot in Excel | Lakeshore サンプル | 2C |
-| [EXP-WRD-001](content/05-word/EXP-WRD-001_短いブリーフを10章のローンチ文書に展開する.md) | 短いブリーフを10章のローンチ文書に展開する | Copilot in Word | Lakeshore サンプル | 2D |
-| [EXP-MTG-001](content/03-outlook-teams/EXP-MTG-001_会議を要約しフォローアップ連絡文を作る.md) | 会議を要約しフォローアップ連絡文を作る | Copilot in Teams | 自分の業務データ | 2E |
-| [EXP-AGT-001](content/06-researcher-analyst/EXP-AGT-001_Researcherに市場調査ブリーフを委任する.md) | Researcherに市場調査ブリーフを委任する | Researcher | Web | 3A |
-| [EXP-AGT-002](content/06-researcher-analyst/EXP-AGT-002_Analystにリスクの高いSKU特定を委任する.md) | Analystにリスクの高いSKU特定を委任する | Analyst | Lakeshore サンプル | 3B |
-| [EXP-AGT-003](content/07-agent-builder/EXP-AGT-003_顧客フォローアップ用エージェントを作る.md) | 顧客フォローアップ用エージェントを作る | Agent Builder | 任意（許可された範囲） | 4A |
-| [EXP-AGT-004](content/07-agent-builder/EXP-AGT-004_提案書作成エージェントを作る.md) | 提案書作成エージェントを作る | Agent Builder | 任意（許可された範囲） | 4B |
+| [SETUP-01](content/00-setup/サインイン確認と安全なAI利用の土台づくり_SETUP-01.md) | サインイン確認と安全なAI利用の土台づくり | Copilot Chat | ― | Before You Begin / Secure AI in Practice |
+| [CHAT-01](content/01-copilot-chat/競合3社のメモを比較表と示唆に変える_CHAT-01.md) | 競合3社のメモを比較表と示唆に変える | Copilot Chat | プロンプト内完結 | 1A |
+| [CHAT-02](content/01-copilot-chat/キャンペーンブリーフと役員向けプレゼン骨子を作る_CHAT-02.md) | キャンペーンブリーフと役員向けプレゼン骨子を作る | Copilot Chat | プロンプト内完結 | 1B |
+| [CHAT-03](content/01-copilot-chat/顧客クレームを論点整理し返信案まで作る_CHAT-03.md) | 顧客クレームを論点整理し返信案まで作る | Copilot Chat | プロンプト内完結 | 1C |
+| [CHAT-04](content/01-copilot-chat/パートナー提案書を要約し確認すべき質問を洗い出す_CHAT-04.md) | パートナー提案書を要約し確認すべき質問を洗い出す | Copilot Chat | プロンプト内完結 | 1D |
+| [CATCH-01](content/03-outlook-teams/メールとチャットから未対応のフォローアップを洗い出す_CATCH-01.md) | メールとチャットから未対応のフォローアップを洗い出す | Microsoft 365 Copilot | 自分の業務データ | 2A |
+| [CHAT-05](content/02-microsoft365-copilot/自社ファイルを根拠に競合分析を自社視点へ引き上げる_CHAT-05.md) | 自社ファイルを根拠に競合分析を自社視点へ引き上げる | Microsoft 365 Copilot | Lakeshore サンプル | 2B |
+| [XLS-01](content/04-excel/売上データから地域別の弱点と価格施策を導く_XLS-01.md) | 売上データから地域別の弱点と価格施策を導く | Copilot in Excel | Lakeshore サンプル | 2C |
+| [WRD-01](content/05-word/短いブリーフを10章のローンチ文書に展開する_WRD-01.md) | 短いブリーフを10章のローンチ文書に展開する | Copilot in Word | Lakeshore サンプル | 2D |
+| [MTG-01](content/03-outlook-teams/会議を要約しフォローアップ連絡文を作る_MTG-01.md) | 会議を要約しフォローアップ連絡文を作る | Copilot in Teams | 自分の業務データ | 2E |
+| [AGT-01](content/06-researcher-analyst/Researcherに市場調査ブリーフを委任する_AGT-01.md) | Researcherに市場調査ブリーフを委任する | Researcher | Web | 3A |
+| [AGT-02](content/06-researcher-analyst/Analystにリスクの高いSKU特定を委任する_AGT-02.md) | Analystにリスクの高いSKU特定を委任する | Analyst | Lakeshore サンプル | 3B |
+| [AGT-03](content/07-agent-builder/顧客フォローアップ用エージェントを作る_AGT-03.md) | 顧客フォローアップ用エージェントを作る | Agent Builder | 任意（許可された範囲） | 4A |
+| [AGT-04](content/07-agent-builder/提案書作成エージェントを作る_AGT-04.md) | 提案書作成エージェントを作る | Agent Builder | 任意（許可された範囲） | 4B |
 
 ---
 

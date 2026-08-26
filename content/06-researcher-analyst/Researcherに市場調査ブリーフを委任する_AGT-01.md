@@ -1,15 +1,4 @@
----
-id: EXP-AGT-001
-title: Researcherに市場調査ブリーフを委任する
-category: 06-researcher-analyst
-product: Researcher
-level: 応用
-duration: 10分（目安）
-data: Web（引用付き）
-source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 / 3A
----
-
-# EXP-AGT-001｜Researcherに市場調査ブリーフを委任する
+# Researcherに市場調査ブリーフを委任する｜AGT-01
 
 | 項目 | 内容 |
 |---|---|
@@ -18,8 +7,6 @@ source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 /
 | **利用** | Microsoft 365 Copilot の Researcher エージェント |
 | **入力** | 調査テーマ（アウトドア テクニカル アパレル市場） |
 | **成果** | 引用付きの、経営層向け調査ブリーフ |
-| **証跡** | 引用元を確認し、ブリーフを保存する |
-
 > **実施条件**：Researcher にアクセスできる場合のみハンズオンで実施します。
 > そうでない場合は、ファシリテーターのデモを見ながら進めてください。
 
@@ -70,11 +57,13 @@ Researcher はこの大きな調査タスクを引き受け、**引用付きの�
 
 ---
 
+<!--
 ## WATCH
 
-`../assets/EXP-AGT-001/` に動画 / GIF を配置してください（依頼 → 待機 → 結果、の流れが分かるもの）。
+`../assets/AGT-01/` に動画 / GIF を配置してください（依頼 → 待機 → 結果、の流れが分かるもの）。
 
 ---
+-->
 
 ## REFLECT — 振り返り
 
@@ -86,4 +75,4 @@ Researcher はこの大きな調査タスクを引き受け、**引用付きの�
 
 ## NEXT
 
-- [EXP-AGT-002｜Analystにリスクの高いSKU特定を委任する](EXP-AGT-002_Analystにリスクの高いSKU特定を委任する.md)
+- [Analystにリスクの高いSKU特定を委任する｜AGT-02](Analystにリスクの高いSKU特定を委任する_AGT-02.md)

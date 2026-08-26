@@ -1,15 +1,4 @@
----
-id: EXP-XLS-001
-title: 売上データから地域別の弱点と価格施策を導く
-category: 04-excel
-product: Copilot in Excel
-level: 実践
-duration: 15分（目安）
-data: lakeshore-q4-sales.xlsx
-source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 / 2C
----
-
-# EXP-XLS-001｜売上データから地域別の弱点と価格施策を導く
+# 売上データから地域別の弱点と価格施策を導く｜XLS-01
 
 | 項目 | 内容 |
 |---|---|
@@ -18,8 +7,6 @@ source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 /
 | **利用** | Copilot in Excel |
 | **入力** | `lakeshore-q4-sales.xlsx` |
 | **成果** | 売上上位 5 製品と構成比 → 地域別アンダーパフォーマンス表 → 価格施策の示唆 3 件 |
-| **証跡** | 3 段階の出力を保存し、どのプロンプトで解像度が上がったかを記録する |
-
 > **実施条件**：Excel で Microsoft 365 Copilot が使え、対象ブックにアクセスできる場合のみハンズオンで実施します。
 > そうでない場合は、ファシリテーターのデモを見ながら進めてください。
 
@@ -89,11 +76,13 @@ Spring Outdoor ローンチに向けた価格面での示唆を 3 つ挙げて�
 
 ---
 
+<!--
 ## WATCH
 
-`../assets/EXP-XLS-001/` に動画 / GIF を配置してください（3 段階のプロンプトで出力が深まる様子）。
+`../assets/XLS-01/` に動画 / GIF を配置してください（3 段階のプロンプトで出力が深まる様子）。
 
 ---
+-->
 
 ## REFLECT — 振り返り
 
@@ -109,5 +98,5 @@ Spring Outdoor ローンチに向けた価格面での示唆を 3 つ挙げて�
 
 ## NEXT
 
-- [EXP-WRD-001｜短いブリーフを10章のローンチ文書に展開する](../05-word/EXP-WRD-001_短いブリーフを10章のローンチ文書に展開する.md)
-- 発展：[EXP-AGT-002｜Analystにリスクの高いSKU特定を委任する](../06-researcher-analyst/EXP-AGT-002_Analystにリスクの高いSKU特定を委任する.md)（同じデータを委任して分析させる）
+- [短いブリーフを10章のローンチ文書に展開する｜WRD-01](../05-word/短いブリーフを10章のローンチ文書に展開する_WRD-01.md)
+- 発展：[Analystにリスクの高いSKU特定を委任する｜AGT-02](../06-researcher-analyst/Analystにリスクの高いSKU特定を委任する_AGT-02.md)（同じデータを委任して分析させる）

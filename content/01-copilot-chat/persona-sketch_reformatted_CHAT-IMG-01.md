@@ -1,4 +1,4 @@
-### id: EXP-CHAT-IMG-001
+### id: EXP-CHAT-IMG-01
 title: 自分のワークペルソナを1枚のスケッチにする
 category: 01-copilot-chat
 product: Microsoft 365 Copilot Chat
@@ -7,7 +7,7 @@ duration: 10分（目安）
 data: Work IQ + 顔写真（任意）
 source: Copilot Experience Lab オリジナル
 
-## EXP-CHAT-IMG-001｜自分のワークペルソナを1枚のスケッチにする
+## EXP-CHAT-IMG-01｜自分のワークペルソナを1枚のスケッチにする
 
 <table>
 <tr>

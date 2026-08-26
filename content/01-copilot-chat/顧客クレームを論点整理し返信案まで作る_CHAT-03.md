@@ -1,15 +1,4 @@
----
-id: EXP-CHAT-003
-title: 顧客クレームを論点整理し返信案まで作る
-category: 01-copilot-chat
-product: Copilot Chat
-level: 基礎
-duration: 10分（目安）
-data: プロンプト内完結（ファイル不要）
-source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 / 1C
----
-
-# EXP-CHAT-003｜顧客クレームを論点整理し返信案まで作る
+# 顧客クレームを論点整理し返信案まで作る｜CHAT-03
 
 | 項目 | 内容 |
 |---|---|
@@ -18,7 +7,6 @@ source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 /
 | **利用** | Copilot Chat |
 | **入力** | 顧客からのクレーム メール（下記に含む） |
 | **成果** | 論点リスト ＋ 解決オプション 2 案とトレードオフ ＋ 150 語未満の返信ドラフト |
-| **証跡** | 出力を保存し、送信前に自分が何を直したかを記録する |
 
 ---
 
@@ -72,11 +60,13 @@ source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 /
 
 ---
 
+<!--
 ## WATCH
 
-`../assets/EXP-CHAT-003/` に動画 / GIF を配置してください。
+`../assets/CHAT-03/` に動画 / GIF を配置してください。
 
 ---
+-->
 
 ## REFLECT — 振り返り
 
@@ -92,5 +82,5 @@ source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 /
 
 ## NEXT
 
-- [EXP-CHAT-004｜パートナー提案書を要約し確認すべき質問を洗い出す](EXP-CHAT-004_パートナー提案書を要約し確認すべき質問を洗い出す.md)
-- 発展：[EXP-AGT-003｜顧客フォローアップ用エージェントを作る](../07-agent-builder/EXP-AGT-003_顧客フォローアップ用エージェントを作る.md)（この流れを再利用可能にする）
+- [パートナー提案書を要約し確認すべき質問を洗い出す｜CHAT-04](パートナー提案書を要約し確認すべき質問を洗い出す_CHAT-04.md)
+- 発展：[顧客フォローアップ用エージェントを作る｜AGT-03](../07-agent-builder/顧客フォローアップ用エージェントを作る_AGT-03.md)（この流れを再利用可能にする）

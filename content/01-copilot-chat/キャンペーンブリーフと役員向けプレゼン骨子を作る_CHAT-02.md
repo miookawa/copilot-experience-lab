@@ -1,15 +1,4 @@
----
-id: EXP-CHAT-002
-title: キャンペーンブリーフと役員向けプレゼン骨子を作る
-category: 01-copilot-chat
-product: Copilot Chat
-level: 基礎
-duration: 15分（目安）
-data: プロンプト内完結（ファイル不要）
-source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 / 1B
----
-
-# EXP-CHAT-002｜キャンペーンブリーフと役員向けプレゼン骨子を作る
+# キャンペーンブリーフと役員向けプレゼン骨子を作る｜CHAT-02
 
 | 項目 | 内容 |
 |---|---|
@@ -18,7 +7,6 @@ source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 /
 | **利用** | Copilot Chat |
 | **入力** | ローンチの前提情報（下記プロンプトに含む） |
 | **成果** | キャンペーン ブリーフ（8 セクション）＋ 6 枚構成のプレゼン骨子、およびその経営層向け改訂版 |
-| **証跡** | 初稿と改訂版を保存し、差分を記録する |
 
 ---
 
@@ -96,11 +84,13 @@ Lakeshore Retail の Spring Outdoor ローンチのキャンペーン コンテ�
 
 ---
 
+<!--
 ## WATCH
 
-`../assets/EXP-CHAT-002/` に動画 / GIF を配置してください（初稿 → フォローアップ後の変化）。
+`../assets/CHAT-02/` に動画 / GIF を配置してください（初稿 → フォローアップ後の変化）。
 
 ---
+-->
 
 ## REFLECT — 振り返り
 
@@ -116,5 +106,5 @@ Lakeshore Retail の Spring Outdoor ローンチのキャンペーン コンテ�
 
 ## NEXT
 
-- [EXP-CHAT-003｜顧客クレームを論点整理し返信案まで作る](EXP-CHAT-003_顧客クレームを論点整理し返信案まで作る.md)
-- 発展：[EXP-WRD-001｜短いブリーフを10章のローンチ文書に展開する](../05-word/EXP-WRD-001_短いブリーフを10章のローンチ文書に展開する.md)（同じ内容を Word で正式文書に）
+- [顧客クレームを論点整理し返信案まで作る｜CHAT-03](顧客クレームを論点整理し返信案まで作る_CHAT-03.md)
+- 発展：[短いブリーフを10章のローンチ文書に展開する｜WRD-01](../05-word/短いブリーフを10章のローンチ文書に展開する_WRD-01.md)（同じ内容を Word で正式文書に）

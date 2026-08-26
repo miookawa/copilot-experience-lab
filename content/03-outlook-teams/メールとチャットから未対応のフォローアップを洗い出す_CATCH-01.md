@@ -1,15 +1,4 @@
----
-id: EXP-CATCH-001
-title: メールとチャットから未対応のフォローアップを洗い出す
-category: 03-outlook-teams
-product: Microsoft 365 Copilot（Outlook / Teams / Copilot Chat）
-level: 実践
-duration: 15分（目安）
-data: 自分の業務データ（安全な範囲のみ）
-source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 / 2A
----
-
-# EXP-CATCH-001｜メールとチャットから未対応のフォローアップを洗い出す
+# メールとチャットから未対応のフォローアップを洗い出す｜CATCH-01
 
 | 項目 | 内容 |
 |---|---|
@@ -18,8 +7,6 @@ source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 /
 | **利用** | Outlook / Teams / Microsoft 365 Copilot Chat（Work） |
 | **入力** | 自分の安全なメール スレッド、Teams チャットまたはチャネル スレッド |
 | **成果** | スレッド要約、会話要約、直近 7 日間のフォローアップ トップ 3 |
-| **証跡** | 自分が取るべきフォローアップを 1 つ書き留める（共有は不要） |
-
 > **実施条件**：Outlook と Teams で Microsoft 365 Copilot にアクセスできる場合のみハンズオンで実施します。
 > そうでない場合は、ファシリテーターのデモを見ながら進めてください。
 
@@ -85,11 +72,13 @@ Lakeshore のリーダーがリーダーシップ チェックインの準備を
 
 ---
 
+<!--
 ## WATCH
 
-`../assets/EXP-CATCH-001/` に動画 / GIF を配置してください（Web と Work の切り替えの違いが分かるもの）。
+`../assets/CATCH-01/` に動画 / GIF を配置してください（Web と Work の切り替えの違いが分かるもの）。
 
 ---
+-->
 
 ## REFLECT — 振り返り
 
@@ -101,5 +90,5 @@ Lakeshore のリーダーがリーダーシップ チェックインの準備を
 
 ## NEXT
 
-- [EXP-CHAT-005｜自社ファイルを根拠に競合分析を自社視点へ引き上げる](../02-microsoft365-copilot/EXP-CHAT-005_自社ファイルを根拠に競合分析を自社視点へ引き上げる.md)
-- [EXP-MTG-001｜会議を要約しフォローアップ連絡文を作る](EXP-MTG-001_会議を要約しフォローアップ連絡文を作る.md)
+- [自社ファイルを根拠に競合分析を自社視点へ引き上げる｜CHAT-05](../02-microsoft365-copilot/自社ファイルを根拠に競合分析を自社視点へ引き上げる_CHAT-05.md)
+- [会議を要約しフォローアップ連絡文を作る｜MTG-01](会議を要約しフォローアップ連絡文を作る_MTG-01.md)

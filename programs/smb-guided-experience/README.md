@@ -16,12 +16,12 @@
 
 | 登場人物 | 役割 | 担当する体験 |
 |---|---|---|
-| Briana Hernandez | マーチャンダイジング リード | EXP-CHAT-001 / EXP-CHAT-005 / EXP-XLS-001 |
-| Eugenia Lopez | マーケティング マネージャー | EXP-CHAT-002 / EXP-WRD-001 |
-| Avery Howard | カスタマー サービス責任者 | EXP-CHAT-003 / EXP-AGT-003 |
-| Hazel Rodriguez | パートナーシップ責任者 | EXP-CHAT-004 / EXP-AGT-003 / EXP-AGT-004 |
-| Monica Thompson | 店舗オペレーション責任者 | EXP-MTG-001 |
-| リーダーシップ チーム | 経営層 | EXP-AGT-001 / EXP-AGT-002 |
+| Briana Hernandez | マーチャンダイジング リード | CHAT-01 / CHAT-05 / XLS-01 |
+| Eugenia Lopez | マーケティング マネージャー | CHAT-02 / WRD-01 |
+| Avery Howard | カスタマー サービス責任者 | CHAT-03 / AGT-03 |
+| Hazel Rodriguez | パートナーシップ責任者 | CHAT-04 / AGT-03 / AGT-04 |
+| Monica Thompson | 店舗オペレーション責任者 | MTG-01 |
+| リーダーシップ チーム | 経営層 | AGT-01 / AGT-02 |
 
 AI が支援する 4 つのステージ：
 
@@ -37,39 +37,39 @@ AI が支援する 4 つのステージ：
 ## 旅程（Journey）
 
 ### Section 0 | 信頼とストーリーの土台
-1. [サインイン確認と安全なAI利用の土台づくり](../../content/00-setup/EXP-SETUP-001_サインイン確認と安全なAI利用の土台づくり.md)
+1. [サインイン確認と安全なAI利用の土台づくり](../../content/00-setup/サインイン確認と安全なAI利用の土台づくり_SETUP-01.md)
 
 **必須**：1 つ完了（全員のアカウント確認）
 
 ### Section 1 | まず好きになる — Copilot Chat
-1. [競合3社のメモを比較表と示唆に変える](../../content/01-copilot-chat/EXP-CHAT-001_競合3社のメモを比較表と示唆に変える.md)
-2. [キャンペーンブリーフと役員向けプレゼン骨子を作る](../../content/01-copilot-chat/EXP-CHAT-002_キャンペーンブリーフと役員向けプレゼン骨子を作る.md)
-3. [顧客クレームを論点整理し返信案まで作る](../../content/01-copilot-chat/EXP-CHAT-003_顧客クレームを論点整理し返信案まで作る.md)
-4. [パートナー提案書を要約し確認すべき質問を洗い出す](../../content/01-copilot-chat/EXP-CHAT-004_パートナー提案書を要約し確認すべき質問を洗い出す.md)
+1. [競合3社のメモを比較表と示唆に変える](../../content/01-copilot-chat/競合3社のメモを比較表と示唆に変える_CHAT-01.md)
+2. [キャンペーンブリーフと役員向けプレゼン骨子を作る](../../content/01-copilot-chat/キャンペーンブリーフと役員向けプレゼン骨子を作る_CHAT-02.md)
+3. [顧客クレームを論点整理し返信案まで作る](../../content/01-copilot-chat/顧客クレームを論点整理し返信案まで作る_CHAT-03.md)
+4. [パートナー提案書を要約し確認すべき質問を洗い出す](../../content/01-copilot-chat/パートナー提案書を要約し確認すべき質問を洗い出す_CHAT-04.md)
 
 **必須**：2 つ完了 ／ **選択**：好きな体験を 1 つ追加
 **獲得**：First Win
 
 ### Section 2 | 自分の仕事につながる — Microsoft 365 Copilot
-1. [メールとチャットから未対応のフォローアップを洗い出す](../../content/03-outlook-teams/EXP-CATCH-001_メールとチャットから未対応のフォローアップを洗い出す.md)
-2. [自社ファイルを根拠に競合分析を自社視点へ引き上げる](../../content/02-microsoft365-copilot/EXP-CHAT-005_自社ファイルを根拠に競合分析を自社視点へ引き上げる.md)
-3. [売上データから地域別の弱点と価格施策を導く](../../content/04-excel/EXP-XLS-001_売上データから地域別の弱点と価格施策を導く.md)
-4. [短いブリーフを10章のローンチ文書に展開する](../../content/05-word/EXP-WRD-001_短いブリーフを10章のローンチ文書に展開する.md)
-5. [会議を要約しフォローアップ連絡文を作る](../../content/03-outlook-teams/EXP-MTG-001_会議を要約しフォローアップ連絡文を作る.md)
+1. [メールとチャットから未対応のフォローアップを洗い出す](../../content/03-outlook-teams/メールとチャットから未対応のフォローアップを洗い出す_CATCH-01.md)
+2. [自社ファイルを根拠に競合分析を自社視点へ引き上げる](../../content/02-microsoft365-copilot/自社ファイルを根拠に競合分析を自社視点へ引き上げる_CHAT-05.md)
+3. [売上データから地域別の弱点と価格施策を導く](../../content/04-excel/売上データから地域別の弱点と価格施策を導く_XLS-01.md)
+4. [短いブリーフを10章のローンチ文書に展開する](../../content/05-word/短いブリーフを10章のローンチ文書に展開する_WRD-01.md)
+5. [会議を要約しフォローアップ連絡文を作る](../../content/03-outlook-teams/会議を要約しフォローアップ連絡文を作る_MTG-01.md)
 
 **必須**：2 つ完了 ／ **分岐**：ライセンス・アクセス状況に応じてファシリテーターのデモで代替
 
 ### Section 3 | 任せてみる — Agents
-1. [Researcherに市場調査ブリーフを委任する](../../content/06-researcher-analyst/EXP-AGT-001_Researcherに市場調査ブリーフを委任する.md)
-2. [Analystにリスクの高いSKU特定を委任する](../../content/06-researcher-analyst/EXP-AGT-002_Analystにリスクの高いSKU特定を委任する.md)
+1. [Researcherに市場調査ブリーフを委任する](../../content/06-researcher-analyst/Researcherに市場調査ブリーフを委任する_AGT-01.md)
+2. [Analystにリスクの高いSKU特定を委任する](../../content/06-researcher-analyst/Analystにリスクの高いSKU特定を委任する_AGT-02.md)
 
 **必須**：1 つ以上を体験またはデモ視聴
 
 ### Section 4 | 自分のものにする — Agent Builder
-1. [顧客フォローアップ用エージェントを作る](../../content/07-agent-builder/EXP-AGT-003_顧客フォローアップ用エージェントを作る.md)
-2. [提案書作成エージェントを作る](../../content/07-agent-builder/EXP-AGT-004_提案書作成エージェントを作る.md)
+1. [顧客フォローアップ用エージェントを作る](../../content/07-agent-builder/顧客フォローアップ用エージェントを作る_AGT-03.md)
+2. [提案書作成エージェントを作る](../../content/07-agent-builder/提案書作成エージェントを作る_AGT-04.md)
 
-**必須**：EXP-AGT-003 ／ **選択**：EXP-AGT-004（時間があれば）
+**必須**：AGT-03 ／ **選択**：AGT-04（時間があれば）
 
 ### Close | 振り返りと次の一歩
 - 一番使えそうだった体験を 1 つ選び、自分の業務に置き換えて言語化する
@@ -84,7 +84,7 @@ AI が支援する 4 つのステージ：
 | モデル | 適するお客様 | 進め方 |
 |---|---|---|
 | ハンズオン形式 | Microsoft 365 Copilot ライセンスがあり、Outlook / Teams / Excel / Word の Copilot、Researcher、Analyst、Agent Builder にアクセスできる少人数 | 参加者が自分で全演習を実施 |
-| ファシリテーター デモ形式 | Microsoft 365 Copilot Business ライセンスがない、試用開始前、本番/サンプルデータを当日使えない、時間が限られている | ファシリテーターが実演し、参加者は自社での適用を議論 |
+| ファシリテーター デモ形式 | Microsoft 365 Copilot ライセンスがない、試用開始前、本番/サンプルデータを当日使えない、時間が限られている | ファシリテーターが実演し、参加者は自社での適用を議論 |
 
 ---
 
@@ -132,9 +132,9 @@ AI が支援する 4 つのステージ：
 | Copilot Chat が表示されない | デモを視聴する。シナリオとプロンプトの確認は可能 |
 | Lakeshore ファイルにアクセスできない | 正しいアカウントとリンクか確認し、ファイルの場所をファシリテーターに確認する |
 | Copilot がファイルを引用しない | ファイルが OneDrive / SharePoint にアップロードされ、開けることを確認する。それでも引用されない場合はデモに切り替える |
-| Outlook に「Copilot による要約」が出ない | Microsoft 365 Copilot Business アクセスのある職場アカウントか確認し、別のスレッドで試す |
+| Outlook に「Copilot による要約」が出ない | Microsoft 365 Copilot アクセスのある職場アカウントか確認し、別のスレッドで試す |
 | Teams に Copilot／スレッドの要約が出ない | Copilot が使えるチャット・グループ チャット・チャネル スレッド・会議かを確認する |
 | 要約に使える安全なメール・チャット・会議がない | デモを視聴する。機密・人事・法務・財務・個人・機微な顧客情報は使わない |
 | 会議のリキャップがない | トランスクリプト・リキャップ・録画・会議チャット・Copilot が利用できる会議を選ぶ |
 | Excel の Copilot が分析できない | ブックが OneDrive / SharePoint に保存され、データがテーブル形式になっていることを確認する |
-| PowerPoint に Copilot が出ない | PowerPoint 向けの Microsoft 365 Copilot Business アクセスがない、または組織で有効化されていない可能性がある |
+| PowerPoint に Copilot が出ない | PowerPoint 向けの Microsoft 365 Copilot アクセスがない、または組織で有効化されていない可能性がある |

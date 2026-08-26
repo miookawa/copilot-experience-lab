@@ -1,15 +1,4 @@
----
-id: EXP-CHAT-004
-title: パートナー提案書を要約し確認すべき質問を洗い出す
-category: 01-copilot-chat
-product: Copilot Chat
-level: 基礎
-duration: 10分（目安）
-data: プロンプト内完結（ファイル不要）
-source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 / 1D
----
-
-# EXP-CHAT-004｜パートナー提案書を要約し確認すべき質問を洗い出す
+# パートナー提案書を要約し確認すべき質問を洗い出す｜CHAT-04
 
 | 項目 | 内容 |
 |---|---|
@@ -18,7 +7,6 @@ source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 /
 | **利用** | Copilot Chat |
 | **入力** | パートナー提案書の抜粋（下記プロンプトに含む） |
 | **成果** | 5 点の要約 ＋ 双方のコミットメント ＋ リスクと不足情報 ＋ 質問 5 つ ＋ 次のアクション ＋ 会議準備メモ |
-| **証跡** | 会議準備メモを保存し、実際に聞いた質問を記録する |
 
 ---
 
@@ -92,11 +80,13 @@ Northwind は、需要が予測を上回った場合、ジャケット 2 色の�
 
 ---
 
+<!--
 ## WATCH
 
-`../assets/EXP-CHAT-004/` に動画 / GIF を配置してください。
+`../assets/CHAT-04/` に動画 / GIF を配置してください。
 
 ---
+-->
 
 ## REFLECT — 振り返り
 
@@ -113,5 +103,5 @@ Northwind は、需要が予測を上回った場合、ジャケット 2 色の�
 
 ## NEXT
 
-- [EXP-CATCH-001｜メールとチャットから未対応のフォローアップを洗い出す](../03-outlook-teams/EXP-CATCH-001_メールとチャットから未対応のフォローアップを洗い出す.md)
-- 発展：[EXP-AGT-004｜提案書アシスタントを作る](../07-agent-builder/EXP-AGT-004_提案書作成エージェントを作る.md)
+- [メールとチャットから未対応のフォローアップを洗い出す｜CATCH-01](../03-outlook-teams/メールとチャットから未対応のフォローアップを洗い出す_CATCH-01.md)
+- 発展：[提案書アシスタントを作る｜AGT-04](../07-agent-builder/提案書作成エージェントを作る_AGT-04.md)

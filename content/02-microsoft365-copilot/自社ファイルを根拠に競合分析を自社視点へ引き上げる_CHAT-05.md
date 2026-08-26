@@ -1,15 +1,4 @@
----
-id: EXP-CHAT-005
-title: 自社ファイルを根拠に競合分析を自社視点へ引き上げる
-category: 02-microsoft365-copilot
-product: Microsoft 365 Copilot（Copilot Chat / Work）
-level: 実践
-duration: 10分（目安）
-data: Lakeshore サンプルファイル
-source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 / 2B
----
-
-# EXP-CHAT-005｜自社ファイルを根拠に競合分析を自社視点へ引き上げる
+# 自社ファイルを根拠に競合分析を自社視点へ引き上げる｜CHAT-05
 
 | 項目 | 内容 |
 |---|---|
@@ -18,8 +7,6 @@ source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 /
 | **利用** | Microsoft 365 Copilot Chat（Work） |
 | **入力** | `lakeshore-prior-season-strategy.docx`、`lakeshore-brand-playbook.docx` |
 | **成果** | 競合比較表 ＋ Lakeshore 固有のポジショニング提言（4〜5 文） |
-| **証跡** | 引用元（ソース参照）が表示されているかを確認・記録する |
-
 > **実施条件**：Microsoft 365 Copilot と Lakeshore ファイルにアクセスできる場合のみハンズオンで実施します。
 > そうでない場合は、ファシリテーターのデモを見ながら進めてください。
 
@@ -27,7 +14,7 @@ source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 /
 
 ## シナリオ
 
-**Briana** が [EXP-CHAT-001](../01-copilot-chat/EXP-CHAT-001_競合3社のメモを比較表と示唆に変える.md) の競合スキャンに戻ってきます。
+**Briana** が [CHAT-01](../01-copilot-chat/競合3社のメモを比較表と示唆に変える_CHAT-01.md) の競合スキャンに戻ってきます。
 今回必要なのは、競合の一般的な状況ではなく、**その状況が Lakeshore にとって何を意味するか**です。
 
 Lakeshore の前シーズン戦略とブランド プレイブックを使うことで、Microsoft 365 Copilot は
@@ -66,15 +53,17 @@ Lakeshore の前シーズン戦略とブランド プレイブックを使うこ
 
 ---
 
+<!--
 ## WATCH
 
-`../assets/EXP-CHAT-005/` に動画 / GIF を配置してください（EXP-CHAT-001 の出力との並置がおすすめ）。
+`../assets/CHAT-05/` に動画 / GIF を配置してください（CHAT-01 の出力との並置がおすすめ）。
 
 ---
+-->
 
 ## REFLECT — 振り返り
 
-- [EXP-CHAT-001](../01-copilot-chat/EXP-CHAT-001_競合3社のメモを比較表と示唆に変える.md) の出力と比べて、**具体性**はどこが変わったか
+- [CHAT-01](../01-copilot-chat/競合3社のメモを比較表と示唆に変える_CHAT-01.md) の出力と比べて、**具体性**はどこが変わったか
 - 引用元が示されることは、業務での信頼性にどう効くか
 - 自社で同じことをするなら、どのファイルを Copilot に見せておくべきか
 
@@ -82,4 +71,4 @@ Lakeshore の前シーズン戦略とブランド プレイブックを使うこ
 
 ## NEXT
 
-- [EXP-XLS-001｜売上データから地域別の弱点と価格施策を導く](../04-excel/EXP-XLS-001_売上データから地域別の弱点と価格施策を導く.md)
+- [売上データから地域別の弱点と価格施策を導く｜XLS-01](../04-excel/売上データから地域別の弱点と価格施策を導く_XLS-01.md)

@@ -1,15 +1,4 @@
----
-id: EXP-MTG-001
-title: 会議を要約しフォローアップ連絡文を作る
-category: 03-outlook-teams
-product: Copilot in Teams
-level: 実践
-duration: 10分（目安）
-data: 自分の業務データ（安全な範囲の会議）
-source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 / 2E
----
-
-# EXP-MTG-001｜会議を要約しフォローアップ連絡文を作る
+# 会議を要約しフォローアップ連絡文を作る｜MTG-01
 
 | 項目 | 内容 |
 |---|---|
@@ -18,8 +7,6 @@ source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 /
 | **利用** | Copilot in Teams |
 | **入力** | 自分の安全な会議（リキャップ／トランスクリプト／録画／会議チャット） |
 | **成果** | 決定事項・アクション・未解決の質問・リスクの要約 ＋ 200 語未満のフォローアップ メッセージ案 |
-| **証跡** | 自分が個人的に対応すべき項目を記録する |
-
 > **実施条件**：Teams で Microsoft 365 Copilot が使え、要約しても安全で適切な直近の会議がある場合のみハンズオンで実施します。
 > そうでない場合は、ファシリテーターのデモを見ながら進めてください。
 
@@ -65,11 +52,13 @@ source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 /
 
 ---
 
+<!--
 ## WATCH
 
-`../assets/EXP-MTG-001/` に動画 / GIF を配置してください。
+`../assets/MTG-01/` に動画 / GIF を配置してください。
 
 ---
+-->
 
 ## REFLECT — 振り返り
 
@@ -81,5 +70,5 @@ source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 /
 
 ## NEXT
 
-- [EXP-AGT-001｜Researcherに市場調査ブリーフを委任する](../06-researcher-analyst/EXP-AGT-001_Researcherに市場調査ブリーフを委任する.md)
-- 発展：[EXP-AGT-003｜顧客フォローアップ用エージェントを作る](../07-agent-builder/EXP-AGT-003_顧客フォローアップ用エージェントを作る.md)
+- [Researcherに市場調査ブリーフを委任する｜AGT-01](../06-researcher-analyst/Researcherに市場調査ブリーフを委任する_AGT-01.md)
+- 発展：[顧客フォローアップ用エージェントを作る｜AGT-03](../07-agent-builder/顧客フォローアップ用エージェントを作る_AGT-03.md)

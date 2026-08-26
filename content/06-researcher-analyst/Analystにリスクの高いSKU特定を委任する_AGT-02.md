@@ -1,15 +1,4 @@
----
-id: EXP-AGT-002
-title: Analystにリスクの高いSKU特定を委任する
-category: 06-researcher-analyst
-product: Analyst
-level: 応用
-duration: 10分（目安）
-data: lakeshore-q4-sales.xlsx
-source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 / 3B
----
-
-# EXP-AGT-002｜Analystにリスクの高いSKU特定を委任する
+# Analystにリスクの高いSKU特定を委任する｜AGT-02
 
 | 項目 | 内容 |
 |---|---|
@@ -18,8 +7,6 @@ source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 /
 | **利用** | Microsoft 365 Copilot の Analyst エージェント |
 | **入力** | `lakeshore-q4-sales.xlsx` |
 | **成果** | リスクの高い SKU 3 件、その理由、値下げ／再ポジショニング／販売終了の提言 |
-| **証跡** | 各 SKU の判断理由を保存する |
-
 > **実施条件**：Analyst にアクセスできる場合のみハンズオンで実施します。
 > そうでない場合は、ファシリテーターのデモを見ながら進めてください。
 
@@ -58,15 +45,17 @@ Q4 のパターンから、需要の弱さや価格プレッシャーが示唆�
 
 ---
 
+<!--
 ## WATCH
 
-`../assets/EXP-AGT-002/` に動画 / GIF を配置してください。
+`../assets/AGT-02/` に動画 / GIF を配置してください。
 
 ---
+-->
 
 ## REFLECT — 振り返り
 
-- [EXP-XLS-001](../04-excel/EXP-XLS-001_売上データから地域別の弱点と価格施策を導く.md) の Copilot in Excel と比べ、**委任型**の分析はどこが違ったか
+- [XLS-01](../04-excel/売上データから地域別の弱点と価格施策を導く_XLS-01.md) の Copilot in Excel と比べ、**委任型**の分析はどこが違ったか
 - 提言の根拠は、自分が説明できるレベルで示されていたか
 - 最終判断を人が持つために、どの情報が追加で必要か
 
@@ -85,4 +74,4 @@ Section 3 で Lakeshore は、「AI が仕事を手伝う」段階から「AI �
 
 ## NEXT
 
-- [EXP-AGT-003｜顧客フォローアップ用エージェントを作る](../07-agent-builder/EXP-AGT-003_顧客フォローアップ用エージェントを作る.md)
+- [顧客フォローアップ用エージェントを作る｜AGT-03](../07-agent-builder/顧客フォローアップ用エージェントを作る_AGT-03.md)

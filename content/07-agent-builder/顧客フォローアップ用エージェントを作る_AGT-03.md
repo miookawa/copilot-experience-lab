@@ -1,15 +1,4 @@
----
-id: EXP-AGT-003
-title: 顧客フォローアップ用エージェントを作る
-category: 07-agent-builder
-product: Agent Builder
-level: 応用
-duration: 20分（目安）
-data: 任意（許可されたナレッジのみ）
-source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 / 4A
----
-
-# EXP-AGT-003｜顧客フォローアップ用エージェントを作る
+# 顧客フォローアップ用エージェントを作る｜AGT-03
 
 | 項目 | 内容 |
 |---|---|
@@ -18,8 +7,6 @@ source: M365 Copilot + Agents SMB Guided Experience – Participant Guide v1.1 /
 | **利用** | Agent Builder |
 | **入力** | エージェント名・説明・指示・スターター プロンプト（＋許可されたナレッジ ソース） |
 | **成果** | 動作する「Customer Follow-up Assistant」 |
-| **証跡** | テスト シナリオでの応答を保存し、簡潔さ・根拠・有用性を評価する |
-
 > **実施条件**：テナントで Agent Builder が利用でき、必要なアクセス権がある場合のみハンズオンで実施します。
 > 利用できない場合は、ファシリテーターのデモを見ながら、シナリオ・指示・スターター プロンプトを**設計演習**として確認してください。
 
@@ -132,11 +119,13 @@ Lakeshore 側は、サイネージの期限、トレーニング用サンプル�
 
 ---
 
+<!--
 ## WATCH
 
-`../assets/EXP-AGT-003/` に動画 / GIF を配置してください（構成画面 → テスト応答）。
+`../assets/AGT-03/` に動画 / GIF を配置してください（構成画面 → テスト応答）。
 
 ---
+-->
 
 ## REFLECT — 振り返り
 
@@ -151,4 +140,4 @@ Lakeshore 側は、サイネージの期限、トレーニング用サンプル�
 
 ## NEXT
 
-- [EXP-AGT-004｜提案書作成エージェントを作る](EXP-AGT-004_提案書作成エージェントを作る.md)
+- [提案書作成エージェントを作る｜AGT-04](提案書作成エージェントを作る_AGT-04.md)
