@@ -26,7 +26,7 @@ M365 Copilot + Agents SMB Guided Experience（Copilot Experience Lab 日本語�
 1. OneDrive または SharePoint に `Lakeshore Retail Immersive Experience` フォルダーを作成する
 2. 上記 7 ファイルをアップロードする
 3. 各ファイルを一度開き、正常に表示されることを確認する
-4. Section 2・3・4 の演習が終わるまでフォルダーを保持する
+4. セクション 2～4 の演習が終わるまでフォルダーを保持する
 
 > Outlook / Teams / 会議の演習では、これらのファイルは使用しません。参加者ご自身の、機密性のない業務データをお使いください。
 
