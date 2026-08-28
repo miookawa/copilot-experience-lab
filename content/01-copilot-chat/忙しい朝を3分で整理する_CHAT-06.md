@@ -50,7 +50,7 @@
 10. このプロンプトを保存し、明日の朝も同じものを使う。もしくはスケジュールを設定し実行する。
 
 <p align="center">
-<img src="../assets/Day02.png">
+<img src="../assets/CHAT-06/CHAT-06.png">
 </p>
 ---
 
