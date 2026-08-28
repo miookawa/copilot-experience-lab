@@ -75,11 +75,11 @@ copilot-experience-lab/
 
 ## プログラム
 
-| プログラム | 内容 | 時間 | ねらい |
-|---|---|---|---|
-| [SMB Guided Experience](programs/smb-guided-experience/README.md) | 架空の小売企業を題材に、Chat から Agent Builder までを一気通貫で体験 | 約 90 分 | Chat から Agent 作成までを一気通貫で体験 |
-| [Copilot in 30](programs/copilot-in-30/README.md) | 30 日間の伴走を通じて、Copilot を使う定番業務の定着と成果確認を支援 | 30 日 | 短期間での定着・価値証明 |
-| MS Base | 準備中 | 準備中| 準備中 |
+| プログラム | 内容 | 時間 |
+|---|---|---|
+| [SMB Guided Experience](programs/smb-guided-experience/README.md) | 架空の小売企業を題材に、Chat から Agent Builder までを一気通貫で体験 | 約 90 分 |
+| [Copilot in 30](programs/copilot-in-30/README.md) | 30 日間の伴走を通じて、Copilot を使う定番業務の定着と成果確認を支援 | 30 日 |
+| MS Base | 準備中 | 準備中 |
 
 ---
 
