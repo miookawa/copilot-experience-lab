@@ -75,11 +75,11 @@ copilot-experience-lab/
 
 ## プログラム
 
-| プログラム | 対象 | 時間 | ねらい |
+| プログラム | 内容 | 時間 | ねらい |
 |---|---|---|---|
-| [SMB Guided Experience](programs/smb-guided-experience/README.md) | SMB のお客様・パートナー | 約 90 分 | Chat から Agent 作成までを一気通貫で体験 |
-| Copilot in 30 | 社内定着 | 30 日 | 定着・価値証明（今後追加） |
-| MS Base | 来場者・短時間 | 短時間 | 驚きと理解（今後追加） |
+| [SMB Guided Experience](programs/smb-guided-experience/README.md) | 架空の小売企業を題材に、Chat から Agent Builder までを一気通貫で体験 | 約 90 分 | Chat から Agent 作成までを一気通貫で体験 |
+| [Copilot in 30](programs/copilot-in-30/README.md) | 30 日間の伴走を通じて、Copilot を使う定番業務の定着と成果確認を支援 | 30 日 | 短期間での定着・価値証明 |
+| MS Base | 準備中 | 準備中| 準備中 |
 
 ---
 
@@ -87,10 +87,9 @@ copilot-experience-lab/
 
 すべての体験は、どのプログラムからも同じ形で参照できるよう、次の構成に揃えています。
 
-- **メタ情報**：目的 / 所要 / 利用 / 入力 / 成果 / 証跡
+- **メタ情報**：目的 / 所要 / 利用 / 入力 / 成果
 - **シナリオ**：誰が、どんな業務課題を抱えているか
 - **TRY**：実行手順とプロンプト
-- **WATCH**：動画 / GIF（`content/assets/<体験ID>/`）
 - **REFLECT**：価値の振り返り
 - **NEXT**：次の体験へのリンク
 
