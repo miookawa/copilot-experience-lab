@@ -1,0 +1,47 @@
+title: Copilot Experience Lab
+description: Microsoft Copilot の実践的な体験コンテンツとプログラム
+lang: ja-JP
+url: https://miookawa.github.io
+baseurl: /copilot-experience-lab
+
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-relative-links
+
+search_enabled: true
+search:
+  heading_level: 3
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  rel_url: true
+  button: false
+
+nav_enabled: true
+heading_anchors: true
+color_scheme: light
+
+aux_links:
+  "GitHub で見る":
+    - "https://github.com/miookawa/copilot-experience-lab"
+aux_links_new_tab: true
+
+relative_links:
+  enabled: true
+  collections: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      nav_exclude: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+  - .jekyll-cache
