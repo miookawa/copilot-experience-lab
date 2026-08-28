@@ -1,8 +1,4 @@
 title: Copilot Experience Lab
 description: Microsoft Copilot の実践的な体験コンテンツとプログラム
 lang: ja-JP
-
-remote_theme: just-the-docs/just-the-docs
-
-plugins:
-  - jekyll-remote-theme
+theme: jekyll-theme-architect
