@@ -48,10 +48,16 @@ Copilot なら、**その画面を撮って「これは何？」と聞くだけ*
 7. 分からない用語が残っていたら、そのままフォローアップで聞く
 8. 次の質問を続けて、理解を深める
 
-<p align="center">
+<table>
+<tr>
+<td width="50%">
  <img src="../assets/CHAT-11/CHAT-11-1.png">
+</td>
+<td width="50%">
  <img src="../assets/CHAT-11/CHAT-11-2.png">
-</p>
+</td>
+</tr>
+</table>
 
 ---
 
