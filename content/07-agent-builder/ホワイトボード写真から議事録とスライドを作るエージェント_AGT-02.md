@@ -134,7 +134,9 @@
 
 ---
 
-## NEXT
+## CONTINUE YOUR JOURNEY
 
-- [Copilotなしで行っていた方法と比較する｜DAY-28](./Copilotなしで行っていた方法と比較する_DAY-28.md)
-- [軽量Agent Builder体験｜DAY-27](./軽量Agent%20Builder体験_DAY-27.md)（他の 4 つの候補も試す場合）
+この体験を楽しめた方は、こちらもおすすめです。
+
+- [この画面は何か？を撮って聞く｜CHAT-11](../01-copilot-chat/この画面は何かを撮って聞く_CHAT-11.md)
+- [軽量Agent Builder体験｜AGT-01](./軽量Agent%20Builder体験_AGT-01.md)（他の 4 つの候補も試す場合）
