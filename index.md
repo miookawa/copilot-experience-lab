@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Copilot Experience Lab
-description: 自分の仕事で試す、Microsoft 365 Copilot 体験ラボ
+description: 自分の仕事で試す、Microsoft Copilot 体験ラボ
 
 # 扉（カード）は、この groups の順に contents/<dir>/ 配下の実ファイルから
 # 自動生成されます。コンテンツを追加・リネームしても index.md の修正は不要です。
