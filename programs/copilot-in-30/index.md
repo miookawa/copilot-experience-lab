@@ -74,7 +74,7 @@ description: 30 日間で「自分の仕事」に Copilot を溶かし込む体�
   <h1>Copilot in 30</h1>
   <p>1 つずつ、扉を開けるように試す 30 日間。<br>
   使うのはサンプルデータではなく、<strong>あなた自身のメール・会議・チャット・ファイル</strong>です。</p>
-  <p class="c30-tag">1 つあたり 5〜20 分 &nbsp;·&nbsp; Microsoft 365 Copilot</p>
+  <p class="c30-tag">1 つあたり 5〜20 分 &nbsp;·&nbsp; Microsoft Copilot</p>
 </div>
 
 <div class="c30-note">
