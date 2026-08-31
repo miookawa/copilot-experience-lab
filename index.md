@@ -7,6 +7,7 @@ description: 自分の仕事で試す、Microsoft 365 Copilot 体験ラボ
 # 自動生成されます。コンテンツを追加・リネームしても index.md の修正は不要です。
 #
 # 各コンテンツ .md の front matter で見え方を調整できます（すべて任意）:
+#   id:       カード左上の体験 ID（未指定ならファイル名の先頭。例: CHAT-01）
 #   title:    カードの見出し（未指定ならファイル名から生成）
 #   subtitle: 見出し下の一文
 #   minutes:  所要分数（例: 10 -> 「約 10 分」）
@@ -114,10 +115,11 @@ programs:
 .cel-door:before{content:"";position:absolute;top:0;bottom:0;left:0;width:5px;background:var(--c);}
 .cel-door:hover{transform:translateY(-3px);box-shadow:0 8px 18px rgba(16,32,60,.14);
   border-color:var(--c);text-decoration:none;}
-.cel-num{display:flex;align-items:baseline;gap:.35rem;font-weight:700;color:var(--c);letter-spacing:.02em;}
-.cel-num b{font-size:1.6rem;line-height:1;}
-.cel-num span{font-size:.72rem;opacity:.75;}
-.cel-title{display:block;margin:.5rem 0 .3rem;font-size:.86rem;line-height:1.45;font-weight:600;color:#1b1b1b;}
+.cel-num{display:inline-block;max-width:calc(100% - 1rem);padding:.16rem .5rem;border-radius:999px;
+  border:1px solid var(--c);font-size:.72rem;font-weight:700;line-height:1.35;color:var(--c);
+  letter-spacing:.04em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  font-variant-numeric:tabular-nums;}
+.cel-title{display:block;margin:.55rem 0 .3rem;font-size:.9rem;line-height:1.45;font-weight:600;color:#1b1b1b;}
 .cel-subtitle{display:block;margin:0 0 .5rem;font-size:.73rem;line-height:1.45;color:#3f4757;}
 .cel-meta{font-size:.72rem;color:#61697a;}
 .cel-door.is-key:after{content:"\2605";position:absolute;top:.6rem;right:.7rem;font-size:.8rem;color:var(--c);}
@@ -241,8 +243,6 @@ programs:
         {%- assign num = cp | last -%}
         {%- assign chk = num | plus: 0 | prepend: "0" | slice: -2, 2 -%}
         {%- if cp.size > 1 and chk == num and num == pad -%}
-        {%- assign numsuffix = num | prepend: "-" -%}
-        {%- assign kind = code | replace_first: numsuffix, "" -%}
         {%- assign fallback = stem | remove_first: code | remove_first: "_" -%}
         {%- assign iskey = false -%}
         {%- if p.key -%}{%- assign iskey = true -%}{%- endif -%}
@@ -254,7 +254,7 @@ programs:
         {%- unless drawn contains namekey -%}
         {%- assign drawn = drawn | append: p.name | append: "," -%}
     <a class="cel-door {{ g.cls }}{% if iskey %} is-key{% endif %}" href="{{ p.url | default: p.path | relative_url }}">
-      <span class="cel-num"><b>{{ num }}</b><span>{{ kind }}</span></span>
+      <span class="cel-num">{{ p.id | default: code }}</span>
       <span class="cel-title">{{ p.title | default: fallback }}</span>
       {%- if p.subtitle %}<span class="cel-subtitle">{{ p.subtitle }}</span>{% endif -%}
       <span class="cel-meta">{% if p.duration %}{{ p.duration }}{% elsif p.minutes %}約 {{ p.minutes }} 分{% else %}体験コンテンツ{% endif %}</span>
@@ -293,7 +293,7 @@ programs:
       {%- unless drawn contains namekey -%}
       {%- assign drawn = drawn | append: p.name | append: "," -%}
     <a class="cel-door {{ g.cls }}{% if iskey %} is-key{% endif %}" href="{{ p.url | default: p.path | relative_url }}">
-      <span class="cel-num"><b>+</b><span>DOOR</span></span>
+      <span class="cel-num">{{ p.id | default: "DOOR" }}</span>
       <span class="cel-title">{{ p.title | default: stem }}</span>
       {%- if p.subtitle %}<span class="cel-subtitle">{{ p.subtitle }}</span>{% endif -%}
       <span class="cel-meta">{% if p.duration %}{{ p.duration }}{% elsif p.minutes %}約 {{ p.minutes }} 分{% else %}体験コンテンツ{% endif %}</span>
@@ -350,7 +350,7 @@ programs:
   {%- endif -%}
   {%- if turl != "" -%}
   <a class="cel-door {{ pr.cls }}" href="{{ turl | relative_url }}">
-    <span class="cel-num"><b>&#9654;</b><span>PROGRAM</span></span>
+    <span class="cel-num">&#9654;&nbsp;PROGRAM</span>
     <span class="cel-title">{{ pr.label }}</span>
     {%- if pr.lead %}<span class="cel-subtitle">{{ pr.lead }}</span>{% endif -%}
     <span class="cel-meta">{{ pr.meta | default: pr.dir }}</span>
