@@ -12,13 +12,13 @@ M365 Copilot + Agents SMB Guided Experience（Copilot Experience Lab 日本語�
 
 | ファイル | 内容 | 使用する体験 |
 |---|---|---|
-| `lakeshore-prior-season-strategy.docx` | 前期施策振り返り（総括、エリア別・チャネル別、今期方針） | EXP-CHAT-005 / EXP-WRD-001 |
-| `lakeshore-brand-playbook.docx` | ブランドガイドライン（表現トーン、メッセージの柱、推奨・非推奨表現） | EXP-CHAT-005 / EXP-WRD-001 |
-| `lakeshore-q4-sales.xlsx` | 2025年 第4四半期 売上実績（明細20,000行＋集計＋エリア別分析、金額は円） | EXP-XLS-001 / EXP-WRD-001 / EXP-AGT-002 |
-| `lakeshore-launch-brief-template.docx` | 発売企画書（骨子）※Copilot in Word への入力用 | EXP-WRD-001 |
-| `northwind-outfitters-proposal.docx` | 取引先からの共同販促キャンペーン提案書 | EXP-CHAT-004 / EXP-AGT-004 |
-| `agent-knowledge-pack.docx` | エージェント運用ガイド | EXP-AGT-003 / EXP-AGT-004 |
-| `customer-complaint-cases.xlsx` | お申し出一覧10件＋エスカレーション基準 | EXP-CHAT-003（発展） |
+| [`lakeshore-prior-season-strategy.docx`](./lakeshore-prior-season-strategy.docx) | 前期施策振り返り（総括、エリア別・チャネル別、今期方針） | EXP-CHAT-005 / EXP-WRD-001 |
+| [`lakeshore-brand-playbook.docx`](./lakeshore-brand-playbook.docx) | ブランドガイドライン（表現トーン、メッセージの柱、推奨・非推奨表現） | EXP-CHAT-005 / EXP-WRD-001 |
+| [`lakeshore-q4-sales.xlsx`](./lakeshore-q4-sales.xlsx) | 2025年 第4四半期 売上実績（明細20,000行＋集計＋エリア別分析、金額は円） | EXP-XLS-001 / EXP-WRD-001 / EXP-AGT-002 |
+| [`lakeshore-launch-brief-template.docx`](./lakeshore-launch-brief-template.docx) | 発売企画書（骨子）※Copilot in Word への入力用 | EXP-WRD-001 |
+| [`northwind-outfitters-proposal.docx`](./northwind-outfitters-proposal.docx) | 取引先からの共同販促キャンペーン提案書 | EXP-CHAT-004 / EXP-AGT-004 |
+| [`agent-knowledge-pack.docx`](./agent-knowledge-pack.docx) | エージェント運用ガイド | EXP-AGT-003 / EXP-AGT-004 |
+| [`customer-complaint-cases.xlsx`](./customer-complaint-cases.xlsx) | お申し出一覧10件＋エスカレーション基準 | EXP-CHAT-003（発展） |
 
 ---
 
@@ -119,7 +119,7 @@ M365 Copilot + Agents SMB Guided Experience（Copilot Experience Lab 日本語�
 ### 原文のまま残したもの
 
 - SKU コード：JKT-1001、WTB-6001 など（英数字のコード体系は国内でも一般的なため）
-- ファイル名：`lakeshore-q4-sales.xlsx` など
+- ファイル名：[`lakeshore-q4-sales.xlsx`](./lakeshore-q4-sales.xlsx) など
 - 発売企画書の「参照資料」に記載したファイル名
 - SNS、POP、EC などの略語（国内の業務文書で定着しているため）
 
@@ -129,14 +129,14 @@ M365 Copilot + Agents SMB Guided Experience（Copilot Experience Lab 日本語�
 
 ## Excel ファイルについて
 
-**`lakeshore-q4-sales.xlsx`**
+**[`lakeshore-q4-sales.xlsx`](./lakeshore-q4-sales.xlsx)**
 
 - シート構成：`売上明細`（20,000行）／`集計`（SUMIFS による集計）／`エリア別分析`
 - 列見出しの日本語化にあわせ、テーブル `SalesQ4` の列定義と `集計` シートの SUMIFS 数式を更新しています
 - 数式が正しく計算されることを確認済みです（店舗チャネル合計 2,845,827,775 円、関東 2,311,024,766 円ほか）
 - EXP-XLS-001 のプロンプトは、日本語の列見出しのままで動作します
 
-**`customer-complaint-cases.xlsx`**
+**[`customer-complaint-cases.xlsx`](./customer-complaint-cases.xlsx)**
 
 - シート構成：`お申し出一覧`（10件）／`エスカレーション基準`（6件）
 - テーブル `ComplaintCases` / `EscalationRules` の列定義も日本語に更新済みです

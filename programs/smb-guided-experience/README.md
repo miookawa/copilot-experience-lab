@@ -100,13 +100,13 @@ AI が支援する 4 つのステージ：
 
 ### レイクショア サンプルファイル
 
-- `lakeshore-prior-season-strategy.docx`（前シーズン戦略）
-- `lakeshore-brand-playbook.docx`（ブランド ガイダンス）
-- `lakeshore-q4-sales.xlsx`（Q4 売上データ）
-- `lakeshore-launch-brief-template.docx`（ローンチ ブリーフ雛形）
-- `northwind-outfitters-proposal.docx`（パートナー提案書）
-- `agent-knowledge-pack.docx`（エージェント用ナレッジ）
-- `customer-complaint-cases.xlsx`（任意・発展演習用）
+- [`lakeshore-prior-season-strategy.docx`](../../contents/assets/lakeshore-sample-data-ja/lakeshore-prior-season-strategy.docx)（前シーズン戦略）
+- [`lakeshore-brand-playbook.docx`](../../contents/assets/lakeshore-sample-data-ja/lakeshore-brand-playbook.docx)（ブランド ガイダンス）
+- [`lakeshore-q4-sales.xlsx`](../../contents/assets/lakeshore-sample-data-ja/lakeshore-q4-sales.xlsx)（Q4 売上データ）
+- [`lakeshore-launch-brief-template.docx`](../../contents/assets/lakeshore-sample-data-ja/lakeshore-launch-brief-template.docx)（ローンチ ブリーフ雛形）
+- [`northwind-outfitters-proposal.docx`](../../contents/assets/lakeshore-sample-data-ja/northwind-outfitters-proposal.docx)（パートナー提案書）
+- [`agent-knowledge-pack.docx`](../../contents/assets/lakeshore-sample-data-ja/agent-knowledge-pack.docx)（エージェント用ナレッジ）
+- [`customer-complaint-cases.xlsx`](../../contents/assets/lakeshore-sample-data-ja/customer-complaint-cases.xlsx)（任意・発展演習用）
 
 ---
 

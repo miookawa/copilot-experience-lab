@@ -219,13 +219,13 @@ Week 1〜3 で選択肢を広げ、**Day 15 前後で「自分の定番」を 1 
 
 | ファイル | 内容 | 主に使う体験 |
 |---|---|---|
-| `lakeshore-prior-season-strategy.docx` | 前シーズン戦略 | CHAT-06 |
-| `lakeshore-brand-playbook.docx` | ブランド ガイダンス | CHAT-06 / WRD-01 |
-| `lakeshore-q4-sales.xlsx` | Q4 売上データ | XLS-01 / AGT-02 |
-| `lakeshore-launch-brief-template.docx` | ローンチ ブリーフ雛形 | WRD-01 |
-| `northwind-outfitters-proposal.docx` | パートナー提案書 | CHAT-04 / AGB-05 |
-| `agent-knowledge-pack.docx` | エージェント用ナレッジ | AGB-02 / AGB-04 / AGB-05 |
-| `customer-complaint-cases.xlsx` | 顧客クレーム事例（任意・発展演習用） | CHAT-03 / AGB-04 |
+| [`lakeshore-prior-season-strategy.docx`](./contents/assets/lakeshore-sample-data-ja/lakeshore-prior-season-strategy.docx) | 前シーズン戦略 | CHAT-06 |
+| [`lakeshore-brand-playbook.docx`](./contents/assets/lakeshore-sample-data-ja/lakeshore-brand-playbook.docx) | ブランド ガイダンス | CHAT-06 / WRD-01 |
+| [`lakeshore-q4-sales.xlsx`](./contents/assets/lakeshore-sample-data-ja/lakeshore-q4-sales.xlsx) | Q4 売上データ | XLS-01 / AGT-02 |
+| [`lakeshore-launch-brief-template.docx`](./contents/assets/lakeshore-sample-data-ja/lakeshore-launch-brief-template.docx) | ローンチ ブリーフ雛形 | WRD-01 |
+| [`northwind-outfitters-proposal.docx`](./contents/assets/lakeshore-sample-data-ja/northwind-outfitters-proposal.docx) | パートナー提案書 | CHAT-04 / AGB-05 |
+| [`agent-knowledge-pack.docx`](./contents/assets/lakeshore-sample-data-ja/agent-knowledge-pack.docx) | エージェント用ナレッジ | AGB-02 / AGB-04 / AGB-05 |
+| [`customer-complaint-cases.xlsx`](./contents/assets/lakeshore-sample-data-ja/customer-complaint-cases.xlsx) | 顧客クレーム事例（任意・発展演習用） | CHAT-03 / AGB-04 |
 
 > 配置先は OneDrive または SharePoint の `レイクショア Immersive Experience` フォルダーを推奨します。Copilot が引用できるよう、実施前に各ファイルを一度開いて確認してください。
 

@@ -5,7 +5,7 @@
 | **目的** | 手作業では追いきれない売上ブックから、エリア別のパターンと価格施策の示唆を引き出す |
 | **所要** | 約 15 分（目安） |
 | **利用** | Copilot in Excel |
-| **入力** | `lakeshore-q4-sales.xlsx` |
+| **入力** | [`lakeshore-q4-sales.xlsx`](../assets/lakeshore-sample-data-ja/lakeshore-q4-sales.xlsx) |
 | **成果** | 売上上位 5 商品と構成比 → エリア別の要対策表 → 価格施策の示唆 3 件 |
 
 > **実施条件**：Excel で Microsoft 365 Copilot が使え、対象ブックにアクセスできる場合のみハンズオンで実施します。
@@ -25,7 +25,7 @@ Copilot in Excel を使えば、**自然言語で問いを立て、パターン�
 
 ## TRY — 手順
 
-1. `lakeshore-q4-sales.xlsx` を開く
+1. [`lakeshore-q4-sales.xlsx`](../assets/lakeshore-sample-data-ja/lakeshore-q4-sales.xlsx) を開く
 2. Excel for the web または Excel デスクトップでブックを開く
 3. データ テーブルが表示されていることを確認する
 4. Copilot アイコンを選ぶ

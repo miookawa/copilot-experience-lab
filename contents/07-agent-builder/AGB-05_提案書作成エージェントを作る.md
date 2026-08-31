@@ -39,7 +39,7 @@ Proposal Assistant
 ```
 
 4. ナレッジ ソースは、適切かつ許可されている場合にのみ追加する
-   （例：`northwind-outfitters-proposal.docx`、`agent-knowledge-pack.docx`）
+   （例：[`northwind-outfitters-proposal.docx`](../assets/lakeshore-sample-data-ja/northwind-outfitters-proposal.docx)、[`agent-knowledge-pack.docx`](../assets/lakeshore-sample-data-ja/agent-knowledge-pack.docx)）
 5. 指示（インストラクション）に次を使う
 
 ```text

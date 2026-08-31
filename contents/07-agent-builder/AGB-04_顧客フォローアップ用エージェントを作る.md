@@ -70,7 +70,7 @@ Customer Follow-up Assistant
 ```
 
 7. ナレッジ ソースは、**適切かつ許可されている場合にのみ**追加する
-   （例：顧客メモ、会議サマリー、アカウント プラン、プロジェクト トラッカー、提案書、`agent-knowledge-pack.docx`）
+   （例：顧客メモ、会議サマリー、アカウント プラン、プロジェクト トラッカー、提案書、[`agent-knowledge-pack.docx`](../assets/lakeshore-sample-data-ja/agent-knowledge-pack.docx)）
 8. 指示（インストラクション）に次を使う
 
 ```text
