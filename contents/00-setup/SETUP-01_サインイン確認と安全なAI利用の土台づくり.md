@@ -43,7 +43,7 @@ Copilot の体験は、**個人アカウント／職場アカウント／Microso
 この後の演習で利用するデータを準備します。
 
 - サンプルデータを利用する演習の場合
-  1. [レイクショア サンプルファイル一式](../assets/lakeshore-sample-data)
+  1. [レイクショア サンプルファイル一式](../assets/lakeshore-sample-data-ja.zip)
   2. OneDrive または SharePoint を開く
   3. `Lakeshore Retail Immersive Experience` という名前のフォルダーを作成する
   4. 展開したサンプルファイルをアップロードする
