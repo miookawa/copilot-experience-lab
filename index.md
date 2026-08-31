@@ -137,7 +137,7 @@ programs:
 <div class="cel-hero">
   <h1>Copilot Experience Lab</h1>
   <p>1 つずつ、扉を開けるように試す体験ラボ。<br>
-  使うのはサンプルデータではなく、<strong>あなた自身のメール・会議・チャット・ファイル</strong>です。</p>
+  使うのはサンプルデータだけではなく、<strong>あなた自身のメール・会議・チャット・ファイル</strong>も使います。</p>
   <p class="cel-tag">所要 5〜30 分 / 1 コンテンツ &nbsp;·&nbsp; Microsoft 365 Copilot</p>
 </div>
 
