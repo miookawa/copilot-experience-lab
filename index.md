@@ -141,7 +141,38 @@ programs:
   <p class="cel-tag">所要 5〜30 分 / 1 コンテンツ &nbsp;·&nbsp; Microsoft 365 Copilot</p>
 </div>
 
-## 今日の扉を開ける
+## プログラム（連続体験）
+
+単発で試すだけでなく、期間を決めて続ける進め方も用意しています。**どこから始めるか迷ったら、まずこちらから**。
+
+{% assign progpages = site.pages | where_exp: "p", "p.path contains 'programs/'" %}
+<div class="cel-grid">
+{%- for pr in page.programs -%}
+  {%- assign idxkey = "programs/" | append: pr.dir | append: "/index" -%}
+  {%- assign rdkey = "programs/" | append: pr.dir | append: "/README" -%}
+  {%- assign turl = "" -%}
+  {%- for p in progpages -%}
+    {%- if p.path contains idxkey -%}{%- assign turl = p.url -%}{%- endif -%}
+  {%- endfor -%}
+  {%- if turl == "" -%}
+    {%- for p in progpages -%}
+      {%- if p.path contains rdkey -%}{%- assign turl = p.url -%}{%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+  {%- if turl != "" -%}
+  <a class="cel-door {{ pr.cls }}" href="{{ turl | relative_url }}">
+    <span class="cel-num">&#9654;&nbsp;PROGRAM</span>
+    <span class="cel-title">{{ pr.label }}</span>
+    {%- if pr.lead %}<span class="cel-subtitle">{{ pr.lead }}</span>{% endif -%}
+    <span class="cel-meta">{{ pr.meta | default: pr.dir }}</span>
+  </a>
+  {%- endif -%}
+{%- endfor -%}
+</div>
+
+---
+
+## コンテンツ（扉）一覧
 
 順番どおりでなくて構いません。**開けたい扉から開けてください**。
 ★ の付いた扉は、期間中に何度も繰り返す価値のある体験です。
@@ -319,7 +350,7 @@ programs:
 <div class="cel-start" markdown="1">
 
 1. Copilot Chat を開き、**Work** が選択されていることを確認する（<a href="#00-setup">Setup</a> の扉から）
-2. 今日の扉を開き、**TRY — 手順**のプロンプトをそのまま貼り付ける
+2. 開けたい扉を 1 つ選び、**TRY — 手順**のプロンプトをそのまま貼り付ける
 3. 出てきた答えを鵜呑みにせず、**根拠リンクを 1 つ開いて確認する**
 4. 最後の **REFLECT — 振り返り**に、その日のうちに答える
 
@@ -327,37 +358,6 @@ programs:
 
 各ページは「目的 / 所要 / 利用 / 入力 / 成果」→ シナリオ → TRY（手順とプロンプト）→ REFLECT → NEXT の順に並んでいます。
 うまくいかなかった依頼にも価値があります。**どう指示を変えれば直るか**まで書き残してください。
-
----
-
-## プログラム（連続体験）
-
-単発で試すだけでなく、期間を決めて続ける進め方も用意しています。
-
-{% assign progpages = site.pages | where_exp: "p", "p.path contains 'programs/'" %}
-<div class="cel-grid">
-{%- for pr in page.programs -%}
-  {%- assign idxkey = "programs/" | append: pr.dir | append: "/index" -%}
-  {%- assign rdkey = "programs/" | append: pr.dir | append: "/README" -%}
-  {%- assign turl = "" -%}
-  {%- for p in progpages -%}
-    {%- if p.path contains idxkey -%}{%- assign turl = p.url -%}{%- endif -%}
-  {%- endfor -%}
-  {%- if turl == "" -%}
-    {%- for p in progpages -%}
-      {%- if p.path contains rdkey -%}{%- assign turl = p.url -%}{%- endif -%}
-    {%- endfor -%}
-  {%- endif -%}
-  {%- if turl != "" -%}
-  <a class="cel-door {{ pr.cls }}" href="{{ turl | relative_url }}">
-    <span class="cel-num">&#9654;&nbsp;PROGRAM</span>
-    <span class="cel-title">{{ pr.label }}</span>
-    {%- if pr.lead %}<span class="cel-subtitle">{{ pr.lead }}</span>{% endif -%}
-    <span class="cel-meta">{{ pr.meta | default: pr.dir }}</span>
-  </a>
-  {%- endif -%}
-{%- endfor -%}
-</div>
 
 ---
 
