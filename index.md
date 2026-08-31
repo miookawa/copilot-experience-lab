@@ -36,18 +36,18 @@ groups:
     cls: "g4"
     label: "Word"
     lead: "文書をゼロから書かない"
-  - dir: "05-powerpoint"
+  - dir: "05-researcher-analyst"
     cls: "g5"
-    label: "PowerPoint"
-    lead: "伝わる資料に仕上げる"
-  - dir: "06-researcher-analyst"
-    cls: "g6"
     label: "Researcher / Analyst"
     lead: "調べる・分析するを任せる"
-  - dir: "07-agent-builder"
-    cls: "g7"
+  - dir: "06-agent-builder"
+    cls: "g6"
     label: "Agent Builder"
     lead: "自分専用のエージェントを作る"
+  - dir: "07-powerpoint"
+    cls: "g7"
+    label: "PowerPoint"
+    lead: "伝わる資料に仕上げる"
   - dir: "08-personas"
     cls: "g8"
     label: "Personas"
@@ -57,8 +57,8 @@ groups:
 key:
   - "SETUP-01"
   - "CHAT-IMG-01"
-  - "CHAT-06_自社ファイルを根拠に競合分析を自社視点へ引き上げる"
-  - "CHAT-07"
+  - "CHAT-05_自社ファイルを根拠に競合分析を自社視点へ引き上げる"
+  - "CHAT-06"
   - "CATCH-01"
   - "MTG-01"
   - "XLS-01"
@@ -144,7 +144,14 @@ programs:
 順番どおりでなくて構いません。**開けたい扉から開けてください**。
 ★ の付いた扉は、期間中に何度も繰り返す価値のある体験です。
 
-{% comment %} front matter 付きページと素の .md を 1 つの配列にまとめる {% endcomment %}
+{% comment %}
+  front matter 付きページと素の .md を 1 つの配列にまとめる。
+  GitHub Pages の jekyll-optional-front-matter は、front matter を持たない .md を
+  ページへ変換したうえで、既定では元の .md を静的ファイルとしても出力します。
+  そのため同じファイルが site.pages と site.static_files の両方に現れ、
+  そのまま並べると扉が二重に描画されます。以下ではファイル名で重複を除外し、
+  先に来るページ側（正しい .html リンクを持つ方）だけを採用しています。
+{% endcomment %}
 {% assign celall = site.pages | concat: site.static_files %}
 {% assign celkeys = page.key | join: "," | prepend: "," | append: "," %}
 
@@ -155,6 +162,7 @@ programs:
   {%- assign dirkey = "contents/" | append: g.dir | append: "/" -%}
   {%- assign pool = celall | where_exp: "p", "p.path contains dirkey" -%}
   {%- assign cnt = 0 -%}
+  {%- assign seen = "," -%}
   {%- for p in pool -%}
     {%- assign ok = false -%}
     {%- if p.extname -%}
@@ -164,7 +172,12 @@ programs:
     {%- endif -%}
     {%- if p.name == "index.md" -%}{%- assign ok = false -%}{%- endif -%}
     {%- if p.name == "README.md" -%}{%- assign ok = false -%}{%- endif -%}
-    {%- if ok -%}{%- assign cnt = cnt | plus: 1 -%}{%- endif -%}
+    {%- assign namekey = p.name | prepend: "," | append: "," -%}
+    {%- if seen contains namekey -%}{%- assign ok = false -%}{%- endif -%}
+    {%- if ok -%}
+      {%- assign seen = seen | append: p.name | append: "," -%}
+      {%- assign cnt = cnt | plus: 1 -%}
+    {%- endif -%}
   {%- endfor -%}
   {%- assign celtotal = celtotal | plus: cnt -%}
   {%- if cnt > 0 -%}
@@ -181,6 +194,7 @@ programs:
   {%- assign pool = celall | where_exp: "p", "p.path contains dirkey" -%}
 
   {%- assign cnt = 0 -%}
+  {%- assign seen = "," -%}
   {%- for p in pool -%}
     {%- assign ok = false -%}
     {%- if p.extname -%}
@@ -190,7 +204,12 @@ programs:
     {%- endif -%}
     {%- if p.name == "index.md" -%}{%- assign ok = false -%}{%- endif -%}
     {%- if p.name == "README.md" -%}{%- assign ok = false -%}{%- endif -%}
-    {%- if ok -%}{%- assign cnt = cnt | plus: 1 -%}{%- endif -%}
+    {%- assign namekey = p.name | prepend: "," | append: "," -%}
+    {%- if seen contains namekey -%}{%- assign ok = false -%}{%- endif -%}
+    {%- if ok -%}
+      {%- assign seen = seen | append: p.name | append: "," -%}
+      {%- assign cnt = cnt | plus: 1 -%}
+    {%- endif -%}
   {%- endfor -%}
 
   {%- if cnt > 0 -%}
@@ -198,6 +217,9 @@ programs:
   <h2><i></i>{{ g.label }}<em>{{ g.dir }} ／ {{ cnt }} 件</em></h2>
   <p class="cel-lead">{{ g.lead }}</p>
   <div class="cel-grid">
+
+  {%- comment -%} 同じファイル名を 2 度描画しないための記録（ページ側を優先） {%- endcomment -%}
+  {%- assign drawn = "," -%}
 
   {%- comment -%} 第 1 パス：ファイル名先頭の連番（例 CHAT-05_）で昇順に描画 {%- endcomment -%}
   {%- for n in (0..59) -%}
@@ -228,12 +250,16 @@ programs:
         {%- assign kcode = code | prepend: "," | append: "," -%}
         {%- if celkeys contains kstem -%}{%- assign iskey = true -%}{%- endif -%}
         {%- if celkeys contains kcode -%}{%- assign iskey = true -%}{%- endif -%}
+        {%- assign namekey = p.name | prepend: "," | append: "," -%}
+        {%- unless drawn contains namekey -%}
+        {%- assign drawn = drawn | append: p.name | append: "," -%}
     <a class="cel-door {{ g.cls }}{% if iskey %} is-key{% endif %}" href="{{ p.url | default: p.path | relative_url }}">
       <span class="cel-num"><b>{{ num }}</b><span>{{ kind }}</span></span>
       <span class="cel-title">{{ p.title | default: fallback }}</span>
       {%- if p.subtitle %}<span class="cel-subtitle">{{ p.subtitle }}</span>{% endif -%}
       <span class="cel-meta">{% if p.duration %}{{ p.duration }}{% elsif p.minutes %}約 {{ p.minutes }} 分{% else %}体験コンテンツ{% endif %}</span>
     </a>
+        {%- endunless -%}
         {%- endif -%}
       {%- endif -%}
     {%- endfor -%}
@@ -263,12 +289,16 @@ programs:
       {%- if p.key -%}{%- assign iskey = true -%}{%- endif -%}
       {%- assign kstem = stem | prepend: "," | append: "," -%}
       {%- if celkeys contains kstem -%}{%- assign iskey = true -%}{%- endif -%}
+      {%- assign namekey = p.name | prepend: "," | append: "," -%}
+      {%- unless drawn contains namekey -%}
+      {%- assign drawn = drawn | append: p.name | append: "," -%}
     <a class="cel-door {{ g.cls }}{% if iskey %} is-key{% endif %}" href="{{ p.url | default: p.path | relative_url }}">
       <span class="cel-num"><b>+</b><span>DOOR</span></span>
       <span class="cel-title">{{ p.title | default: stem }}</span>
       {%- if p.subtitle %}<span class="cel-subtitle">{{ p.subtitle }}</span>{% endif -%}
       <span class="cel-meta">{% if p.duration %}{{ p.duration }}{% elsif p.minutes %}約 {{ p.minutes }} 分{% else %}体験コンテンツ{% endif %}</span>
     </a>
+      {%- endunless -%}
       {%- endunless -%}
     {%- endif -%}
   {%- endfor -%}
