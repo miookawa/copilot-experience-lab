@@ -6,9 +6,9 @@ Copilot Experience Lab にコンテンツを追加・改訂するときのルー
 
 ## 大原則
 
-1. **体験の実体は `content/` にのみ置く。** 1 コンテンツ 1 か所。
+1. **体験の実体は `contents/` にのみ置く。** 1 コンテンツ 1 か所。
 2. **`programs/` 配下にコンテンツをコピーしない。** プログラムは相対リンク・順番・必須/選択・演出だけを持つ。
-3. **ゲーム要素はプログラム側の「皮」。** ポイント、バッジ、レベル、チーム戦は `content/` に埋め込まず、対象者に応じて `programs/` 側で選ぶ。
+3. **ゲーム要素はプログラム側の「皮」。** ポイント、バッジ、レベル、チーム戦は `contents/` に埋め込まず、対象者に応じて `programs/` 側で選ぶ。
 4. **演出は「競争」より「成長・達成・共有」を中心にする。**
 
 ---
@@ -19,15 +19,15 @@ Copilot Experience Lab にコンテンツを追加・改訂するときのルー
 
 | 接頭辞 | 領域 | 配置先 |
 |---|---|---|
-| `EXP-SETUP-` | 事前準備・セキュリティ | `content/00-setup/` |
-| `EXP-CHAT-` | Copilot Chat | `content/01-copilot-chat/` |
-| `EXP-OUT-` | Outlook | `content/03-outlook-teams/` |
-| `EXP-XLS-` | Excel | `content/04-excel/` |
-| `EXP-WRD-` | Word | `content/05-word/` |
-| `EXP-PPT-` | PowerPoint | `content/08-powerpoint/` |
-| `EXP-MTG-` | 会議シナリオ | `content/03-outlook-teams/` |
-| `EXP-CATCH-` | キャッチアップ シナリオ | `content/03-outlook-teams/` |
-| `EXP-AGT-` | エージェント | `content/06-researcher-analyst/` または `content/07-agent-builder/` |
+| `EXP-SETUP-` | 事前準備・セキュリティ | `contents/00-setup/` |
+| `EXP-CHAT-` | Copilot Chat | `contents/01-copilot-chat/` |
+| `EXP-OUT-` | Outlook | `contents/02-outlook-teams/` |
+| `EXP-XLS-` | Excel | `contents/03-excel/` |
+| `EXP-WRD-` | Word | `contents/04-word/` |
+| `EXP-PPT-` | PowerPoint | `contents/05-powerpoint/` |
+| `EXP-MTG-` | 会議シナリオ | `contents/02-outlook-teams/` |
+| `EXP-CATCH-` | キャッチアップ シナリオ | `contents/02-outlook-teams/` |
+| `EXP-AGT-` | エージェント | `contents/06-researcher-analyst/` または `contents/07-agent-builder/` |
 
 一度発行した ID は変更しません（プログラムからの参照が壊れるため）。
 
@@ -76,8 +76,8 @@ source: 元教材と該当箇所
 ```
 
 - **TRY** のプロンプトは必ずコード ブロック（```text）に入れる。参加者がそのままコピーできるようにするため。
-- **WATCH** には `content/assets/<体験ID>/` を参照するパスを書く。
-- **NEXT** は相対リンクで `content/` 内の次の体験を指す。
+- **WATCH** には `contents/assets/<体験ID>/` を参照するパスを書く。
+- **NEXT** は相対リンクで `contents/` 内の次の体験を指す。
 
 ---
 -->
@@ -85,7 +85,7 @@ source: 元教材と該当箇所
 ## アセットの置き方
 
 ```text
-content/assets/<体験ID>/
+contents/assets/<体験ID>/
 ├─ demo.mp4
 ├─ demo.gif
 └─ sample-output.md
@@ -99,8 +99,8 @@ content/assets/<体験ID>/
 
 1. `programs/templates/` の雛形をコピーする
 2. 対象者、時間、順番、演出、ゴールだけを定義する
-3. 体験は必ず `../../content/...` への相対リンクで参照する
-4. 既存の体験で足りない場合のみ、新しい体験を `content/` に追加する
+3. 体験は必ず `../../contents/...` への相対リンクで参照する
+4. 既存の体験で足りない場合のみ、新しい体験を `contents/` に追加する
 
 ---
 

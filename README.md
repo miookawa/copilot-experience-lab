@@ -37,7 +37,7 @@ Microsoft 365 Copilot を **自分の仕事** で試すための、日本語の�
 | サンプル ファイル | レイクショア（架空企業）のサンプル ファイルを使う |
 | サンプル（プロンプト内） | 題材がプロンプトに含まれ、ファイル準備なしで試せる |
 
-**カテゴリ**：[Setup](#00-setup)（1） ／ [Copilot Chat](#01-copilot-chat)（20） ／ [Outlook / Teams](#02-outlook-teams)（6） ／ [Excel](#03-excel)（1） ／ [Word](#04-word)（2） ／ [Researcher / Analyst](#05-researcher-analyst)（2） ／ [Agent Builder](#06-agent-builder)（5）
+**カテゴリ**：[Setup](#00-setup)（1） ／ [Copilot Chat](#01-copilot-chat)（20） ／ [Outlook / Teams](#02-outlook-teams)（6） ／ [Excel](#03-excel)（1） ／ [Word](#04-word)（2） ／ [PowerPoint](#05-powerpoint)（準備中） ／ [Researcher / Analyst](#06-researcher-analyst)（2） ／ [Agent Builder](#07-agent-builder)（5） ／ [Personas](#08-personas)（準備中）
 
 <a id="00-setup"></a>
 
@@ -114,36 +114,36 @@ Microsoft 365 Copilot を **自分の仕事** で試すための、日本語の�
 | `WRD-01` | [短いブリーフを10章のローンチ文書に展開する](./contents/04-word/WRD-01_短いブリーフを10章のローンチ文書に展開する.md) | 短いブリーフを、自社のブランド ガイダンスと売上データに基づく正式なローンチ文書に展開する | 約 10 分 | Copilot in Word | サンプル ファイル |
 | `WRD-02` | [長い文書をレビューしてもらう](./contents/04-word/WRD-02_長い文書をレビューしてもらう.md) | 書き直しではなく、修正候補と理由を受け取って自分で直す | 約 10 分 | Microsoft 365 Copilot Chat（Work） ／ Word の Copilot | 自分の業務データ |
 
-<a id="05-researcher-analyst"></a>
+<a id="05-powerpoint"></a>
 
-### Researcher / Analyst ｜ `05-researcher-analyst`（2 件）
+### PowerPoint ｜ `05-powerpoint`
+
+伝わる資料に仕上げる（**準備中**：コンテンツはまだありません）
+
+<a id="06-researcher-analyst"></a>
+
+### Researcher / Analyst ｜ `06-researcher-analyst`（2 件）
 
 調べる・分析するを任せる
 
 | ID | 体験 | ねらい | 所要 | 利用 | データ |
 |---|---|---|---|---|---|
-| `AGT-01` | [Researcherに市場調査ブリーフを委任する](./contents/05-researcher-analyst/AGT-01_Researcherに市場調査ブリーフを委任する.md) | まとまった調査タスクを丸ごと任せ、経営層向けのブリーフを受け取る | 約 10 分 | Microsoft 365 Copilot の Researcher エージェント | サンプル（プロンプト内） |
-| `AGT-02` | [Analystにリスクの高いSKU特定を委任する](./contents/05-researcher-analyst/AGT-02_Analystにリスクの高いSKU特定を委任する.md) | 売上データの分析を委任し、リスクのある SKU と打ち手の提言を受け取る | 約 10 分 | Microsoft 365 Copilot の Analyst エージェント | サンプル ファイル |
+| `AGT-01` | [Researcherに市場調査ブリーフを委任する](./contents/06-researcher-analyst/AGT-01_Researcherに市場調査ブリーフを委任する.md) | まとまった調査タスクを丸ごと任せ、経営層向けのブリーフを受け取る | 約 10 分 | Microsoft 365 Copilot の Researcher エージェント | サンプル（プロンプト内） |
+| `AGT-02` | [Analystにリスクの高いSKU特定を委任する](./contents/06-researcher-analyst/AGT-02_Analystにリスクの高いSKU特定を委任する.md) | 売上データの分析を委任し、リスクのある SKU と打ち手の提言を受け取る | 約 10 分 | Microsoft 365 Copilot の Analyst エージェント | サンプル ファイル |
 
-<a id="06-agent-builder"></a>
+<a id="07-agent-builder"></a>
 
-### Agent Builder ｜ `06-agent-builder`（5 件）
+### Agent Builder ｜ `07-agent-builder`（5 件）
 
 自分専用のエージェントを作る
 
 | ID | 体験 | ねらい | 所要 | 利用 | データ |
 |---|---|---|---|---|---|
-| `AGB-01` | [繰り返し業務を洗い出して1件に絞る](./contents/06-agent-builder/AGB-01_繰り返し業務を洗い出して1件に絞る.md) | 自分の役割で繰り返している業務を洗い出し、任せる範囲と人が判断する範囲を分けたうえで、エージェント化する 1 件を決める | 約 15 分 | Microsoft 365 Copilot Chat（Work） | 自分の業務データ |
-| `AGB-02` | [軽量Agent Builder体験](./contents/06-agent-builder/AGB-02_軽量Agent%20Builder体験.md) | 繰り返し業務を、指示を書いたエージェントとして固定する | 約 25 分 | Copilot の Agent Builder（インストラクション ＋ ナレッジ ソース） | 自分の業務データ |
-| `AGB-03` | [ホワイトボード写真から議事録とスライドを作る](./contents/06-agent-builder/AGB-03_ホワイトボード写真から議事録とスライドを作る.md) | ホワイトボードを iPhone で撮るだけで、議事録の下書きとスライド構成までを自動で受け取る | 約 30 分 | Copilot の Agent Builder ／ Copilot モバイル アプリ（iPhone）／ PowerPoint の Copilot | 自分の業務データ |
-| `AGB-04` | [顧客フォローアップ用エージェントを作る](./contents/06-agent-builder/AGB-04_顧客フォローアップ用エージェントを作る.md) | 毎週繰り返す業務プロセスを、再利用可能なエージェントとして定型化する | 約 20 分 | Agent Builder | サンプル ファイル |
-| `AGB-05` | [提案書作成エージェントを作る](./contents/06-agent-builder/AGB-05_提案書作成エージェントを作る.md) | 提案書作成という繰り返し業務を、より強い初稿を出すエージェントにまとめる | 約 15 分 | Agent Builder | サンプル ファイル |
-
-<a id="07-powerpoint"></a>
-
-### PowerPoint ｜ `07-powerpoint`
-
-伝わる資料に仕上げる（**準備中**：コンテンツはまだありません）
+| `AGB-01` | [繰り返し業務を洗い出して1件に絞る](./contents/07-agent-builder/AGB-01_繰り返し業務を洗い出して1件に絞る.md) | 自分の役割で繰り返している業務を洗い出し、任せる範囲と人が判断する範囲を分けたうえで、エージェント化する 1 件を決める | 約 15 分 | Microsoft 365 Copilot Chat（Work） | 自分の業務データ |
+| `AGB-02` | [軽量Agent Builder体験](./contents/07-agent-builder/AGB-02_軽量Agent%20Builder体験.md) | 繰り返し業務を、指示を書いたエージェントとして固定する | 約 25 分 | Copilot の Agent Builder（インストラクション ＋ ナレッジ ソース） | 自分の業務データ |
+| `AGB-03` | [ホワイトボード写真から議事録とスライドを作る](./contents/07-agent-builder/AGB-03_ホワイトボード写真から議事録とスライドを作る.md) | ホワイトボードを iPhone で撮るだけで、議事録の下書きとスライド構成までを自動で受け取る | 約 30 分 | Copilot の Agent Builder ／ Copilot モバイル アプリ（iPhone）／ PowerPoint の Copilot | 自分の業務データ |
+| `AGB-04` | [顧客フォローアップ用エージェントを作る](./contents/07-agent-builder/AGB-04_顧客フォローアップ用エージェントを作る.md) | 毎週繰り返す業務プロセスを、再利用可能なエージェントとして定型化する | 約 20 分 | Agent Builder | サンプル ファイル |
+| `AGB-05` | [提案書作成エージェントを作る](./contents/07-agent-builder/AGB-05_提案書作成エージェントを作る.md) | 提案書作成という繰り返し業務を、より強い初稿を出すエージェントにまとめる | 約 15 分 | Agent Builder | サンプル ファイル |
 
 <a id="08-personas"></a>
 
@@ -163,8 +163,8 @@ Microsoft 365 Copilot を **自分の仕事** で試すための、日本語の�
 | `MTG-` | 会議シナリオ | `contents/02-outlook-teams/` |
 | `XLS-` | Excel | `contents/03-excel/` |
 | `WRD-` | Word | `contents/04-word/` |
-| `AGT-` | Researcher / Analyst エージェント | `contents/05-researcher-analyst/` |
-| `AGB-` | Agent Builder | `contents/06-agent-builder/` |
+| `AGT-` | Researcher / Analyst エージェント | `contents/06-researcher-analyst/` |
+| `AGB-` | Agent Builder | `contents/07-agent-builder/` |
 
 一度発行した ID は変更しません（プログラムからの参照が壊れるため）。
 
@@ -192,7 +192,7 @@ Week 1〜3 で選択肢を広げ、**Day 15 前後で「自分の定番」を 1 
 | Week 2 ｜ Day 6-10 | 会議から成果を取り出す | [会議を要約しフォローアップ連絡文を作る](./contents/02-outlook-teams/MTG-01_会議を要約しフォローアップ連絡文を作る.md) |
 | Week 3 ｜ Day 11-15 | つくる時間を短くする | [自社ファイルを根拠に競合分析を自社視点へ引き上げる](./contents/01-copilot-chat/CHAT-06_自社ファイルを根拠に競合分析を自社視点へ引き上げる.md)<br>**オプション**：[短いブリーフを10章のローンチ文書に展開する](./contents/04-word/WRD-01_短いブリーフを10章のローンチ文書に展開する.md)／[売上データから地域別の弱点と価格施策を導く](./contents/03-excel/XLS-01_売上データから地域別の弱点と価格施策を導く.md)／[キャンペーンブリーフと役員向けプレゼン骨子を作る](./contents/01-copilot-chat/CHAT-02_キャンペーンブリーフと役員向けプレゼン骨子を作る.md)／[競合3社のメモを比較表と示唆に変える](./contents/01-copilot-chat/CHAT-01_競合3社のメモを比較表と示唆に変える.md) |
 | Day 15 前後 | **立ち止まる：自分の定番を 1 つ決める** | 体験なし。[進行ガイドの手順](./programs/copilot-in-30/README.md)で振り返りを支援 |
-| Week 4 ｜ Day 16-20 | 決めた仕事を仕組みにする | [顧客フォローアップ用エージェントを作る](./contents/06-agent-builder/AGB-04_顧客フォローアップ用エージェントを作る.md)<br>[提案書作成エージェントを作る](./contents/06-agent-builder/AGB-05_提案書作成エージェントを作る.md)<br>**オプション**：[Researcherに市場調査ブリーフを委任する](./contents/05-researcher-analyst/AGT-01_Researcherに市場調査ブリーフを委任する.md)／[Analystにリスクの高いSKU特定を委任する](./contents/05-researcher-analyst/AGT-02_Analystにリスクの高いSKU特定を委任する.md) |
+| Week 4 ｜ Day 16-20 | 決めた仕事を仕組みにする | [顧客フォローアップ用エージェントを作る](./contents/07-agent-builder/AGB-04_顧客フォローアップ用エージェントを作る.md)<br>[提案書作成エージェントを作る](./contents/07-agent-builder/AGB-05_提案書作成エージェントを作る.md)<br>**オプション**：[Researcherに市場調査ブリーフを委任する](./contents/06-researcher-analyst/AGT-01_Researcherに市場調査ブリーフを委任する.md)／[Analystにリスクの高いSKU特定を委任する](./contents/06-researcher-analyst/AGT-02_Analystにリスクの高いSKU特定を委任する.md) |
 | Day 21 | 成果を振り返り、次の一歩を決める | 体験なし。回数・時間の変化・証跡を確認 |
 
 参加者向けページ [`programs/copilot-in-30/index.md`](./programs/copilot-in-30/index.md) には、上記に加えて Copilot Chat・会議・文書作成の扉が Week ごとに並んでいます（GitHub Pages 用）。
@@ -207,8 +207,8 @@ Week 1〜3 で選択肢を広げ、**Day 15 前後で「自分の定番」を 1 
 | 0 | 信頼とストーリーの土台 | [サインイン確認と安全なAI利用の土台づくり](./contents/00-setup/SETUP-01_サインイン確認と安全なAI利用の土台づくり.md) | 全員 |
 | 1 | まず好きになる — Copilot Chat | [競合3社のメモを比較表と示唆に変える](./contents/01-copilot-chat/CHAT-01_競合3社のメモを比較表と示唆に変える.md)／[キャンペーンブリーフと役員向けプレゼン骨子を作る](./contents/01-copilot-chat/CHAT-02_キャンペーンブリーフと役員向けプレゼン骨子を作る.md)／[顧客クレームを論点整理し返信案まで作る](./contents/01-copilot-chat/CHAT-03_顧客クレームを論点整理し返信案まで作る.md)／[パートナー提案書を要約し確認すべき質問を洗い出す](./contents/01-copilot-chat/CHAT-04_パートナー提案書を要約し確認すべき質問を洗い出す.md) | 2 つ完了 ＋ 選択 1 つ |
 | 2 | 自分の仕事につながる — Microsoft 365 Copilot | [メールとチャットから未対応のフォローアップを洗い出す](./contents/02-outlook-teams/CATCH-01_メールとチャットから未対応のフォローアップを洗い出す.md)／[自社ファイルを根拠に競合分析を自社視点へ引き上げる](./contents/01-copilot-chat/CHAT-06_自社ファイルを根拠に競合分析を自社視点へ引き上げる.md)／[売上データから地域別の弱点と価格施策を導く](./contents/03-excel/XLS-01_売上データから地域別の弱点と価格施策を導く.md)／[短いブリーフを10章のローンチ文書に展開する](./contents/04-word/WRD-01_短いブリーフを10章のローンチ文書に展開する.md)／[会議を要約しフォローアップ連絡文を作る](./contents/02-outlook-teams/MTG-01_会議を要約しフォローアップ連絡文を作る.md) | 2 つ完了 |
-| 3 | 任せてみる — Agents | [Researcherに市場調査ブリーフを委任する](./contents/05-researcher-analyst/AGT-01_Researcherに市場調査ブリーフを委任する.md)／[Analystにリスクの高いSKU特定を委任する](./contents/05-researcher-analyst/AGT-02_Analystにリスクの高いSKU特定を委任する.md) | 1 つ以上（デモ可） |
-| 4 | 自分のものにする — Agent Builder | [顧客フォローアップ用エージェントを作る](./contents/06-agent-builder/AGB-04_顧客フォローアップ用エージェントを作る.md)／[提案書作成エージェントを作る](./contents/06-agent-builder/AGB-05_提案書作成エージェントを作る.md) | AGB-04 必須 |
+| 3 | 任せてみる — Agents | [Researcherに市場調査ブリーフを委任する](./contents/06-researcher-analyst/AGT-01_Researcherに市場調査ブリーフを委任する.md)／[Analystにリスクの高いSKU特定を委任する](./contents/06-researcher-analyst/AGT-02_Analystにリスクの高いSKU特定を委任する.md) | 1 つ以上（デモ可） |
+| 4 | 自分のものにする — Agent Builder | [顧客フォローアップ用エージェントを作る](./contents/07-agent-builder/AGB-04_顧客フォローアップ用エージェントを作る.md)／[提案書作成エージェントを作る](./contents/07-agent-builder/AGB-05_提案書作成エージェントを作る.md) | AGB-04 必須 |
 
 ---
 
@@ -244,9 +244,9 @@ copilot-experience-lab/
 │  ├─ 02-outlook-teams/         … Outlook / Teams（6 件）
 │  ├─ 03-excel/                 … Excel（1 件）
 │  ├─ 04-word/                  … Word（2 件）
-│  ├─ 05-researcher-analyst/    … Researcher / Analyst（2 件）
-│  ├─ 06-agent-builder/         … Agent Builder（5 件）
-│  ├─ 07-powerpoint/            … PowerPoint（準備中）
+│  ├─ 05-powerpoint/            … PowerPoint（準備中）
+│  ├─ 06-researcher-analyst/    … Researcher / Analyst（2 件）
+│  ├─ 07-agent-builder/         … Agent Builder（5 件）
 │  ├─ 08-personas/              … Personas（準備中）
 │  └─ assets/                   … 体験別の画像・動画、レイクショア サンプルデータ
 └─ programs/                    … 進行プログラム（順番とルールのみ）

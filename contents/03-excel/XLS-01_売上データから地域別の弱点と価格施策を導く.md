@@ -100,4 +100,4 @@ Q4 全体のエリア別売上構成比と比較してください。
 ## NEXT
 
 - [短いブリーフを10章のローンチ文書に展開する｜WRD-01](../04-word/WRD-01_短いブリーフを10章のローンチ文書に展開する.md)
-- 発展：[Analystにリスクの高いSKU特定を委任する｜AGT-02](../05-researcher-analyst/AGT-02_Analystにリスクの高いSKU特定を委任する.md)（同じデータを委任して分析させる）
+- 発展：[Analystにリスクの高いSKU特定を委任する｜AGT-02](../06-researcher-analyst/AGT-02_Analystにリスクの高いSKU特定を委任する.md)（同じデータを委任して分析させる）

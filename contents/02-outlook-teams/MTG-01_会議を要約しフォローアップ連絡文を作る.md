@@ -71,5 +71,5 @@
 
 ## NEXT
 
-- [Researcherに市場調査ブリーフを委任する｜AGT-01](../05-researcher-analyst/AGT-01_Researcherに市場調査ブリーフを委任する.md)
-- 発展：[顧客フォローアップ用エージェントを作る｜AGB-04](../06-agent-builder/AGB-04_顧客フォローアップ用エージェントを作る.md)
+- [Researcherに市場調査ブリーフを委任する｜AGT-01](../06-researcher-analyst/AGT-01_Researcherに市場調査ブリーフを委任する.md)
+- 発展：[顧客フォローアップ用エージェントを作る｜AGB-04](../07-agent-builder/AGB-04_顧客フォローアップ用エージェントを作る.md)

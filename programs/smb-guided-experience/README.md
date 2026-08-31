@@ -1,6 +1,6 @@
 # M365 Copilot + Agents SMB Guided Experience（日本語版）
 
-> このファイルは**ポインタ + 順番 + ルール**だけを持ちます。体験の中身は `content/` にあります。
+> このファイルは**ポインタ + 順番 + ルール**だけを持ちます。体験の中身は `contents/` にあります。
 
 - **対象**：SMB のお客様、および本ワークショップを実施するパートナー
 - **所要**：約 90 分（元教材の推奨時間。人数・アクセス状況で調整可）
@@ -60,14 +60,14 @@ AI が支援する 4 つのステージ：
 **必須**：2 つ完了 ／ **代替進行**：ライセンスやアクセスの状況に応じて、進行役によるデモに切り替える
 
 ### セクション 3 | 任せてみる — Agents
-1. [Researcherに市場調査ブリーフを委任する](../../contents/05-researcher-analyst/AGT-01_Researcherに市場調査ブリーフを委任する.md)
-2. [Analystにリスクの高いSKU特定を委任する](../../contents/05-researcher-analyst/AGT-02_Analystにリスクの高いSKU特定を委任する.md)
+1. [Researcherに市場調査ブリーフを委任する](../../contents/06-researcher-analyst/AGT-01_Researcherに市場調査ブリーフを委任する.md)
+2. [Analystにリスクの高いSKU特定を委任する](../../contents/06-researcher-analyst/AGT-02_Analystにリスクの高いSKU特定を委任する.md)
 
 **必須**：1 つ以上を体験またはデモ視聴
 
 ### セクション 4 | 自分のものにする — Agent Builder
-1. [顧客フォローアップ用エージェントを作る](../../contents/06-agent-builder/AGB-04_顧客フォローアップ用エージェントを作る.md)
-2. [提案書作成エージェントを作る](../../contents/06-agent-builder/AGB-05_提案書作成エージェントを作る.md)
+1. [顧客フォローアップ用エージェントを作る](../../contents/07-agent-builder/AGB-04_顧客フォローアップ用エージェントを作る.md)
+2. [提案書作成エージェントを作る](../../contents/07-agent-builder/AGB-05_提案書作成エージェントを作る.md)
 
 **必須**：AGB-04 ／ **選択**：AGB-05（時間があれば）
 

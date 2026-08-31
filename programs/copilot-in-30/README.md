@@ -129,15 +129,15 @@ Week 1〜3 で選択肢を広げ、Day 15 で定番にする作業を 1 つ決�
 
 **今週の体験（Agent Builder の参考例）**
 
-1. [顧客フォローアップ用エージェントを作る](../../contents/06-agent-builder/AGB-04_顧客フォローアップ用エージェントを作る.md)
-2. [提案書作成エージェントを作る](../../contents/06-agent-builder/AGB-05_提案書作成エージェントを作る.md)
+1. [顧客フォローアップ用エージェントを作る](../../contents/07-agent-builder/AGB-04_顧客フォローアップ用エージェントを作る.md)
+2. [提案書作成エージェントを作る](../../contents/07-agent-builder/AGB-05_提案書作成エージェントを作る.md)
 
 いずれかの体験でエージェントの作り方を確認した後、Day 15 で決めた「自分の定番」が Copilot Chat または Microsoft 365 Copilot を使う業務であれば、目的・指示・参照する情報・スターター プロンプトを整理し、自分の業務に合ったエージェントを作成してもらってもよいです。
 
 **オプション**：参加者が利用できる機能と関心に応じて体験を選択
 
-- [Researcherに市場調査ブリーフを委任する](../../contents/05-researcher-analyst/AGT-01_Researcherに市場調査ブリーフを委任する.md)
-- [Analystにリスクの高いSKU特定を委任する](../../contents/05-researcher-analyst/AGT-02_Analystにリスクの高いSKU特定を委任する.md)
+- [Researcherに市場調査ブリーフを委任する](../../contents/06-researcher-analyst/AGT-01_Researcherに市場調査ブリーフを委任する.md)
+- [Analystにリスクの高いSKU特定を委任する](../../contents/06-researcher-analyst/AGT-02_Analystにリスクの高いSKU特定を委任する.md)
 
 Agent Builder でエージェント化してみることで、毎回入力している指示や参照情報をエージェントにまとめ、同じ作業を繰り返し始めやすい形にできることを体感してもらいます。
 

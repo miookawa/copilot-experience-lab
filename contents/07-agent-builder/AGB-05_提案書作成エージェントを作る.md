@@ -104,4 +104,4 @@ Proposal Assistant
 
 ## NEXT
 
-- プログラムの締めくくり：[SMB Guided Experience の Close](../../programs/smb-guided-experience/README.md#close--振り返りと次の一歩)
+- [長い文書をレビューしてもらう｜WRD-02](../04-word/WRD-02_長い文書をレビューしてもらう.md)（エージェントが作った初稿を、人が判断できる修正候補に変える）
