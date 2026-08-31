@@ -143,7 +143,7 @@ programs:
 
 ## プログラム（連続体験）
 
-単発で試すだけでなく、期間を決めて続ける進め方も用意しています。**どこから始めるか迷ったら、まずこちらから**。
+まず、**どこから始めるか迷ったら、まずこちらから**　単発でも試せますが、期間を決めて続ける進め方がおすすめです。
 
 {% assign progpages = site.pages | where_exp: "p", "p.path contains 'programs/'" %}
 <div class="cel-grid">
@@ -219,7 +219,7 @@ programs:
 {%- endfor -%}
 </ul>
 
-<p class="cel-lead">現在 {{ celtotal }} 件の扉があります。自分のデータを使いにくい扉は、架空企業「レイクショア」の<a href="{{ '/contents/assets/lakeshore-sample-data-ja.zip' | relative_url }}">サンプルデータ一式</a>でも試せます。</p>
+<p class="cel-lead">現在 {{ celtotal }} 件の扉があります。自分のデータを使う扉と、架空企業「レイクショア」の<a href="{{ '/contents/assets/lakeshore-sample-data-ja.zip' | relative_url }}">サンプルデータ一式</a>を使う扉があります。</p>
 
 {% comment %} ---------- セクションごとの扉グリッド ---------- {% endcomment %}
 {% for g in page.groups %}
