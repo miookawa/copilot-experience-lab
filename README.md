@@ -1,16 +1,16 @@
 # Copilot Experience Lab
 
-Microsoft 365 Copilot を **自分の仕事** で試すための、日本語の体験コンテンツ集です。
-1 コンテンツ 5〜30 分、全 37 件。実業務のデータでも、架空企業「レイクショア」のサンプルデータでも試せます。
+Microsoft Copilot を試すための、日本語の体験コンテンツ集です。
+1 コンテンツ 5〜30 分、全 37 件。**実業務のデータ**でも、**架空企業「レイクショア」のサンプルデータ**でも試せます。
 
 | フォルダー | 役割 |
 |---|---|
-| [`contents/`](./contents) | **体験の実体**。1 体験 1 ファイルで、製品・シーン別のカテゴリに配置 |
+| [`contents/`](./contents) | **体験の実体 [扉]**。1 体験 1 ファイルで、製品・シーン別のカテゴリに配置 |
 | [`programs/`](./programs) | **進行プログラム**。体験の順番・必須/選択・運営ルールだけを持ち、体験は相対リンクで参照 |
 | [`contents/assets/`](./contents/assets) | 体験ごとの画像・動画と、レイクショア サンプルデータ一式 |
 | [`index.md`](./index.md) | GitHub Pages 用のトップページ。扉カードは `contents/` から自動生成 |
 
-> **体験の中身は `contents/` にのみ置きます。`programs/` にコンテンツを複製しないでください。**
+> **体験(ユーザ向けには[扉]と記述しています)の中身は `contents/` にのみ置きます。`programs/` にコンテンツを複製しないでください。**
 > 追加・改訂のルールは [CONTRIBUTING.md](./CONTRIBUTING.md) を参照してください。
 
 ---
@@ -176,7 +176,7 @@ Microsoft 365 Copilot を **自分の仕事** で試すための、日本語の�
 
 | プログラム | 対象 | 期間・所要 | 入口 |
 |---|---|---|---|
-| **Copilot in 30** | Microsoft 365 Copilot トライアルを伴走支援するパートナー | Day 0 〜 Day 21 | [進行ガイド](./programs/copilot-in-30/README.md) ／ [参加者向けページ](./programs/copilot-in-30/index.md) |
+| **Copilot in 30** | Copilot トライアルを行うお客様、伴走支援するパートナー向け | Day 0 〜 Day 21 | [進行ガイド](./programs/copilot-in-30/README.md) ／ [参加者向けページ](./programs/copilot-in-30/index.md) |
 | **M365 Copilot + Agents SMB Guided Experience** | SMB のお客様と、実施するパートナー | 約 90 分 | [進行ガイド](./programs/smb-guided-experience/README.md) |
 | **プログラム雛形** | 新しいプログラムを追加する人 | — | [テンプレート](./programs/templates/README.md) |
 
