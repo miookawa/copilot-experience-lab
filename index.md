@@ -12,6 +12,9 @@ description: 自分の仕事で試す、Microsoft 365 Copilot 体験ラボ
 #   minutes:  所要分数（例: 10 -> 「約 10 分」）
 #   duration: 自由記述の所要（minutes より優先）
 #   key:      true にすると ★ が付きます
+#
+# 現在の contents/ 配下は front matter を持たないため、★ は下の key: 一覧で指定します。
+# 体験 ID（例: SETUP-01）か、ファイル名から拡張子を除いた文字列を書いてください。
 groups:
   - dir: "00-setup"
     cls: "g0"
@@ -49,6 +52,32 @@ groups:
     cls: "g8"
     label: "Personas"
     lead: "役割別の使いどころ"
+
+# ★ を付ける扉（プログラムで「必須」として使っている体験）
+key:
+  - "SETUP-01"
+  - "CHAT-IMG-01"
+  - "CHAT-05_自社ファイルを根拠に競合分析を自社視点へ引き上げる"
+  - "CHAT-06"
+  - "CATCH-01"
+  - "MTG-01"
+  - "XLS-01"
+  - "WRD-01"
+  - "AGB-04"
+
+# プログラム（連続体験）のカード。リンク先は programs/<dir>/ の
+# index.md（あれば）または README.md を自動で選びます。
+programs:
+  - dir: "copilot-in-30"
+    cls: "g2"
+    label: "Copilot in 30"
+    lead: "30 日間で、繰り返し業務を 1 つ Copilot に置き換える"
+    meta: "Day 0 〜 Day 21 ／ 週 1 回の伴走"
+  - dir: "smb-guided-experience"
+    cls: "g5"
+    label: "SMB Guided Experience"
+    lead: "Chat から Agent Builder までを一気通貫で体験する"
+    meta: "約 90 分 ／ ハンズオンまたはデモ"
 ---
 
 <!-- GitHub Pages (Jekyll 3.x) 用トップページ。
@@ -107,7 +136,7 @@ groups:
   <h1>Copilot Experience Lab</h1>
   <p>1 つずつ、扉を開けるように試す体験ラボ。<br>
   使うのはサンプルデータではなく、<strong>あなた自身のメール・会議・チャット・ファイル</strong>です。</p>
-  <p class="cel-tag">所要 5〜20 分 / 1 コンテンツ &nbsp;·&nbsp; Microsoft 365 Copilot</p>
+  <p class="cel-tag">所要 5〜30 分 / 1 コンテンツ &nbsp;·&nbsp; Microsoft 365 Copilot</p>
 </div>
 
 ## 今日の扉を開ける
@@ -117,6 +146,7 @@ groups:
 
 {% comment %} front matter 付きページと素の .md を 1 つの配列にまとめる {% endcomment %}
 {% assign celall = site.pages | concat: site.static_files %}
+{% assign celkeys = page.key | join: "," | prepend: "," | append: "," %}
 
 {% comment %} ---------- 凡例（件数付き） ---------- {% endcomment %}
 {% assign celtotal = 0 %}
@@ -142,6 +172,8 @@ groups:
   {%- endif -%}
 {%- endfor -%}
 </ul>
+
+<p class="cel-lead">現在 {{ celtotal }} 件の扉があります。自分のデータを使いにくい扉は、架空企業「レイクショア」の<a href="{{ '/contents/assets/lakeshore-sample-data-ja.zip' | relative_url }}">サンプルデータ一式</a>でも試せます。</p>
 
 {% comment %} ---------- セクションごとの扉グリッド ---------- {% endcomment %}
 {% for g in page.groups %}
@@ -187,9 +219,16 @@ groups:
         {%- assign num = cp | last -%}
         {%- assign chk = num | plus: 0 | prepend: "0" | slice: -2, 2 -%}
         {%- if cp.size > 1 and chk == num and num == pad -%}
-        {%- assign kind = cp | first -%}
+        {%- assign numsuffix = num | prepend: "-" -%}
+        {%- assign kind = code | replace_first: numsuffix, "" -%}
         {%- assign fallback = stem | remove_first: code | remove_first: "_" -%}
-    <a class="cel-door {{ g.cls }}{% if p.key %} is-key{% endif %}" href="{{ p.url | default: p.path | relative_url }}">
+        {%- assign iskey = false -%}
+        {%- if p.key -%}{%- assign iskey = true -%}{%- endif -%}
+        {%- assign kstem = stem | prepend: "," | append: "," -%}
+        {%- assign kcode = code | prepend: "," | append: "," -%}
+        {%- if celkeys contains kstem -%}{%- assign iskey = true -%}{%- endif -%}
+        {%- if celkeys contains kcode -%}{%- assign iskey = true -%}{%- endif -%}
+    <a class="cel-door {{ g.cls }}{% if iskey %} is-key{% endif %}" href="{{ p.url | default: p.path | relative_url }}">
       <span class="cel-num"><b>{{ num }}</b><span>{{ kind }}</span></span>
       <span class="cel-title">{{ p.title | default: fallback }}</span>
       {%- if p.subtitle %}<span class="cel-subtitle">{{ p.subtitle }}</span>{% endif -%}
@@ -220,7 +259,11 @@ groups:
       {%- assign numbered = false -%}
       {%- if cp.size > 1 and chk == num -%}{%- assign numbered = true -%}{%- endif -%}
       {%- unless numbered -%}
-    <a class="cel-door {{ g.cls }}{% if p.key %} is-key{% endif %}" href="{{ p.url | default: p.path | relative_url }}">
+      {%- assign iskey = false -%}
+      {%- if p.key -%}{%- assign iskey = true -%}{%- endif -%}
+      {%- assign kstem = stem | prepend: "," | append: "," -%}
+      {%- if celkeys contains kstem -%}{%- assign iskey = true -%}{%- endif -%}
+    <a class="cel-door {{ g.cls }}{% if iskey %} is-key{% endif %}" href="{{ p.url | default: p.path | relative_url }}">
       <span class="cel-num"><b>+</b><span>DOOR</span></span>
       <span class="cel-title">{{ p.title | default: stem }}</span>
       {%- if p.subtitle %}<span class="cel-subtitle">{{ p.subtitle }}</span>{% endif -%}
@@ -245,14 +288,14 @@ groups:
 
 <div class="cel-start" markdown="1">
 
-1. Copilot Chat を開き、**Work** が選択されていることを確認する
+1. Copilot Chat を開き、**Work** が選択されていることを確認する（<a href="#00-setup">Setup</a> の扉から）
 2. 今日の扉を開き、**TRY — 手順**のプロンプトをそのまま貼り付ける
 3. 出てきた答えを鵜呑みにせず、**根拠リンクを 1 つ開いて確認する**
 4. 最後の **REFLECT — 振り返り**に、その日のうちに答える
 
 </div>
 
-各ページは「目的 / 所要 / 入力 / 成果」→ シナリオ → TRY（手順とプロンプト）→ REFLECT → NEXT の順に並んでいます。
+各ページは「目的 / 所要 / 利用 / 入力 / 成果」→ シナリオ → TRY（手順とプロンプト）→ REFLECT → NEXT の順に並んでいます。
 うまくいかなかった依頼にも価値があります。**どう指示を変えれば直るか**まで書き残してください。
 
 ---
@@ -261,21 +304,26 @@ groups:
 
 単発で試すだけでなく、期間を決めて続ける進め方も用意しています。
 
-{% assign progs = site.pages | where_exp: "p", "p.path contains 'programs/'" %}
+{% assign progpages = site.pages | where_exp: "p", "p.path contains 'programs/'" %}
 <div class="cel-grid">
-{%- for p in progs -%}
-  {%- assign segs = p.path | split: "/" -%}
-  {%- assign show = false -%}
-  {%- if segs.size > 2 -%}
-    {%- if p.name == "README.md" -%}{%- assign show = true -%}{%- endif -%}
-    {%- if p.name == "index.md" -%}{%- assign show = true -%}{%- endif -%}
+{%- for pr in page.programs -%}
+  {%- assign idxkey = "programs/" | append: pr.dir | append: "/index" -%}
+  {%- assign rdkey = "programs/" | append: pr.dir | append: "/README" -%}
+  {%- assign turl = "" -%}
+  {%- for p in progpages -%}
+    {%- if p.path contains idxkey -%}{%- assign turl = p.url -%}{%- endif -%}
+  {%- endfor -%}
+  {%- if turl == "" -%}
+    {%- for p in progpages -%}
+      {%- if p.path contains rdkey -%}{%- assign turl = p.url -%}{%- endif -%}
+    {%- endfor -%}
   {%- endif -%}
-  {%- if show -%}
-  {%- assign slug = segs[1] -%}
-  <a class="cel-door g2" href="{{ p.url | relative_url }}">
+  {%- if turl != "" -%}
+  <a class="cel-door {{ pr.cls }}" href="{{ turl | relative_url }}">
     <span class="cel-num"><b>&#9654;</b><span>PROGRAM</span></span>
-    <span class="cel-title">{{ p.title | default: slug }}</span>
-    <span class="cel-meta">{{ p.description | default: slug }}</span>
+    <span class="cel-title">{{ pr.label }}</span>
+    {%- if pr.lead %}<span class="cel-subtitle">{{ pr.lead }}</span>{% endif -%}
+    <span class="cel-meta">{{ pr.meta | default: pr.dir }}</span>
   </a>
   {%- endif -%}
 {%- endfor -%}
@@ -302,4 +350,4 @@ groups:
 
 ---
 
-<p class="cel-meta">運営・ファシリテーター向けの進行ルールと測定項目は <a href="{{ '/README.html' | relative_url }}">プログラム概要</a> にまとめています。</p>
+<p class="cel-meta">コンテンツとプログラムの全一覧、追加のルールは <a href="{{ '/README.html' | relative_url }}">リポジトリの README</a> にまとめています。</p>
