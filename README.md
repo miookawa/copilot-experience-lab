@@ -1,103 +1,198 @@
-# Copilot Experience Lab
+# Copilot in 30 — 30 日間で「なくなると困る」をつくる
 
-GitHub 上に「再利用できる体験コンテンツ基盤」をつくるためのリポジトリです。
-このリポジトリの体験コンテンツは、Microsoft の公式教材を日本語化したコンテンツと、Copilot Experience Lab オリジナルのコンテンツで構成されています。
+| 項目 | 内容 |
+|---|---|
+| **目的** | 30 個の機能を覚えるのではなく、参加者一人ひとりが「自分の朝」「自分の会議」「自分のメール」「自分の成果物」「自分の鉄板プロンプト」を持つ |
+| **期間** | 30 営業日（Week 1 〜 Final Week） |
+| **対象** | 少人数（5 人程度）の検証チーム。IT 管理者 1 人／日常業務の多いビジネスユーザー 2 人／文書・資料作成が多い人 1 人／部門責任者または意思決定者 1 人 |
+| **利用** | Microsoft 365 Copilot Chat（Work）、Outlook / Word / Excel / PowerPoint / Teams の Copilot、Agent Builder |
+| **入力** | サンプル企業の架空データではなく、**参加者自身がアクセス権を持つメール、会議、チャット、文書** |
+| **成果** | 個人の活用トップ 5、実業務の Before / After（実測値）、成果物リンク、継続判断の材料 |
 
-<!--
-**コンテンツは一度つくる。プログラムごとに、順番・選択・演出を変えて使う。**
-
-このリポジトリでは「素材（content）」と「プログラム（programs）」を分離しています。
-体験の実体は `content/` にのみ置き、`programs/` は相対リンク・順番・必須/選択・演出だけを持ちます。
-
-> **重要ルール：`programs/` 配下に content をコピーしない。**
+> **実施条件**：Microsoft 365 Copilot のライセンスと、自分のメール・会議・ファイルへのアクセスが必要です。
+> ライセンス、テナント設定、管理者ポリシーによって利用できる機能は異なります。特に Excel（Day 19）と Agent Builder（Day 27）は事前確認が必要です。
 
 ---
 
-## フォルダ構成
+## 全体ストーリー
+
+| 期間 | テーマ | 参加者の心理変化 |
+|---|---|---|
+| Day 1–5 | まず驚く | 「こんなことまで分かるの？」 |
+| Day 6–12 | 毎日の面倒を減らす | 「これ、毎日使える」 |
+| Day 13–19 | 成果物を作る | 「ゼロから作らなくてよい」 |
+| Day 20–25 | 仕事をつなげる | 「仕事の進め方そのものが変わる」 |
+| Day 26–30 | 自分専用化と価値証明 | 「なくなると困る」 |
+
+単なる「30 本のプロンプト集」では弱く、① 驚く ② 自分の仕事で使う ③ 毎日の習慣になる ④ チームで価値を共有する ⑤ なくなった場合を実感する、という順番で設計しています。
+
+---
+
+## Day インデックス
+
+### Week 1：まず「自分の仕事を分かっている」に驚く
+
+| Day | 体験 |
+|---|---|
+| 1 | [Copilotに自分の現在地を聞く｜DAY-01](./contents/copilot-chat/Copilotに自分の現在地を聞く_DAY-01.md) |
+| 2 | [忙しい朝を3分で整理する｜DAY-02](./contents/copilot-chat/忙しい朝を3分で整理する_DAY-02.md) |
+| 3 | [長いメールスレッドから結論だけを得る｜DAY-03](./contents/copilot-chat/長いメールスレッドから結論だけを得る_DAY-03.md) |
+| 4 | [会議前の「何を話せばよいか」を作る｜DAY-04](./contents/copilot-chat/会議前の_何を話せばよいか_を作る_DAY-04.md) |
+| 5 | [Week 1の驚きを言語化する｜DAY-05](./contents/copilot-chat/Week%201の驚きを言語化する_DAY-05.md) |
+
+### Week 2：毎日発生する面倒をCopilotに渡す
+
+| Day | 体験 |
+|---|---|
+| 6 | [未処理メールをまとめて整理する｜DAY-06](./contents/copilot-chat/未処理メールをまとめて整理する_DAY-06.md) |
+| 7 | [文章を「相手に伝わる形」へ変換する｜DAY-07](./contents/copilot-chat/文章を「相手に伝わる形」へ変換する_DAY-07.md) |
+| 8 | [メール返信を3パターン作る｜DAY-08](./contents/copilot-chat/メール返信を3パターン作る_DAY-08.md) |
+| 9 | [会議後のアクションを自分用に再整理する｜DAY-09](./contents/copilot-chat/会議後のアクションを自分用に再整理する_DAY-09.md) |
+| 10 | [この画面は何なのかを撮って聞く｜DAY-10](./contents/copilot-chat/この画面は何かを撮って聞く_SHOT-02.md) |
+| 11 | [1日の終わりをCopilotで締める｜DAY-11](./contents/copilot-chat/1日の終わりをCopilotで締める_DAY-11.md) |
+| 12 | [朝または夕方のプロンプトを定型化する｜DAY-12](./contents/copilot-chat/朝または夕方のプロンプトを定型化する_DAY-12.md) |
+
+### Week 3：成果物を「ゼロから作る仕事」を減らす
+
+| Day | 体験 |
+|---|---|
+| 13 | [既存資料を要約する｜DAY-13](./contents/copilot-chat/既存資料を要約する_DAY-13.md) |
+| 14 | [複数資料を比較する｜DAY-14](./contents/copilot-chat/複数資料を比較する_DAY-14.md) |
+| 15 | [箇条書きから文書の初稿を作る｜DAY-15](./contents/copilot-chat/DAY-15_箇条書きから文書の初稿を作る.md) |
+| 16 | [長い文書をレビューしてもらう｜DAY-16](./contents/copilot-chat/長い文書をレビューしてもらう_DAY-16.md) |
+| 17 | [Wordからプレゼンテーションの構成を作る｜DAY-17](./contents/copilot-chat/DAY-17_Wordからプレゼンテーションの構成を作る.md) |
+| 18 | [自社紹介を視覚化する｜DAY-18](./contents/copilot-chat/DAY-18_自社紹介を視覚化する.md) |
+| 19 | [Excelデータから示唆を得る｜DAY-19](./contents/copilot-chat/DAY-19_Excelデータから示唆を得る.md) |
+
+### Week 4：単発の作業から「仕事の流れ」へ広げる
+
+| Day | 体験 |
+|---|---|
+| 20 | [会議前から会議後までを一連で使う｜DAY-20](./contents/copilot-chat/会議前から会議後までを一連で使う_DAY-20.md) |
+| 21 | [プロジェクトの状況を横断的に把握する｜DAY-21](./contents/copilot-chat/プロジェクトの状況を横断的に把握する_DAY-21.md) |
+| 22 | [「最新状況を教えて」を自分の案件で使う｜DAY-22](./contents/copilot-chat/「最新状況を教えて」を自分の案件で使う_DAY-22.md) |
+| 23 | [役割別のユースケースを作る｜DAY-23](./contents/copilot-chat/役割別のユースケースを作る_DAY-23.md) |
+| 24 | [自分専用の「鉄板プロンプト」を作る｜DAY-24](./contents/copilot-chat/自分専用の「鉄板プロンプト」を作る_DAY-24.md) |
+| 25 | [チームでプロンプトを交換する｜DAY-25](./contents/copilot-chat/DAY-25_チームでプロンプトを交換する.md) |
+
+### Final Week：自分専用化し、なくなった場合の損失を見える化する
+
+| Day | 体験 |
+|---|---|
+| 26 | [繰り返し業務を1つ選ぶ｜DAY-26](./contents/copilot-chat/繰り返し業務を1つ選ぶ_DAY-26.md) |
+| 27 | [軽量Agent Builder体験｜DAY-27](./contents/copilot-chat/軽量Agent%20Builder体験_DAY-27.md) |
+| 28 | [ホワイトボードの写真から議事録を作るAgent作成｜DAY-28](./contents/copilot-chat/ホワイトボード写真から議事録とスライドを作るエージェント_AGENT-01.md) |
+| 29 | [自分の30日間の価値をまとめる｜DAY-29](./contents/copilot-chat/DAY-29_自分の30日間の価値をまとめる.md) |
+| 30 | [「明日からCopilotがなくなったら」を考える｜DAY-30](./contents/copilot-chat/「明日からCopilotがなくなったら」を考える_DAY-30.md) |
+
+---
+
+## 各 Day ページの構成
+
+すべての Day ページは同じ書式です。
+
+| セクション | 内容 |
+|---|---|
+| 冒頭の表 | 目的 / 所要 / 利用 / 入力 / 成果、および実施条件 |
+| シナリオ | なぜこの体験を今日行うのか。進行役の説明例つき |
+| TRY — 手順 | 番号つきの操作手順と、貼り付けるプロンプト（`text` ブロック） |
+| WATCH | 動画 / GIF の配置場所（コメントアウト済み。素材ができたら有効化） |
+| REFLECT — 振り返り | その日に自分で答える 3 つの問い |
+| NEXT | 次の体験へのリンク |
+
+---
+
+## 運営：この 30 日設計で特に重要な 5 つの仕掛け
+
+### 1. 30 日間、毎日 30 個の新機能を覚えさせない
+
+「30 日分ある」ことと「毎日違う機能を使う」ことは別です。Day 2 の朝の整理、Day 4 の会議準備、Day 9 の会議後整理など、価値の高い体験は期間中に何度も繰り返します。
+
+- 新しい体験：週 3 回程度
+- 鉄板プロンプトの反復：毎営業日
+- 振り返り：毎週 1 回
+- 成果共有：毎週 1 回
+
+> Microsoft の AI Adoption Score でも、Copilot を平均週 3 日、過去 28 日中 12 日利用することが、長期的なエンゲージメントへつながりやすい基準として使われています。
+
+### 2. 5 人でも「チャンピオン」を決める
+
+最大 25 人でなくても問題ありません。限定された少人数から段階的に開始し、フィードバックを集め、後の展開を支援する社内推進者を育てます。IT 部門だけで実施する場合も、5 人が同じ技術検証をするのではなく、会議、メール、文書、分析、管理など**異なる役割**を持たせると価値を広く確認できます。
+
+### 3. 毎週、成果物を残す
+
+各 Day ページの REFLECT に加えて、参加者側では次を記録します。
+
+- 何分短縮できたか（Day 28 は実測値）
+- 何が良かったか
+- どこを修正したか
+- また使いたいか
+- チームに共有する一言（Teams の専用チャネルへ「Win of the Week」）
+
+### 4. 「使った回数」だけでなく「戻りたくない業務」を測る
+
+30 日後のアンケートでは、満足度だけでは不足します。最低限、次を聞きます。
+
+- Copilot がなくなると困る業務は何か
+- 週に何回使ったか
+- 繰り返し使ったプロンプトは何か
+- 実際に短縮できた業務は何か
+- 回答の確認に手間がかかった場面は何か
+- 有償でも継続したいか
+- どの役割へ次に配るべきか
+
+> 管理者は Microsoft 365 管理センターの Copilot usage report で、有効ユーザー、アクティブユーザー、アプリ別利用状況、Copilot Chat のプロンプト数などを確認できます。
+
+### 5. Day 30 直前まで契約の話だけをしない
+
+- Day 1–12：便利さ
+- Day 13–19：成果物
+- Day 20–25：業務プロセス
+- Day 26–29：個人最適化
+- Day 30：継続判断
+
+---
+
+## リポジトリ配置（推奨）
 
 ```text
 copilot-experience-lab/
-├─ README.md
-├─ CONTRIBUTING.md
-├─ content/                          # 体験の実体。1 コンテンツ 1 か所
-│  ├─ 00-setup/                      # 事前準備・セキュリティ
-│  ├─ 01-copilot-chat/               # Copilot Chat（プロンプト内完結）
-│  ├─ 02-microsoft365-copilot/       # Microsoft 365 Copilot（Work / 自社ファイル）
-│  ├─ 03-outlook-teams/              # Copilot in Outlook / Teams
-│  ├─ 04-excel/                      # Copilot in Excel
-│  ├─ 05-word/                       # Copilot in Word
-│  ├─ 06-researcher-analyst/         # Researcher / Analyst エージェント
-│  ├─ 07-agent-builder/              # Agent Builder
-│  ├─ 08-powerpoint/                 # Copilot in PowerPoint（今後追加）
-│  ├─ 09-personas/                   # 職種別（今後追加）
-│  └─ assets/                        # 動画 / GIF / サンプル（体験 ID のフォルダーで管理）
-│     └─ CHAT-01/ ...
-├─ programs/                         # 参照先・順番・必須/選択・演出
-│  ├─ smb-guided-experience/README.md
-│  ├─ copilot-in-30/                 # 今後追加
-│  ├─ ms-base/                       # 今後追加
-│  └─ templates/
+├─ content/
+│  ├─ apps/
+│  ├─ scenarios/
+│  ├─ personas/
+│  ├─ agents/
+│  └─ assets/
+│
+└─ programs/
+   └─ copilot-in-30/
+      ├─ README.md
+      ├─ Copilotに自分の現在地を聞く_DAY-01.md
+      ├─ 忙しい朝を3分で整理する_DAY-02.md
+      ├─ ...
+      ├─ 「明日からCopilotがなくなったら」を考える_DAY-30.md
+      └─ facilitator-guide.md
 ```
 
-フォルダーは**扱う製品ごと**に分かれています。番号は体験の推奨順序（Chat → 業務コンテキスト → エージェント）を表します。
-ファイル名は `ハンズオンの内容_体験ID.md` の形式で、**ファイル名を見るだけで何を体験するか分かる**ようにしています。
--->
----
-
-## 体験コンテンツ一覧
-
-<!--
-このリポジトリの体験コンテンツは、Microsoft の公式教材
-「M365 Copilot + Agents SMB Guided Experience（Participant Guide v1.1 / Facilitator Delivery Guide / Partner Preparation Guide）」を
-日本語で部品化したコンテンツと、Copilot Experience Lab オリジナルのコンテンツで構成されています。
--->
-
-
-| 体験 ID | タイトル | 利用サービス | 入力 |
-|---|---|---|---|
-| [SETUP-01](content/00-setup/サインイン確認と安全なAI利用の土台づくり_SETUP-01.md) | サインイン確認と安全なAI利用の土台づくり | Copilot Chat / OneDrive / SharePoint | 職場アカウント、Lakeshore サンプルデータ一式 |
-| [CHAT-01](content/01-copilot-chat/競合3社のメモを比較表と示唆に変える_CHAT-01.md) | 競合3社のメモを比較表と示唆に変える | Copilot Chat | 競合 3 社のメモ（プロンプトに含む） |
-| [CHAT-02](content/01-copilot-chat/キャンペーンブリーフと役員向けプレゼン骨子を作る_CHAT-02.md) | キャンペーンブリーフと役員向けプレゼン骨子を作る | Copilot Chat | ローンチの前提情報（プロンプトに含む） |
-| [CHAT-03](content/01-copilot-chat/顧客クレームを論点整理し返信案まで作る_CHAT-03.md) | 顧客クレームを論点整理し返信案まで作る | Copilot Chat | 顧客からのクレーム メール（プロンプトに含む） |
-| [CHAT-04](content/01-copilot-chat/パートナー提案書を要約し確認すべき質問を洗い出す_CHAT-04.md) | パートナー提案書を要約し確認すべき質問を洗い出す | Copilot Chat | パートナー提案書の抜粋（プロンプトに含む） |
-| [CHAT-IMG-01](content/01-copilot-chat/自分のワークペルソナを1枚のスケッチにする_CHAT-IMG-01.md) | 自分のワークペルソナを1枚のスケッチにする | Microsoft 365 Copilot Chat | Work IQ の業務コンテキスト ＋ LinkedIn 公開プロフィール ＋ 顔写真（任意） |
-| [CHAT-05](content/02-microsoft365-copilot/自社ファイルを根拠に競合分析を自社視点へ引き上げる_CHAT-05.md) | 自社ファイルを根拠に競合分析を自社視点へ引き上げる | Microsoft 365 Copilot Chat（Work） | `lakeshore-prior-season-strategy.docx`、`lakeshore-brand-playbook.docx` |
-| [CATCH-01](content/03-outlook-teams/メールとチャットから未対応のフォローアップを洗い出す_CATCH-01.md) | メールとチャットから未対応のフォローアップを洗い出す | Outlook / Teams / Microsoft 365 Copilot Chat（Work） | 自分の安全なメール スレッド、Teams チャットまたはチャネル スレッド |
-| [MTG-01](content/03-outlook-teams/会議を要約しフォローアップ連絡文を作る_MTG-01.md) | 会議を要約しフォローアップ連絡文を作る | Copilot in Teams | 自分の安全な会議（リキャップ／トランスクリプト／録画／会議チャット） |
-| [XLS-01](content/04-excel/売上データから地域別の弱点と価格施策を導く_XLS-01.md) | 売上データから地域別の弱点と価格施策を導く | Copilot in Excel | `lakeshore-q4-sales.xlsx` |
-| [WRD-01](content/05-word/短いブリーフを10章のローンチ文書に展開する_WRD-01.md) | 短いブリーフを10章のローンチ文書に展開する | Copilot in Word | `lakeshore-launch-brief-template.docx`（＋ブランド プレイブック、Q4 売上データ） |
-| [AGT-01](content/06-researcher-analyst/Researcherに市場調査ブリーフを委任する_AGT-01.md) | Researcherに市場調査ブリーフを委任する | Microsoft 365 Copilot の Researcher エージェント | 調査テーマ（アウトドア テクニカル アパレル市場） |
-| [AGT-02](content/06-researcher-analyst/Analystにリスクの高いSKU特定を委任する_AGT-02.md) | Analystにリスクの高いSKU特定を委任する | Microsoft 365 Copilot の Analyst エージェント | `lakeshore-q4-sales.xlsx` |
-| [AGT-03](content/07-agent-builder/顧客フォローアップ用エージェントを作る_AGT-03.md) | 顧客フォローアップ用エージェントを作る | Agent Builder | エージェント名・説明・指示・スターター プロンプト（＋許可されたナレッジ ソース） |
-| [AGT-04](content/07-agent-builder/提案書作成エージェントを作る_AGT-04.md) | 提案書作成エージェントを作る | Agent Builder | エージェント名・説明・指示・スターター プロンプト（＋許可されたナレッジ ソース） |
+`content` は体験の実体、`programs` は順番とルール — この分離により、Copilot in 30 以外のプログラムへも体験を再利用できます。
 
 ---
 
-## プログラム
+## 注意事項
 
-| プログラム | 内容 | 時間 |
-|---|---|---|
-| [SMB Guided Experience](programs/smb-guided-experience/README.md) | 架空の小売企業を題材に、Chat から Agent Builder までを一気通貫で体験 | 約 90 分 |
-| [Copilot in 30](programs/copilot-in-30/README.md) | 30 日間の伴走を通じて、Copilot を使う定番業務の定着と成果確認を支援 | 30 日 |
-| MS Base | 準備中 | 準備中 |
-
----
-
-## 体験コンテンツの共通フォーマット
-
-すべての体験は、どのプログラムからも同じ形で参照できるよう、次の構成に揃えています。
-
-- **メタ情報**：目的 / 所要 / 利用 / 入力 / 成果
-- **シナリオ**：誰が、どんな業務課題を抱えているか
-- **TRY**：実行手順とプロンプト
-- **REFLECT**：価値の振り返り
-- **NEXT**：次の体験へのリンク
+- 参加者自身の実データを使います。共有・公開する成果物には、機密情報が含まれていないかを必ず確認してください。
+- Copilot の回答をうのみにせず、根拠リンクを開いて確認する運用を前提とします（特に Day 22）。
+- Copilot in Excel（Day 19）は、ファイルを OneDrive に保存し AutoSave を有効にする必要があります。利用条件と表示される機能はライセンスとテナント設定によって異なります。
+- Agent の作成・共有可否（Day 27）は、管理者設定、テナント構成、ライセンスによって異なります。実施前に管理者またはライセンス専門家に確認してください。
+- Day 28 の時間短縮量は、**参加者が実測値を入力**します。Copilot に推測させないでください。
 
 ---
 
-## 出典と注意事項
+## 最終成果物（Day 30）
 
-<!--- 本コンテンツは、Microsoft 提供の「M365 Copilot + Agents SMB Guided Experience」3 ガイドを基に日本語化・部品化したものです。-->
-- 登場する企業名、商品名、および人物名はすべて架空のものです。
-- Copilot Chat、Microsoft 365 Copilot、Researcher、Analyst、Agent Builder の画面や機能は継続的に更新されます。画面キャプチャや表示名は実際と異なる場合があります。
-- 一部の演習では**自分自身の業務データ**を使います。機密情報、人事・法務・財務情報、個人情報、機微な顧客情報は使用しないでください。
+- 個人の Copilot 活用トップ 5
+- 実業務の Before / After
+- 成果物リンク
+- 継続したい理由
+- 次に展開する部門候補
+- 有償継続の判断材料

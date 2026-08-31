@@ -1,103 +1,305 @@
-# Copilot Experience Lab
+---
+layout: default
+title: Copilot Experience Lab
+description: 自分の仕事で試す、Microsoft 365 Copilot 体験ラボ
 
-GitHub 上に「再利用できる体験コンテンツ基盤」をつくるためのリポジトリです。
-このリポジトリの体験コンテンツは、Microsoft の公式教材を日本語化したコンテンツと、Copilot Experience Lab オリジナルのコンテンツで構成されています。
+# 扉（カード）は、この groups の順に contents/<dir>/ 配下の実ファイルから
+# 自動生成されます。コンテンツを追加・リネームしても index.md の修正は不要です。
+#
+# 各コンテンツ .md の front matter で見え方を調整できます（すべて任意）:
+#   title:    カードの見出し（未指定ならファイル名から生成）
+#   subtitle: 見出し下の一文
+#   minutes:  所要分数（例: 10 -> 「約 10 分」）
+#   duration: 自由記述の所要（minutes より優先）
+#   key:      true にすると ★ が付きます
+groups:
+  - dir: "00-setup"
+    cls: "g0"
+    label: "Setup"
+    lead: "はじめる前に。環境と進め方をそろえる"
+  - dir: "01-copilot-chat"
+    cls: "g1"
+    label: "Copilot Chat"
+    lead: "まず驚く。自分のデータで対話する"
+  - dir: "02-outlook-teams"
+    cls: "g2"
+    label: "Outlook / Teams"
+    lead: "毎日の面倒を減らす。メールと会議"
+  - dir: "03-excel"
+    cls: "g3"
+    label: "Excel"
+    lead: "数字から示唆を取り出す"
+  - dir: "04-word"
+    cls: "g4"
+    label: "Word"
+    lead: "文書をゼロから書かない"
+  - dir: "05-researcher-analyst"
+    cls: "g5"
+    label: "Researcher / Analyst"
+    lead: "調べる・分析するを任せる"
+  - dir: "06-agent-builder"
+    cls: "g6"
+    label: "Agent Builder"
+    lead: "自分専用のエージェントを作る"
+  - dir: "07-powerpoint"
+    cls: "g7"
+    label: "PowerPoint"
+    lead: "伝わる資料に仕上げる"
+  - dir: "08-personas"
+    cls: "g8"
+    label: "Personas"
+    lead: "役割別の使いどころ"
+---
 
-<!--
-**コンテンツは一度つくる。プログラムごとに、順番・選択・演出を変えて使う。**
+<!-- GitHub Pages (Jekyll 3.x) 用トップページ。
+     扉のリンクは site.pages / site.static_files から自動生成しているため、
+     ファイル名をここに書き写す必要はありません。
+     Jekyll 4 専用の記法（where_exp の and/or、push フィルター）は使っていません。 -->
 
-このリポジトリでは「素材（content）」と「プログラム（programs）」を分離しています。
-体験の実体は `content/` にのみ置き、`programs/` は相対リンク・順番・必須/選択・演出だけを持ちます。
+<style>
+.cel-hero{padding:2rem 1.6rem;margin:0 0 1.6rem;border-radius:14px;color:#fff;
+  background:linear-gradient(135deg,#0f3d6e 0%,#1668b8 55%,#2aa3a3 100%);}
+.cel-hero h1{margin:0 0 .4rem;font-size:1.9rem;line-height:1.3;color:#fff;border:0;}
+.cel-hero p{margin:.3rem 0 0;opacity:.94;line-height:1.7;}
+.cel-hero .cel-tag{display:inline-block;margin-top:.9rem;padding:.25rem .7rem;border-radius:999px;
+  background:rgba(255,255,255,.18);font-size:.8rem;}
 
-> **重要ルール：`programs/` 配下に content をコピーしない。**
+.cel-legend{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 1.6rem;padding:0;list-style:none;}
+.cel-legend li{display:flex;align-items:center;gap:.45rem;padding:.35rem .7rem;border-radius:999px;
+  background:#f2f4f7;font-size:.82rem;color:#333;}
+.cel-legend a{color:#333;text-decoration:none;}
+.cel-legend a:hover{text-decoration:underline;}
+.cel-legend i{width:.7rem;height:.7rem;border-radius:50%;display:inline-block;background:var(--c);}
+
+.cel-sec{margin:0 0 2.2rem;scroll-margin-top:1rem;}
+.cel-sec h2{display:flex;align-items:center;gap:.55rem;margin:0 0 .15rem;font-size:1.15rem;
+  padding-bottom:.35rem;border-bottom:2px solid var(--c);}
+.cel-sec h2 i{width:.7rem;height:.7rem;border-radius:50%;display:inline-block;background:var(--c);}
+.cel-sec h2 em{margin-left:auto;font-style:normal;font-size:.72rem;font-weight:400;color:#61697a;}
+.cel-lead{margin:.45rem 0 .9rem;font-size:.85rem;color:#61697a;line-height:1.6;}
+
+.cel-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(158px,1fr));gap:.8rem;margin:0;}
+.cel-door{display:block;position:relative;padding:.9rem .9rem 1rem;border-radius:12px;text-decoration:none;
+  border:1px solid #e3e6ea;background:#fff;color:#1b1b1b;overflow:hidden;
+  transition:transform .15s ease,box-shadow .15s ease,border-color .15s ease;}
+.cel-door:before{content:"";position:absolute;top:0;bottom:0;left:0;width:5px;background:var(--c);}
+.cel-door:hover{transform:translateY(-3px);box-shadow:0 8px 18px rgba(16,32,60,.14);
+  border-color:var(--c);text-decoration:none;}
+.cel-num{display:flex;align-items:baseline;gap:.35rem;font-weight:700;color:var(--c);letter-spacing:.02em;}
+.cel-num b{font-size:1.6rem;line-height:1;}
+.cel-num span{font-size:.72rem;opacity:.75;}
+.cel-title{display:block;margin:.5rem 0 .3rem;font-size:.86rem;line-height:1.45;font-weight:600;color:#1b1b1b;}
+.cel-subtitle{display:block;margin:0 0 .5rem;font-size:.73rem;line-height:1.45;color:#3f4757;}
+.cel-meta{font-size:.72rem;color:#61697a;}
+.cel-door.is-key:after{content:"\2605";position:absolute;top:.6rem;right:.7rem;font-size:.8rem;color:var(--c);}
+
+.cel-start{border:1px solid #e3e6ea;border-radius:12px;padding:1rem 1.2rem;background:#fafbfc;}
+.cel-start ol{margin:.4rem 0 0;padding-left:1.2rem;}
+.cel-start li{margin:.25rem 0;line-height:1.7;}
+
+.g0{--c:#475569;} .g1{--c:#c2410c;} .g2{--c:#1668b8;} .g3{--c:#0f766e;} .g4{--c:#15803d;}
+.g5{--c:#1d4ed8;} .g6{--c:#6d28d9;} .g7{--c:#b91c1c;} .g8{--c:#b45309;} .g9{--c:#9d174d;}
+
+@media (max-width:480px){.cel-grid{grid-template-columns:repeat(auto-fill,minmax(136px,1fr));gap:.6rem;}}
+</style>
+
+<div class="cel-hero">
+  <h1>Copilot Experience Lab</h1>
+  <p>1 つずつ、扉を開けるように試す体験ラボ。<br>
+  使うのはサンプルデータではなく、<strong>あなた自身のメール・会議・チャット・ファイル</strong>です。</p>
+  <p class="cel-tag">所要 5〜20 分 / 1 コンテンツ &nbsp;·&nbsp; Microsoft 365 Copilot</p>
+</div>
+
+## 今日の扉を開ける
+
+順番どおりでなくて構いません。**開けたい扉から開けてください**。
+★ の付いた扉は、期間中に何度も繰り返す価値のある体験です。
+
+{% comment %} front matter 付きページと素の .md を 1 つの配列にまとめる {% endcomment %}
+{% assign celall = site.pages | concat: site.static_files %}
+
+{% comment %} ---------- 凡例（件数付き） ---------- {% endcomment %}
+{% assign celtotal = 0 %}
+<ul class="cel-legend">
+{%- for g in page.groups -%}
+  {%- assign dirkey = "contents/" | append: g.dir | append: "/" -%}
+  {%- assign pool = celall | where_exp: "p", "p.path contains dirkey" -%}
+  {%- assign cnt = 0 -%}
+  {%- for p in pool -%}
+    {%- assign ok = false -%}
+    {%- if p.extname -%}
+      {%- if p.extname == ".md" -%}{%- assign ok = true -%}{%- endif -%}
+    {%- else -%}
+      {%- assign ok = true -%}
+    {%- endif -%}
+    {%- if p.name == "index.md" -%}{%- assign ok = false -%}{%- endif -%}
+    {%- if p.name == "README.md" -%}{%- assign ok = false -%}{%- endif -%}
+    {%- if ok -%}{%- assign cnt = cnt | plus: 1 -%}{%- endif -%}
+  {%- endfor -%}
+  {%- assign celtotal = celtotal | plus: cnt -%}
+  {%- if cnt > 0 -%}
+  <li class="{{ g.cls }}"><i></i><a href="#{{ g.dir }}">{{ g.label }}</a>（{{ cnt }}）</li>
+  {%- endif -%}
+{%- endfor -%}
+</ul>
+
+{% comment %} ---------- セクションごとの扉グリッド ---------- {% endcomment %}
+{% for g in page.groups %}
+  {%- assign dirkey = "contents/" | append: g.dir | append: "/" -%}
+  {%- assign pool = celall | where_exp: "p", "p.path contains dirkey" -%}
+
+  {%- assign cnt = 0 -%}
+  {%- for p in pool -%}
+    {%- assign ok = false -%}
+    {%- if p.extname -%}
+      {%- if p.extname == ".md" -%}{%- assign ok = true -%}{%- endif -%}
+    {%- else -%}
+      {%- assign ok = true -%}
+    {%- endif -%}
+    {%- if p.name == "index.md" -%}{%- assign ok = false -%}{%- endif -%}
+    {%- if p.name == "README.md" -%}{%- assign ok = false -%}{%- endif -%}
+    {%- if ok -%}{%- assign cnt = cnt | plus: 1 -%}{%- endif -%}
+  {%- endfor -%}
+
+  {%- if cnt > 0 -%}
+<section class="cel-sec {{ g.cls }}" id="{{ g.dir }}">
+  <h2><i></i>{{ g.label }}<em>{{ g.dir }} ／ {{ cnt }} 件</em></h2>
+  <p class="cel-lead">{{ g.lead }}</p>
+  <div class="cel-grid">
+
+  {%- comment -%} 第 1 パス：ファイル名先頭の連番（例 CHAT-05_）で昇順に描画 {%- endcomment -%}
+  {%- for n in (0..59) -%}
+    {%- assign pad = n | prepend: "0" | slice: -2, 2 -%}
+    {%- for p in pool -%}
+      {%- assign ok = false -%}
+      {%- if p.extname -%}
+        {%- if p.extname == ".md" -%}{%- assign ok = true -%}{%- endif -%}
+      {%- else -%}
+        {%- assign ok = true -%}
+      {%- endif -%}
+      {%- if p.name == "index.md" -%}{%- assign ok = false -%}{%- endif -%}
+      {%- if p.name == "README.md" -%}{%- assign ok = false -%}{%- endif -%}
+      {%- if ok -%}
+        {%- assign stem = p.name | replace: ".markdown", "" | replace: ".md", "" | replace: ".html", "" -%}
+        {%- assign seg = stem | split: "_" -%}
+        {%- assign code = seg | first -%}
+        {%- assign cp = code | split: "-" -%}
+        {%- assign num = cp | last -%}
+        {%- assign chk = num | plus: 0 | prepend: "0" | slice: -2, 2 -%}
+        {%- if cp.size > 1 and chk == num and num == pad -%}
+        {%- assign kind = cp | first -%}
+        {%- assign fallback = stem | remove_first: code | remove_first: "_" -%}
+    <a class="cel-door {{ g.cls }}{% if p.key %} is-key{% endif %}" href="{{ p.url | default: p.path | relative_url }}">
+      <span class="cel-num"><b>{{ num }}</b><span>{{ kind }}</span></span>
+      <span class="cel-title">{{ p.title | default: fallback }}</span>
+      {%- if p.subtitle %}<span class="cel-subtitle">{{ p.subtitle }}</span>{% endif -%}
+      <span class="cel-meta">{% if p.duration %}{{ p.duration }}{% elsif p.minutes %}約 {{ p.minutes }} 分{% else %}体験コンテンツ{% endif %}</span>
+    </a>
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+
+  {%- comment -%} 第 2 パス：連番を持たないファイルを末尾に描画 {%- endcomment -%}
+  {%- for p in pool -%}
+    {%- assign ok = false -%}
+    {%- if p.extname -%}
+      {%- if p.extname == ".md" -%}{%- assign ok = true -%}{%- endif -%}
+    {%- else -%}
+      {%- assign ok = true -%}
+    {%- endif -%}
+    {%- if p.name == "index.md" -%}{%- assign ok = false -%}{%- endif -%}
+    {%- if p.name == "README.md" -%}{%- assign ok = false -%}{%- endif -%}
+    {%- if ok -%}
+      {%- assign stem = p.name | replace: ".markdown", "" | replace: ".md", "" | replace: ".html", "" -%}
+      {%- assign seg = stem | split: "_" -%}
+      {%- assign code = seg | first -%}
+      {%- assign cp = code | split: "-" -%}
+      {%- assign num = cp | last -%}
+      {%- assign chk = num | plus: 0 | prepend: "0" | slice: -2, 2 -%}
+      {%- assign numbered = false -%}
+      {%- if cp.size > 1 and chk == num -%}{%- assign numbered = true -%}{%- endif -%}
+      {%- unless numbered -%}
+    <a class="cel-door {{ g.cls }}{% if p.key %} is-key{% endif %}" href="{{ p.url | default: p.path | relative_url }}">
+      <span class="cel-num"><b>+</b><span>DOOR</span></span>
+      <span class="cel-title">{{ p.title | default: stem }}</span>
+      {%- if p.subtitle %}<span class="cel-subtitle">{{ p.subtitle }}</span>{% endif -%}
+      <span class="cel-meta">{% if p.duration %}{{ p.duration }}{% elsif p.minutes %}約 {{ p.minutes }} 分{% else %}体験コンテンツ{% endif %}</span>
+    </a>
+      {%- endunless -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  </div>
+</section>
+  {%- endif -%}
+{% endfor %}
+
+{% if celtotal == 0 %}
+<p class="cel-meta">扉が 1 つも見つかりませんでした。<code>contents/</code> 配下のフォルダ名が、この index.md の front matter にある <code>groups:</code> の <code>dir:</code> と一致しているかご確認ください。</p>
+{% endif %}
 
 ---
 
-## フォルダ構成
+## はじめての方へ
 
-```text
-copilot-experience-lab/
-├─ README.md
-├─ CONTRIBUTING.md
-├─ content/                          # 体験の実体。1 コンテンツ 1 か所
-│  ├─ 00-setup/                      # 事前準備・セキュリティ
-│  ├─ 01-copilot-chat/               # Copilot Chat（プロンプト内完結）
-│  ├─ 02-microsoft365-copilot/       # Microsoft 365 Copilot（Work / 自社ファイル）
-│  ├─ 03-outlook-teams/              # Copilot in Outlook / Teams
-│  ├─ 04-excel/                      # Copilot in Excel
-│  ├─ 05-word/                       # Copilot in Word
-│  ├─ 06-researcher-analyst/         # Researcher / Analyst エージェント
-│  ├─ 07-agent-builder/              # Agent Builder
-│  ├─ 08-powerpoint/                 # Copilot in PowerPoint（今後追加）
-│  ├─ 09-personas/                   # 職種別（今後追加）
-│  └─ assets/                        # 動画 / GIF / サンプル（体験 ID のフォルダーで管理）
-│     └─ CHAT-01/ ...
-├─ programs/                         # 参照先・順番・必須/選択・演出
-│  ├─ smb-guided-experience/README.md
-│  ├─ copilot-in-30/                 # 今後追加
-│  ├─ ms-base/                       # 今後追加
-│  └─ templates/
-```
+<div class="cel-start" markdown="1">
 
-フォルダーは**扱う製品ごと**に分かれています。番号は体験の推奨順序（Chat → 業務コンテキスト → エージェント）を表します。
-ファイル名は `ハンズオンの内容_体験ID.md` の形式で、**ファイル名を見るだけで何を体験するか分かる**ようにしています。
--->
----
+1. Copilot Chat を開き、**Work** が選択されていることを確認する
+2. 今日の扉を開き、**TRY — 手順**のプロンプトをそのまま貼り付ける
+3. 出てきた答えを鵜呑みにせず、**根拠リンクを 1 つ開いて確認する**
+4. 最後の **REFLECT — 振り返り**に、その日のうちに答える
 
-## 体験コンテンツ一覧
+</div>
 
-<!--
-このリポジトリの体験コンテンツは、Microsoft の公式教材
-「M365 Copilot + Agents SMB Guided Experience（Participant Guide v1.1 / Facilitator Delivery Guide / Partner Preparation Guide）」を
-日本語で部品化したコンテンツと、Copilot Experience Lab オリジナルのコンテンツで構成されています。
--->
-
-
-| 体験 ID | タイトル | 利用サービス | 入力 |
-|---|---|---|---|
-| [SETUP-01](content/00-setup/サインイン確認と安全なAI利用の土台づくり_SETUP-01.md) | サインイン確認と安全なAI利用の土台づくり | Copilot Chat / OneDrive / SharePoint | 職場アカウント、Lakeshore サンプルデータ一式 |
-| [CHAT-01](content/01-copilot-chat/競合3社のメモを比較表と示唆に変える_CHAT-01.md) | 競合3社のメモを比較表と示唆に変える | Copilot Chat | 競合 3 社のメモ（プロンプトに含む） |
-| [CHAT-02](content/01-copilot-chat/キャンペーンブリーフと役員向けプレゼン骨子を作る_CHAT-02.md) | キャンペーンブリーフと役員向けプレゼン骨子を作る | Copilot Chat | ローンチの前提情報（プロンプトに含む） |
-| [CHAT-03](content/01-copilot-chat/顧客クレームを論点整理し返信案まで作る_CHAT-03.md) | 顧客クレームを論点整理し返信案まで作る | Copilot Chat | 顧客からのクレーム メール（プロンプトに含む） |
-| [CHAT-04](content/01-copilot-chat/パートナー提案書を要約し確認すべき質問を洗い出す_CHAT-04.md) | パートナー提案書を要約し確認すべき質問を洗い出す | Copilot Chat | パートナー提案書の抜粋（プロンプトに含む） |
-| [CHAT-IMG-01](content/01-copilot-chat/自分のワークペルソナを1枚のスケッチにする_CHAT-IMG-01.md) | 自分のワークペルソナを1枚のスケッチにする | Microsoft 365 Copilot Chat | Work IQ の業務コンテキスト ＋ LinkedIn 公開プロフィール ＋ 顔写真（任意） |
-| [CHAT-05](content/02-microsoft365-copilot/自社ファイルを根拠に競合分析を自社視点へ引き上げる_CHAT-05.md) | 自社ファイルを根拠に競合分析を自社視点へ引き上げる | Microsoft 365 Copilot Chat（Work） | `lakeshore-prior-season-strategy.docx`、`lakeshore-brand-playbook.docx` |
-| [CATCH-01](content/03-outlook-teams/メールとチャットから未対応のフォローアップを洗い出す_CATCH-01.md) | メールとチャットから未対応のフォローアップを洗い出す | Outlook / Teams / Microsoft 365 Copilot Chat（Work） | 自分の安全なメール スレッド、Teams チャットまたはチャネル スレッド |
-| [MTG-01](content/03-outlook-teams/会議を要約しフォローアップ連絡文を作る_MTG-01.md) | 会議を要約しフォローアップ連絡文を作る | Copilot in Teams | 自分の安全な会議（リキャップ／トランスクリプト／録画／会議チャット） |
-| [XLS-01](content/04-excel/売上データから地域別の弱点と価格施策を導く_XLS-01.md) | 売上データから地域別の弱点と価格施策を導く | Copilot in Excel | `lakeshore-q4-sales.xlsx` |
-| [WRD-01](content/05-word/短いブリーフを10章のローンチ文書に展開する_WRD-01.md) | 短いブリーフを10章のローンチ文書に展開する | Copilot in Word | `lakeshore-launch-brief-template.docx`（＋ブランド プレイブック、Q4 売上データ） |
-| [AGT-01](content/06-researcher-analyst/Researcherに市場調査ブリーフを委任する_AGT-01.md) | Researcherに市場調査ブリーフを委任する | Microsoft 365 Copilot の Researcher エージェント | 調査テーマ（アウトドア テクニカル アパレル市場） |
-| [AGT-02](content/06-researcher-analyst/Analystにリスクの高いSKU特定を委任する_AGT-02.md) | Analystにリスクの高いSKU特定を委任する | Microsoft 365 Copilot の Analyst エージェント | `lakeshore-q4-sales.xlsx` |
-| [AGT-03](content/07-agent-builder/顧客フォローアップ用エージェントを作る_AGT-03.md) | 顧客フォローアップ用エージェントを作る | Agent Builder | エージェント名・説明・指示・スターター プロンプト（＋許可されたナレッジ ソース） |
-| [AGT-04](content/07-agent-builder/提案書作成エージェントを作る_AGT-04.md) | 提案書作成エージェントを作る | Agent Builder | エージェント名・説明・指示・スターター プロンプト（＋許可されたナレッジ ソース） |
+各ページは「目的 / 所要 / 入力 / 成果」→ シナリオ → TRY（手順とプロンプト）→ REFLECT → NEXT の順に並んでいます。
+うまくいかなかった依頼にも価値があります。**どう指示を変えれば直るか**まで書き残してください。
 
 ---
 
-## プログラム
+## プログラム（連続体験）
 
-| プログラム | 内容 | 時間 |
-|---|---|---|
-| [SMB Guided Experience](programs/smb-guided-experience/README.md) | 架空の小売企業を題材に、Chat から Agent Builder までを一気通貫で体験 | 約 90 分 |
-| [Copilot in 30](programs/copilot-in-30/README.md) | 30 日間の伴走を通じて、Copilot を使う定番業務の定着と成果確認を支援 | 30 日 |
-| MS Base | 準備中 | 準備中 |
+単発で試すだけでなく、期間を決めて続ける進め方も用意しています。
+
+{% assign progs = site.pages | where_exp: "p", "p.path contains 'programs/'" %}
+<div class="cel-grid">
+{%- for p in progs -%}
+  {%- assign segs = p.path | split: "/" -%}
+  {%- assign show = false -%}
+  {%- if segs.size > 2 -%}
+    {%- if p.name == "README.md" -%}{%- assign show = true -%}{%- endif -%}
+    {%- if p.name == "index.md" -%}{%- assign show = true -%}{%- endif -%}
+  {%- endif -%}
+  {%- if show -%}
+  {%- assign slug = segs[1] -%}
+  <a class="cel-door g2" href="{{ p.url | relative_url }}">
+    <span class="cel-num"><b>&#9654;</b><span>PROGRAM</span></span>
+    <span class="cel-title">{{ p.title | default: slug }}</span>
+    <span class="cel-meta">{{ p.description | default: slug }}</span>
+  </a>
+  {%- endif -%}
+{%- endfor -%}
+</div>
 
 ---
 
-## 体験コンテンツの共通フォーマット
+## 続けるコツ
 
-すべての体験は、どのプログラムからも同じ形で参照できるよう、次の構成に揃えています。
-
-- **メタ情報**：目的 / 所要 / 利用 / 入力 / 成果
-- **シナリオ**：誰が、どんな業務課題を抱えているか
-- **TRY**：実行手順とプロンプト
-- **REFLECT**：価値の振り返り
-- **NEXT**：次の体験へのリンク
+- **新しい扉は週 3 回**くらいで十分です。残りの日は、気に入ったプロンプトを繰り返し使ってください。
+- 効いたプロンプトは保存して、毎営業日使えるようにします。
+- 週に 1 回、チームのチャネルに「今週いちばん良かった 1 件」を投稿します。
+- 時間短縮は**自分で計測**します。Copilot に見積もらせないでください。
 
 ---
 
-## 出典と注意事項
+## 実施にあたって
 
-<!--- 本コンテンツは、Microsoft 提供の「M365 Copilot + Agents SMB Guided Experience」3 ガイドを基に日本語化・部品化したものです。-->
-- 登場する企業名、商品名、および人物名はすべて架空のものです。
-- Copilot Chat、Microsoft 365 Copilot、Researcher、Analyst、Agent Builder の画面や機能は継続的に更新されます。画面キャプチャや表示名は実際と異なる場合があります。
-- 一部の演習では**自分自身の業務データ**を使います。機密情報、人事・法務・財務情報、個人情報、機微な顧客情報は使用しないでください。
+- 自分の実データを使います。共有・公開する成果物に機密情報が含まれていないか、必ず確認してください。
+- 利用できる機能は、ライセンスとテナント設定によって異なります。
+- Excel の体験は、ファイルを OneDrive に保存し AutoSave を有効にする必要があります。
+- エージェントの作成・共有は、管理者設定・テナント構成・ライセンスによって可否が異なります。事前に管理者へ確認してください。
+- ハンズオンが難しい回は、ファシリテーターのデモを見ながら進めてください。
+
+---
+
+<p class="cel-meta">運営・ファシリテーター向けの進行ルールと測定項目は <a href="{{ '/README.html' | relative_url }}">プログラム概要</a> にまとめています。</p>
