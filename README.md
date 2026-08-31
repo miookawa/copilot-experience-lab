@@ -62,8 +62,8 @@ Microsoft 365 Copilot を **自分の仕事** で試すための、日本語の�
 | `CHAT-03` | [顧客クレームを論点整理し返信案まで作る](./contents/01-copilot-chat/CHAT-03_顧客クレームを論点整理し返信案まで作る.md) | 感情的な長文クレームから論点を切り出し、選択肢を比較し、共感的な返信案までを一気に作る | 約 10 分 | Copilot Chat | サンプル（プロンプト内） |
 | `CHAT-04` | [パートナー提案書を要約し確認すべき質問を洗い出す](./contents/01-copilot-chat/CHAT-04_パートナー提案書を要約し確認すべき質問を洗い出す.md) | 長い提案書から、意思決定に必要な要点、双方の対応事項、リスク、確認事項を整理する | 約 10 分 | Copilot Chat | サンプル（プロンプト内） |
 | `CHAT-05` | [Copilotはもう、あなたの仕事を知っている](./contents/01-copilot-chat/CHAT-05_Copilotはもうあなたの仕事を知っている.md) | 一般知識ではなく、自分の仕事データにグラウンディングされた回答を最初に体験する | 約 10 分 | Microsoft 365 Copilot Chat（Work） | 自分の業務データ |
-| `CHAT-05` | [自社ファイルを根拠に競合分析を自社視点へ引き上げる](./contents/01-copilot-chat/CHAT-05_自社ファイルを根拠に競合分析を自社視点へ引き上げる.md) | 一般的な競合サマリーから、自社にとっての意味を語る提言へ引き上げる | 約 10 分 | Microsoft 365 Copilot Chat（Work） | サンプル ファイル |
-| `CHAT-06` | [忙しい朝を3分で整理、スケジュール実行する](./contents/01-copilot-chat/CHAT-06_忙しい朝を3分で整理する.md) | 予定・メール・依頼の確認を 1 回の依頼にまとめ、毎朝使える「仕事開始ボタン」を作る | 約 5 分 | Microsoft 365 Copilot Chat（Work） | 自分の業務データ |
+| `CHAT-06` | [自社ファイルを根拠に競合分析を自社視点へ引き上げる](./contents/01-copilot-chat/CHAT-06_自社ファイルを根拠に競合分析を自社視点へ引き上げる.md) | 一般的な競合サマリーから、自社にとっての意味を語る提言へ引き上げる | 約 10 分 | Microsoft 365 Copilot Chat（Work） | サンプル ファイル |
+| `CHAT-07` | [忙しい朝を3分で整理、スケジュール実行する](./contents/01-copilot-chat/CHAT-07_忙しい朝を3分で整理する.md) | 予定・メール・依頼の確認を 1 回の依頼にまとめ、毎朝使える「仕事開始ボタン」を作る | 約 5 分 | Microsoft 365 Copilot Chat（Work） | 自分の業務データ |
 | `CHAT-08` | [会議前の「何を話せばよいか」を作る](./contents/01-copilot-chat/CHAT-08_会議前の_何を話せばよいか_を作る.md) | 「とりあえず参加」する状態から、論点を持って参加する状態へ変える | 約 10 分 | Microsoft 365 Copilot Chat（Work） | 自分の業務データ |
 | `CHAT-09` | [Week 1の驚きを言語化する](./contents/01-copilot-chat/CHAT-09_Week%201の驚きを言語化する.md) | 1 週間の体験を「今後も使うもの」「指示を変えるべきもの」に仕分けし、チームへ共有する | 約 10 分＋ 共有 5 分 | Microsoft 365 Copilot Chat（Work） ／ Teams（専用チャネル） | 自分の業務データ |
 | `CHAT-10` | [未処理メールをまとめて整理する](./contents/01-copilot-chat/CHAT-10_未処理メールをまとめて整理する.md) | 溜まった未処理メールを、判断理由つきで 4 段階に仕分けする | 約 10 分 | Microsoft 365 Copilot Chat（Work） ／ Outlook の Copilot | 自分の業務データ |
@@ -72,13 +72,11 @@ Microsoft 365 Copilot を **自分の仕事** で試すための、日本語の�
 | `CHAT-13` | [1日の終わりをCopilotで締める](./contents/01-copilot-chat/CHAT-13_1日の終わりをCopilotで締める.md) | その日の結果を残し、翌日の最優先事項 3 つを決めた状態で終業する | 約 5 分 | Microsoft 365 Copilot Chat（Work） | 自分の業務データ |
 | `CHAT-14` | [プロジェクトの状況を横断的に把握する](./contents/01-copilot-chat/CHAT-14_プロジェクトの状況を横断的に把握する.md) | メール・会議・チャット・ファイルに散らばった情報から、プロジェクトの現在地を 1 枚にまとめる | 約 10 分 | Microsoft 365 Copilot Chat（Work） | 自分の業務データ |
 | `CHAT-15` | [Copilot自分の使い方からユースケースを作る](./contents/01-copilot-chat/CHAT-15_Copilot自分の使い方からユースケースを作る.md) | 自分の役割で繰り返し使える業務を洗い出し、任せる範囲と判断する範囲を分ける | 約 10 分 | Microsoft 365 Copilot Chat（Work） | 自分の業務データ |
-| `CHAT-15` | [複数資料を比較する](./contents/01-copilot-chat/CHAT-15_複数資料を比較する.md) | 複数案・複数資料を同じ軸で比較し、判断に足りない情報を明らかにする | 約 10 分 | Microsoft 365 Copilot Chat（Work） | 自分の業務データ |
-| `CHAT-16` | [自分専用の「鉄板プロンプト」を作る](./contents/01-copilot-chat/CHAT-16_自分専用の「鉄板プロンプト」を作る.md) | 日常的に使うプロンプトを 5 本に絞り、毎日繰り返し使える形に整えて、いつでも呼び出せる状態にする | 約 20 分 | Microsoft 365 Copilot Chat（Work）（Prompt Gallery への保存／利用可能な環境ではスケジュール実行） | 自分の業務データ |
-| `CHAT-17` | [既存資料を要約する](./contents/01-copilot-chat/CHAT-17_既存資料を要約する.md) | 読む必要のある資料を、説明できる状態まで一気に引き上げる | 約 10 分 | Microsoft 365 Copilot Chat（Work） ／ Word の Copilot | 自分の業務データ |
+| `CHAT-16` | [複数資料を比較する](./contents/01-copilot-chat/CHAT-16_複数資料を比較する.md) | 複数案・複数資料を同じ軸で比較し、判断に足りない情報を明らかにする | 約 10 分 | Microsoft 365 Copilot Chat（Work） | 自分の業務データ |
+| `CHAT-17` | [自分専用の「鉄板プロンプト」を作る](./contents/01-copilot-chat/CHAT-17_自分専用の「鉄板プロンプト」を作る.md) | 日常的に使うプロンプトを 5 本に絞り、毎日繰り返し使える形に整えて、いつでも呼び出せる状態にする | 約 20 分 | Microsoft 365 Copilot Chat（Work）（Prompt Gallery への保存／利用可能な環境ではスケジュール実行） | 自分の業務データ |
+| `CHAT-18` | [既存資料を要約する](./contents/01-copilot-chat/CHAT-18_既存資料を要約する.md) | 読む必要のある資料を、説明できる状態まで一気に引き上げる | 約 10 分 | Microsoft 365 Copilot Chat（Work） ／ Word の Copilot | 自分の業務データ |
 | `CHAT-IMG-01` | [自分のワークペルソナを1枚のスケッチにする](./contents/01-copilot-chat/CHAT-IMG-01_自分のワークペルソナを1枚のスケッチにする.md) | Copilot が把握している自分の仕事、関係者、役割、価値観を、ホワイトボード風の1枚絵として可視化する | 約 10 分 | Microsoft 365 Copilot Chat | 自分の業務データ |
 | `CHAT-IMG-02` | [自社のホームページから企業紹介インフォグラフィックを作る](./contents/01-copilot-chat/CHAT-IMG-02_自社のホームページから企業紹介インフォグラフィックを作る.md) | 自社ホームページの公開情報をもとに、会社の特徴や事業内容を1枚で伝える企業紹介インフォグラフィックを作成する | 約 10 分 | Microsoft 365 Copilot Chat | 自社の公開情報 |
-
-> **メモ**：`CHAT-05`、`CHAT-15` は現在 2 件が同じ ID を使っています。Pages の扉カードでは同じ番号が並ぶため、どちらかに新しい ID を割り当てるか、統合を検討してください。
 
 <a id="02-outlook-teams"></a>
 
@@ -192,7 +190,7 @@ Week 1〜3 で選択肢を広げ、**Day 15 前後で「自分の定番」を 1 
 | Week 0 ｜ Day 0 | はじめる前に | [サインイン確認と安全なAI利用の土台づくり](./contents/00-setup/SETUP-01_サインイン確認と安全なAI利用の土台づくり.md)<br>[自分のワークペルソナを1枚のスケッチにする](./contents/01-copilot-chat/CHAT-IMG-01_自分のワークペルソナを1枚のスケッチにする.md) |
 | Week 1 ｜ Day 1-5 | 受信トレイを制する | [メールとチャットから未対応のフォローアップを洗い出す](./contents/02-outlook-teams/CATCH-01_メールとチャットから未対応のフォローアップを洗い出す.md)<br>**オプション**：[顧客クレームを論点整理し返信案まで作る](./contents/01-copilot-chat/CHAT-03_顧客クレームを論点整理し返信案まで作る.md)／[パートナー提案書を要約し確認すべき質問を洗い出す](./contents/01-copilot-chat/CHAT-04_パートナー提案書を要約し確認すべき質問を洗い出す.md) |
 | Week 2 ｜ Day 6-10 | 会議から成果を取り出す | [会議を要約しフォローアップ連絡文を作る](./contents/02-outlook-teams/MTG-01_会議を要約しフォローアップ連絡文を作る.md) |
-| Week 3 ｜ Day 11-15 | つくる時間を短くする | [自社ファイルを根拠に競合分析を自社視点へ引き上げる](./contents/01-copilot-chat/CHAT-05_自社ファイルを根拠に競合分析を自社視点へ引き上げる.md)<br>**オプション**：[短いブリーフを10章のローンチ文書に展開する](./contents/04-word/WRD-01_短いブリーフを10章のローンチ文書に展開する.md)／[売上データから地域別の弱点と価格施策を導く](./contents/03-excel/XLS-01_売上データから地域別の弱点と価格施策を導く.md)／[キャンペーンブリーフと役員向けプレゼン骨子を作る](./contents/01-copilot-chat/CHAT-02_キャンペーンブリーフと役員向けプレゼン骨子を作る.md)／[競合3社のメモを比較表と示唆に変える](./contents/01-copilot-chat/CHAT-01_競合3社のメモを比較表と示唆に変える.md) |
+| Week 3 ｜ Day 11-15 | つくる時間を短くする | [自社ファイルを根拠に競合分析を自社視点へ引き上げる](./contents/01-copilot-chat/CHAT-06_自社ファイルを根拠に競合分析を自社視点へ引き上げる.md)<br>**オプション**：[短いブリーフを10章のローンチ文書に展開する](./contents/04-word/WRD-01_短いブリーフを10章のローンチ文書に展開する.md)／[売上データから地域別の弱点と価格施策を導く](./contents/03-excel/XLS-01_売上データから地域別の弱点と価格施策を導く.md)／[キャンペーンブリーフと役員向けプレゼン骨子を作る](./contents/01-copilot-chat/CHAT-02_キャンペーンブリーフと役員向けプレゼン骨子を作る.md)／[競合3社のメモを比較表と示唆に変える](./contents/01-copilot-chat/CHAT-01_競合3社のメモを比較表と示唆に変える.md) |
 | Day 15 前後 | **立ち止まる：自分の定番を 1 つ決める** | 体験なし。[進行ガイドの手順](./programs/copilot-in-30/README.md)で振り返りを支援 |
 | Week 4 ｜ Day 16-20 | 決めた仕事を仕組みにする | [顧客フォローアップ用エージェントを作る](./contents/06-agent-builder/AGB-04_顧客フォローアップ用エージェントを作る.md)<br>[提案書作成エージェントを作る](./contents/06-agent-builder/AGB-05_提案書作成エージェントを作る.md)<br>**オプション**：[Researcherに市場調査ブリーフを委任する](./contents/05-researcher-analyst/AGT-01_Researcherに市場調査ブリーフを委任する.md)／[Analystにリスクの高いSKU特定を委任する](./contents/05-researcher-analyst/AGT-02_Analystにリスクの高いSKU特定を委任する.md) |
 | Day 21 | 成果を振り返り、次の一歩を決める | 体験なし。回数・時間の変化・証跡を確認 |
@@ -208,7 +206,7 @@ Week 1〜3 で選択肢を広げ、**Day 15 前後で「自分の定番」を 1 
 |---|---|---|---|
 | 0 | 信頼とストーリーの土台 | [サインイン確認と安全なAI利用の土台づくり](./contents/00-setup/SETUP-01_サインイン確認と安全なAI利用の土台づくり.md) | 全員 |
 | 1 | まず好きになる — Copilot Chat | [競合3社のメモを比較表と示唆に変える](./contents/01-copilot-chat/CHAT-01_競合3社のメモを比較表と示唆に変える.md)／[キャンペーンブリーフと役員向けプレゼン骨子を作る](./contents/01-copilot-chat/CHAT-02_キャンペーンブリーフと役員向けプレゼン骨子を作る.md)／[顧客クレームを論点整理し返信案まで作る](./contents/01-copilot-chat/CHAT-03_顧客クレームを論点整理し返信案まで作る.md)／[パートナー提案書を要約し確認すべき質問を洗い出す](./contents/01-copilot-chat/CHAT-04_パートナー提案書を要約し確認すべき質問を洗い出す.md) | 2 つ完了 ＋ 選択 1 つ |
-| 2 | 自分の仕事につながる — Microsoft 365 Copilot | [メールとチャットから未対応のフォローアップを洗い出す](./contents/02-outlook-teams/CATCH-01_メールとチャットから未対応のフォローアップを洗い出す.md)／[自社ファイルを根拠に競合分析を自社視点へ引き上げる](./contents/01-copilot-chat/CHAT-05_自社ファイルを根拠に競合分析を自社視点へ引き上げる.md)／[売上データから地域別の弱点と価格施策を導く](./contents/03-excel/XLS-01_売上データから地域別の弱点と価格施策を導く.md)／[短いブリーフを10章のローンチ文書に展開する](./contents/04-word/WRD-01_短いブリーフを10章のローンチ文書に展開する.md)／[会議を要約しフォローアップ連絡文を作る](./contents/02-outlook-teams/MTG-01_会議を要約しフォローアップ連絡文を作る.md) | 2 つ完了 |
+| 2 | 自分の仕事につながる — Microsoft 365 Copilot | [メールとチャットから未対応のフォローアップを洗い出す](./contents/02-outlook-teams/CATCH-01_メールとチャットから未対応のフォローアップを洗い出す.md)／[自社ファイルを根拠に競合分析を自社視点へ引き上げる](./contents/01-copilot-chat/CHAT-06_自社ファイルを根拠に競合分析を自社視点へ引き上げる.md)／[売上データから地域別の弱点と価格施策を導く](./contents/03-excel/XLS-01_売上データから地域別の弱点と価格施策を導く.md)／[短いブリーフを10章のローンチ文書に展開する](./contents/04-word/WRD-01_短いブリーフを10章のローンチ文書に展開する.md)／[会議を要約しフォローアップ連絡文を作る](./contents/02-outlook-teams/MTG-01_会議を要約しフォローアップ連絡文を作る.md) | 2 つ完了 |
 | 3 | 任せてみる — Agents | [Researcherに市場調査ブリーフを委任する](./contents/05-researcher-analyst/AGT-01_Researcherに市場調査ブリーフを委任する.md)／[Analystにリスクの高いSKU特定を委任する](./contents/05-researcher-analyst/AGT-02_Analystにリスクの高いSKU特定を委任する.md) | 1 つ以上（デモ可） |
 | 4 | 自分のものにする — Agent Builder | [顧客フォローアップ用エージェントを作る](./contents/06-agent-builder/AGB-04_顧客フォローアップ用エージェントを作る.md)／[提案書作成エージェントを作る](./contents/06-agent-builder/AGB-05_提案書作成エージェントを作る.md) | AGB-04 必須 |
 
@@ -221,8 +219,8 @@ Week 1〜3 で選択肢を広げ、**Day 15 前後で「自分の定番」を 1 
 
 | ファイル | 内容 | 主に使う体験 |
 |---|---|---|
-| `lakeshore-prior-season-strategy.docx` | 前シーズン戦略 | CHAT-05 |
-| `lakeshore-brand-playbook.docx` | ブランド ガイダンス | CHAT-05 / WRD-01 |
+| `lakeshore-prior-season-strategy.docx` | 前シーズン戦略 | CHAT-06 |
+| `lakeshore-brand-playbook.docx` | ブランド ガイダンス | CHAT-06 / WRD-01 |
 | `lakeshore-q4-sales.xlsx` | Q4 売上データ | XLS-01 / AGT-02 |
 | `lakeshore-launch-brief-template.docx` | ローンチ ブリーフ雛形 | WRD-01 |
 | `northwind-outfitters-proposal.docx` | パートナー提案書 | CHAT-04 / AGB-05 |

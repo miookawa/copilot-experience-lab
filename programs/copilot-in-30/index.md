@@ -126,7 +126,7 @@ description: 30 日間で「自分の仕事」に Copilot を溶かし込む体�
     <span class="c30-subtitle">一言も説明していないのに</span>
     <span class="c30-meta">約 10 分</span>
   </a>
-  <a class="c30-door w1 is-key" href="../../contents/01-copilot-chat/CHAT-06_%E5%BF%99%E3%81%97%E3%81%84%E6%9C%9D%E3%82%923%E5%88%86%E3%81%A7%E6%95%B4%E7%90%86%E3%81%99%E3%82%8B.html">
+  <a class="c30-door w1 is-key" href="../../contents/01-copilot-chat/CHAT-07_%E5%BF%99%E3%81%97%E3%81%84%E6%9C%9D%E3%82%923%E5%88%86%E3%81%A7%E6%95%B4%E7%90%86%E3%81%99%E3%82%8B.html">
     <span class="c30-num"><b>04</b><span>DOOR</span></span>
     <span class="c30-title">忙しい朝を3分で整理する</span>
     <span class="c30-subtitle">毎朝の「仕事開始ボタン」を作る</span>
@@ -224,7 +224,7 @@ description: 30 日間で「自分の仕事」に Copilot を溶かし込む体�
   <p class="c30-secnote">ここは全部やる必要はありません。上の 2 つを試したら、あとは<strong>自分の役割に近いものを 1〜2 つ</strong>選んでください。副題に想定する役割を書いてあります。</p>
 </section>
 <div class="c30-grid w3">
-  <a class="c30-door w3 is-key" href="../../contents/01-copilot-chat/CHAT-17_%E6%97%A2%E5%AD%98%E8%B3%87%E6%96%99%E3%82%92%E8%A6%81%E7%B4%84%E3%81%99%E3%82%8B.html">
+  <a class="c30-door w3 is-key" href="../../contents/01-copilot-chat/CHAT-18_%E6%97%A2%E5%AD%98%E8%B3%87%E6%96%99%E3%82%92%E8%A6%81%E7%B4%84%E3%81%99%E3%82%8B.html">
     <span class="c30-num"><b>18</b><span>DOOR</span></span>
     <span class="c30-title">既存資料を要約する</span>
     <span class="c30-subtitle">まずこれ：説明できる状態まで一気に</span>
@@ -242,7 +242,7 @@ description: 30 日間で「自分の仕事」に Copilot を溶かし込む体�
     <span class="c30-subtitle">IT・情シス</span>
     <span class="c30-meta">約 10 分</span>
   </a>
-  <a class="c30-door w3" href="../../contents/01-copilot-chat/CHAT-05_%E8%87%AA%E7%A4%BE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E6%A0%B9%E6%8B%A0%E3%81%AB%E7%AB%B6%E5%90%88%E5%88%86%E6%9E%90%E3%82%92%E8%87%AA%E7%A4%BE%E8%A6%96%E7%82%B9%E3%81%B8%E5%BC%95%E3%81%8D%E4%B8%8A%E3%81%92%E3%82%8B.html">
+  <a class="c30-door w3" href="../../contents/01-copilot-chat/CHAT-06_%E8%87%AA%E7%A4%BE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E6%A0%B9%E6%8B%A0%E3%81%AB%E7%AB%B6%E5%90%88%E5%88%86%E6%9E%90%E3%82%92%E8%87%AA%E7%A4%BE%E8%A6%96%E7%82%B9%E3%81%B8%E5%BC%95%E3%81%8D%E4%B8%8A%E3%81%92%E3%82%8B.html">
     <span class="c30-num"><b>21</b><span>DOOR</span></span>
     <span class="c30-title">自社ファイルを根拠に競合分析を自社視点へ引き上げる</span>
     <span class="c30-subtitle">全社視点・戦略</span>
@@ -266,7 +266,7 @@ description: 30 日間で「自分の仕事」に Copilot を溶かし込む体�
     <span class="c30-subtitle">営業・提案</span>
     <span class="c30-meta">約 10 分</span>
   </a>
-  <a class="c30-door w3" href="../../contents/01-copilot-chat/CHAT-15_%E8%A4%87%E6%95%B0%E8%B3%87%E6%96%99%E3%82%92%E6%AF%94%E8%BC%83%E3%81%99%E3%82%8B.html">
+  <a class="c30-door w3" href="../../contents/01-copilot-chat/CHAT-16_%E8%A4%87%E6%95%B0%E8%B3%87%E6%96%99%E3%82%92%E6%AF%94%E8%BC%83%E3%81%99%E3%82%8B.html">
     <span class="c30-num"><b>25</b><span>DOOR</span></span>
     <span class="c30-title">複数資料を比較する</span>
     <span class="c30-subtitle">営業・提案・調達</span>
@@ -362,7 +362,7 @@ description: 30 日間で「自分の仕事」に Copilot を溶かし込む体�
     <span class="c30-subtitle">共有会の見せ札に</span>
     <span class="c30-meta">約 30 分</span>
   </a>
-  <a class="c30-door w5 is-key" href="../../contents/01-copilot-chat/CHAT-16_%E8%87%AA%E5%88%86%E5%B0%82%E7%94%A8%E3%81%AE%E3%80%8C%E9%89%84%E6%9D%BF%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88%E3%80%8D%E3%82%92%E4%BD%9C%E3%82%8B.html">
+  <a class="c30-door w5 is-key" href="../../contents/01-copilot-chat/CHAT-17_%E8%87%AA%E5%88%86%E5%B0%82%E7%94%A8%E3%81%AE%E3%80%8C%E9%89%84%E6%9D%BF%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88%E3%80%8D%E3%82%92%E4%BD%9C%E3%82%8B.html">
     <span class="c30-num"><b>36</b><span>DOOR</span></span>
     <span class="c30-title">自分専用の「鉄板プロンプト」を作る</span>
     <span class="c30-subtitle">ここが「なくなると困る」の核</span>
