@@ -55,7 +55,7 @@
 ### 発展（任意）
 
 ファシリテーターの指示があれば、後半でファイルを使ったバージョンを試します。
-[`customer-complaint-cases.xlsx`](../assets/lakeshore-sample-data-ja/customer-complaint-cases.xlsx) を使い、クレームのテーマ、優先度の高い課題、推奨対応アクションを特定します。
+[`customer-complaint-cases.xlsx`](https://github.com/miookawa/copilot-experience-lab/releases/download/lakeshore-sample-data-ja-v1.0.0/customer-complaint-cases.xlsx) を使い、クレームのテーマ、優先度の高い課題、推奨対応アクションを特定します。
 これは任意であり、本演習の必須要素ではありません。
 
 ---

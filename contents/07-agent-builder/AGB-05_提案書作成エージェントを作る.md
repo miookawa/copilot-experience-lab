@@ -39,7 +39,7 @@ Proposal Assistant
 ```
 
 4. ナレッジ ソースは、適切かつ許可されている場合にのみ追加する
-   （例：[`northwind-outfitters-proposal.docx`](../assets/lakeshore-sample-data-ja/northwind-outfitters-proposal.docx)、[`agent-knowledge-pack.docx`](../assets/lakeshore-sample-data-ja/agent-knowledge-pack.docx)）
+   （例：[`northwind-outfitters-proposal.docx`](https://github.com/miookawa/copilot-experience-lab/releases/download/lakeshore-sample-data-ja-v1.0.0/northwind-outfitters-proposal.docx)、[`agent-knowledge-pack.docx`](https://github.com/miookawa/copilot-experience-lab/releases/download/lakeshore-sample-data-ja-v1.0.0/agent-knowledge-pack.docx)）
 5. 指示（インストラクション）に次を使う
 
 ```text

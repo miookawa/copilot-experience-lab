@@ -5,7 +5,7 @@
 | **目的** | 売上データの分析を委任し、リスクのある SKU と打ち手の提言を受け取る |
 | **所要** | 約 10 分（目安。Analyst の処理待ち時間を含む） |
 | **利用** | Microsoft 365 Copilot の Analyst エージェント |
-| **入力** | [`lakeshore-q4-sales.xlsx`](../assets/lakeshore-sample-data-ja/lakeshore-q4-sales.xlsx) |
+| **入力** | [`lakeshore-q4-sales.xlsx`](https://github.com/miookawa/copilot-experience-lab/releases/download/lakeshore-sample-data-ja-v1.0.0/lakeshore-q4-sales.xlsx) |
 | **成果** | リスクの高い SKU 3 件、その理由、値下げ／再ポジショニング／販売終了の提言 |
 
 > **実施条件**：Analyst にアクセスできる場合のみハンズオンで実施します。
@@ -27,7 +27,7 @@ Analyst は売上ブックを読み込み、リスクのある SKU を特定し�
 1. Microsoft 365 Copilot を開いたままにする
 2. 左のナビゲーションで **エージェント** を探す
 3. **Analyst** を選ぶ
-4. [`lakeshore-q4-sales.xlsx`](../assets/lakeshore-sample-data-ja/lakeshore-q4-sales.xlsx) を添付、または選択する
+4. [`lakeshore-q4-sales.xlsx`](https://github.com/miookawa/copilot-experience-lab/releases/download/lakeshore-sample-data-ja-v1.0.0/lakeshore-q4-sales.xlsx) を添付、または選択する
 5. Analyst のプロンプト ボックスをクリックする
 6. 次のプロンプトを貼り付ける
 

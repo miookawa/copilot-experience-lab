@@ -219,7 +219,7 @@ programs:
 {%- endfor -%}
 </ul>
 
-<p class="cel-lead">現在 {{ celtotal }} 件の扉があります。自分のデータを使う扉と、架空企業「レイクショア」の<a href="{{ '/contents/assets/lakeshore-sample-data-ja.zip' | relative_url }}">サンプルデータ一式</a>を使う扉があります。</p>
+<p class="cel-lead">現在 {{ celtotal }} 件の扉があります。自分のデータを使う扉と、架空企業「レイクショア」の<a href="https://github.com/miookawa/copilot-experience-lab/releases/download/lakeshore-sample-data-ja-v1.0.0/lakeshore-sample-data-ja.zip">サンプルデータ一式</a>を使う扉があります。</p>
 
 {% comment %} ---------- セクションごとの扉グリッド ---------- {% endcomment %}
 {% for g in page.groups %}
