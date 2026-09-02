@@ -176,8 +176,8 @@ Microsoft Copilot を試すための、日本語の体験コンテンツ集で�
 
 | プログラム | 対象 | 期間・所要 | 入口 |
 |---|---|---|---|
-| **Copilot in 30** | Copilot トライアルを行うお客様、伴走支援するパートナー向け | Day 0 〜 Day 21 | [進行ガイド](./programs/copilot-in-30/README.md) ／ [参加者向けページ](./programs/copilot-in-30/index.md) |
-| **M365 Copilot + Agents SMB Guided Experience** | SMB のお客様と、実施するパートナー | 約 90 分 | [進行ガイド](./programs/smb-guided-experience/README.md) |
+| **Copilot in 30** | Copilot トライアルを行うお客様、伴走支援するパートナー向け | Day 0 〜 Day 21 | [進行ガイド](./programs/copilot-in-30/README.md) ／ [参加者向けページ](https://miookawa.github.io/copilot-experience-lab/programs/copilot-in-30/) |
+| **M365 Copilot + Agents SMB Guided Experience** | SMB のお客様と、実施するパートナー | 約 90 分 | [進行ガイド](./programs/smb-guided-experience/README.md) ／ [参加者向けページ](https://miookawa.github.io/copilot-experience-lab/programs/smb-guided-experience/) |
 | **プログラム雛形** | 新しいプログラムを追加する人 | — | [テンプレート](./programs/templates/README.md) |
 
 ### Copilot in 30 ｜ 30 日間 AI 活用プログラム
