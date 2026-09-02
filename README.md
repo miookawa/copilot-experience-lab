@@ -173,6 +173,7 @@ Microsoft Copilot を試すための、日本語の体験コンテンツ集で�
 ## プログラム一覧
 
 プログラムは、体験を並べた**進行の台本**です。体験そのものは持たず、`contents/` への相対リンク・順番・必須/選択・運営ルールだけを持ちます。
+[Pages TOPページ](https://miookawa.github.io/copilot-experience-lab/)
 
 | プログラム | 対象 | 期間・所要 | 入口 |
 |---|---|---|---|
