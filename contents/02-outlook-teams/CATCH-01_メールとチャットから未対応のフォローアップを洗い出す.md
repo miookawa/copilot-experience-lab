@@ -4,7 +4,7 @@
 |---|---|
 | **目的** | 自分の実際のメールとチャットから、抱えているフォローアップを浮かび上がらせる |
 | **所要** | 約 15 分（目安） |
-| **利用** | Outlook / Teams / Microsoft 365 Copilot Chat（Work） |
+| **利用** | Outlook / Teams / Microsoft Copilot Chat（Work） |
 | **入力** | 自分の安全なメール スレッド、Teams チャットまたはチャネル スレッド |
 | **成果** | スレッド要約、会話要約、直近 7 日間のフォローアップ トップ 3 |
 
@@ -52,8 +52,8 @@
 
 ### パート 3 — Copilot Chat で統合する
 
-11. Microsoft 365 Copilot Chat を開く
-12. Web / Work の切り替えがある場合は、**Work** を選ぶ
+11. Microsoft Copilot Chat を開く
+12. **Work IQ** がオンであることを確認する
 13. 次のプロンプトを貼り付ける
 
 ```text
