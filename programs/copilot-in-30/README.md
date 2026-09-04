@@ -5,7 +5,7 @@
 - **ゴール**：参加者が**繰り返し業務を 1 つ Copilot に置き換え**、その成果を導入判断の材料として残せるよう支援する
 
 > この README は、パートナーが参加者へ体験を案内し、利用状況を確認しながら定着を支援するための**進行ガイド**です。
-> 参加者に見せるページは同じフォルダーの [index.md](./index.md)（公開時は `index.html`）で、扉の並びと ★ はこの README と同じです。
+> 参加者に見せるページは同じフォルダーの [index.md](./index.md)（公開時は [Pages | Copilot in 30](https://miookawa.github.io/copilot-experience-lab/programs/copilot-in-30/)）で、扉の並びと ★ はこの README と同じです。
 
 ---
 
