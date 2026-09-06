@@ -87,7 +87,7 @@ Microsoft Copilot を試すための、日本語の体験コンテンツ集で�
 | ID | 体験 | ねらい | 所要 | 利用 | データ |
 |---|---|---|---|---|---|
 | `CATCH-01` | [メールとチャットから未対応のフォローアップを洗い出す](./contents/02-outlook-teams/CATCH-01_メールとチャットから未対応のフォローアップを洗い出す.md) | 自分の実際のメールとチャットから、抱えているフォローアップを浮かび上がらせる | 約 15 分 | Outlook / Teams / Microsoft 365 Copilot Chat（Work） | 自分の業務データ |
-| `CHAT-07` | [長いメールスレッドから結論だけを得る](./contents/02-outlook-teams/CHAT-07_長いメールスレッドから結論だけを得る.md) | 読む時間だけでなく、返信に着手するまでの時間を短縮する | 約 10 分 | Outlook の Copilot ／ Microsoft 365 Copilot Chat（Work） | 自分の業務データ |
+| `MAL-02` | [長いメールスレッドから結論だけを得る](./contents/02-outlook-teams/MAL-02_長いメールスレッドから結論だけを得る.md) | 読む時間だけでなく、返信に着手するまでの時間を短縮する | 約 10 分 | Outlook の Copilot ／ Microsoft 365 Copilot Chat（Work） | 自分の業務データ |
 | `MAL-01` | [メール返信を3パターン作る](./contents/02-outlook-teams/MAL-01_メール返信を3パターン作る.md) | 1 通の返信に複数の選択肢を持ち、判断は人が行う進め方を体験する | 約 5 分 | Outlook の Copilot ／ Microsoft 365 Copilot Chat（Work） | 自分の業務データ |
 | `MTG-01` | [会議を要約しフォローアップ連絡文を作る](./contents/02-outlook-teams/MTG-01_会議を要約しフォローアップ連絡文を作る.md) | 複数の会議に散らばった決定事項とアクションを、明確なフォローアップに変える | 約 10 分 | Copilot in Teams | 自分の業務データ |
 | `MTG-02` | [会議後のアクションを自分用に再整理する](./contents/02-outlook-teams/MTG-02_会議後のアクションを自分用に再整理する.md) | 会議の記録ではなく、「自分が次に何をするか」を取り出す | 約 10 分 | Microsoft 365 Copilot Chat（Work） ／ Teams の会議 Copilot | 自分の業務データ |
