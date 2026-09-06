@@ -132,7 +132,7 @@ description: 30 日間で「自分の仕事」に Copilot を溶かし込む体�
     <span class="c30-subtitle">毎朝の「仕事開始ボタン」を作る</span>
     <span class="c30-meta">約 5 分</span>
   </a>
-  <a class="c30-door w1" href="../../contents/02-outlook-teams/CHAT-07_%E9%95%B7%E3%81%84%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%B9%E3%83%AC%E3%83%83%E3%83%89%E3%81%8B%E3%82%89%E7%B5%90%E8%AB%96%E3%81%A0%E3%81%91%E3%82%92%E5%BE%97%E3%82%8B.html">
+  <a class="c30-door w1" href="../../contents/02-outlook-teams/MAL-02_%E9%95%B7%E3%81%84%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%B9%E3%83%AC%E3%83%83%E3%83%89%E3%81%8B%E3%82%89%E7%B5%90%E8%AB%96%E3%81%A0%E3%81%91%E3%82%92%E5%BE%97%E3%82%8B.html">
     <span class="c30-num"><b>05</b><span>DOOR</span></span>
     <span class="c30-title">長いメールスレッドから結論だけを得る</span>
     <span class="c30-subtitle">効き目が最も分かりやすい</span>
@@ -416,4 +416,4 @@ description: 30 日間で「自分の仕事」に Copilot を溶かし込む体�
 
 ---
 
-<p class="c30-meta">運営・ファシリテーター向けの進行ルールと測定項目は <a href="./README.html">プログラム概要</a> にまとめています。</p>
+<p class="c30-meta">運営・ファシリテーター向けの進行ルールと測定項目は <a href="https://github.com/miookawa/copilot-experience-lab/blob/main/programs/copilot-in-30/README.md">プログラム概要</a> にまとめています。</p>
