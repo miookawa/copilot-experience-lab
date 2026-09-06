@@ -92,7 +92,7 @@ contents/assets/<体験ID>/
 
 軽量なアセットは体験 ID のフォルダーで管理し、複数プログラムから同じアセットを参照します。
 
-GitHub Pages と GitHub 上の Markdown の両方で自動再生するデモは、最適化した GIF を使用します。横幅 800px、8fps、128 色を目安にし、体験 ID のフォルダーへ配置してください。高画質な MP4 原本は Git 履歴へ追加せず、GitHub Releases に配置します。
+GitHub Pages と GitHub 上の Markdown の両方で自動再生するデモは、最適化した GIF を使用します。GitHub 上でも本文幅を満たすよう、横幅 1008px、8fps、128 色を目安にし、体験 ID のフォルダーへ配置してください。高画質な MP4 原本は Git 履歴へ追加せず、GitHub Releases に配置します。
 
 ```markdown
 ![実行例](../assets/<体験ID>/<体験ID>.gif)
