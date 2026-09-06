@@ -54,7 +54,7 @@
 
 ### 実行例
 
-<video src="../assets/CHAT-03/顧客クレームを論点整理し返信案まで作る｜CHAT-03.mp4" autoplay muted loop playsinline controls></video>
+<video src="https://github.com/miookawa/copilot-experience-lab/releases/download/demo-videos-v1.0.0/CHAT-03.mp4" autoplay muted loop playsinline controls></video>
 
 ### 発展（任意）
 

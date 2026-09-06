@@ -1,0 +1,2 @@
+# Publish demo videos as GitHub Release assets instead of repository blobs.
+contents/assets/**/*.mp4

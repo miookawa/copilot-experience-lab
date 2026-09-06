@@ -86,12 +86,17 @@ source: 元教材と該当箇所
 
 ```text
 contents/assets/<体験ID>/
-├─ demo.mp4
 ├─ demo.gif
 └─ sample-output.md
 ```
 
-体験 ID のフォルダーで管理し、複数プログラムから同じアセットを参照します。
+軽量なアセットは体験 ID のフォルダーで管理し、複数プログラムから同じアセットを参照します。
+
+動画は 720p の H.264 MP4 を基本とし、大容量ファイルを Git 履歴へ追加せず、GitHub Releases に配置します。Markdown では Release Asset の固定 URL を `<video>` 要素の `src` に指定してください。
+
+```html
+<video src="https://github.com/miookawa/copilot-experience-lab/releases/download/<タグ>/<体験ID>.mp4" autoplay muted loop playsinline controls></video>
+```
 
 ---
 
