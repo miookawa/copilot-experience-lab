@@ -56,15 +56,11 @@ Researcher はこの大きな調査タスクを引き受け、**引用付きの�
 12. 主要な発見を確認する
 13. 引用元やソース参照を探す
 
----
+### 実行例
 
-<!--
-## WATCH
-
-`../assets/AGT-01/` に動画 / GIF を配置してください（依頼 → 待機 → 結果、の流れが分かるもの）。
+<video src="../assets/AGT-01/Researcherに市場調査ブリーフを委任する｜AGT-01.mp4" autoplay muted loop playsinline controls></video>
 
 ---
--->
 
 ## REFLECT — 振り返り
 

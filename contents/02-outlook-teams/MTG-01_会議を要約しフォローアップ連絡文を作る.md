@@ -53,15 +53,11 @@
 
 > **プライバシーに関する注意**：要約しても安全な会議を使ってください。機微な会議内容をグループで共有しないでください。
 
----
+### 実行例
 
-<!--
-## WATCH
-
-`../assets/MTG-01/` に動画 / GIF を配置してください。
+<video src="../assets/MTG-01/会議を要約しフォローアップ連絡文を作る｜MTG-01.mp4" autoplay muted loop playsinline controls></video>
 
 ---
--->
 
 ## REFLECT — 振り返り
 
