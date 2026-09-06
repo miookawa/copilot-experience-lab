@@ -55,7 +55,7 @@
 
 ### 実行例
 
-<video src="https://github.com/miookawa/copilot-experience-lab/releases/download/demo-videos-v1.0.0/MTG-01.mp4" autoplay muted loop playsinline controls></video>
+![会議を要約しフォローアップ連絡文を作る｜MTG-01](../assets/MTG-01/MTG-01.gif)
 
 ---
 

@@ -58,7 +58,7 @@ Researcher はこの大きな調査タスクを引き受け、**引用付きの�
 
 ### 実行例
 
-<video src="https://github.com/miookawa/copilot-experience-lab/releases/download/demo-videos-v1.0.0/AGT-01.mp4" autoplay muted loop playsinline controls></video>
+![Researcherに市場調査ブリーフを委任する｜AGT-01](../assets/AGT-01/AGT-01.gif)
 
 ---
 
