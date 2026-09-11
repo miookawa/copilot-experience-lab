@@ -77,9 +77,19 @@ jobs:
           mv "${RUNNER_TEMP}/merged.json" metrics/traffic/traffic.json
 
           jq -r '
-            (["date", "metric", "count", "uniques"] | @csv),
-            (.[] |
-              [.timestamp[0:10], .metric, .count, .uniques] | @csv
+            (["date", "views", "unique_views", "clones", "unique_clones"] | @csv),
+            (sort_by(.timestamp[0:10])
+            | group_by(.timestamp[0:10])[]
+            | (map(select(.metric == "views"))[0] // { count: 0, uniques: 0 }) as $views
+            | (map(select(.metric == "clones"))[0] // { count: 0, uniques: 0 }) as $clones
+            | [
+                .[0].timestamp[0:10],
+                $views.count,
+                $views.uniques,
+                $clones.count,
+                $clones.uniques
+              ]
+            | @csv
             )
           ' metrics/traffic/traffic.json \
             > metrics/traffic/traffic.csv
