@@ -1,0 +1,96 @@
+# このファイルはハンズオンコンテンツには関係ありません。
+# リポジトリの運用管理を目的として、GitHub Traffic APIの保存期間である
+# 14日を超えて、このリポジトリのView数とClone数を継続的に記録します。
+# 保存先: 生成したJSON/CSVデータと日次コミットは、専用の`traffic-data`
+# ブランチだけに保存し、`main`には日次のデータ更新を追加しません。
+name: Archive repository traffic
+
+on:
+  schedule:
+    # Runs daily at 09:17 JST (00:17 UTC).
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-repository-traffic
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Fetch and merge traffic
+        env:
+          GH_TOKEN: ${{ secrets.TRAFFIC_TOKEN }}
+        run: |
+          gh api "repos/${GITHUB_REPOSITORY}/traffic/views" \
+            > "${RUNNER_TEMP}/views.json"
+          gh api "repos/${GITHUB_REPOSITORY}/traffic/clones" \
+            > "${RUNNER_TEMP}/clones.json"
+
+          jq -s '
+            [
+              .[0].views[] | . + { metric: "views" }
+            ] + [
+              .[1].clones[] | . + { metric: "clones" }
+            ]
+          ' \
+            "${RUNNER_TEMP}/views.json" \
+            "${RUNNER_TEMP}/clones.json" \
+            > "${RUNNER_TEMP}/new.json"
+
+      - name: Switch to traffic data branch
+        run: |
+          if git ls-remote --exit-code --heads origin traffic-data > /dev/null; then
+            git fetch origin traffic-data:refs/remotes/origin/traffic-data
+            git switch --create traffic-data --track origin/traffic-data
+          else
+            git switch --orphan traffic-data
+            git rm -rf . 2> /dev/null || true
+          fi
+
+      - name: Merge traffic history
+        run: |
+          mkdir -p metrics/traffic
+
+          if [ ! -f metrics/traffic/traffic.json ]; then
+            echo '[]' > metrics/traffic/traffic.json
+          fi
+
+          jq --slurpfile new "${RUNNER_TEMP}/new.json" '
+            reduce (. + $new[0])[] as $row (
+              {};
+              .[$row.metric + "|" + $row.timestamp] = $row
+            )
+            | [.[]]
+            | sort_by(.timestamp, .metric)
+          ' metrics/traffic/traffic.json \
+            > "${RUNNER_TEMP}/merged.json"
+
+          mv "${RUNNER_TEMP}/merged.json" metrics/traffic/traffic.json
+
+          jq -r '
+            (["date", "metric", "count", "uniques"] | @csv),
+            (.[] |
+              [.timestamp[0:10], .metric, .count, .uniques] | @csv
+            )
+          ' metrics/traffic/traffic.json \
+            > metrics/traffic/traffic.csv
+
+      - name: Commit updated traffic
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metrics/traffic
+
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update repository traffic"
+            git push --set-upstream origin traffic-data
+          fi
