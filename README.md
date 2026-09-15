@@ -109,9 +109,3 @@ copilot-experience-lab/
 このリポジトリを Clone または Fork して独自にカスタマイズする場合は、体験やプログラムの追加、既存コンテンツの改訂手順を **[CONTRIBUTING.md](CONTRIBUTING.md)** で確認してください。
 
 GitHub Pages へ公開する前に任意のブランチを確認する方法は、**[Codespaces で GitHub Pages をプレビューする](CODESPACES_PREVIEW.md)**を参照してください。
-
-## 参考リンク
-
-- Copilot in 30 キット一式（週次メール、Teams チャネル ガイド、管理者設定ガイド）： <https://aka.ms/Copilotin30Kit>（サインインが必要）
-- Copilot Success Planner（役割別の 30 日プラン）： <https://adoption.microsoft.com/copilot/success-planner>
-- M365 Copilot + Agents Guided Experience： <https://aka.ms/CopilotBusinessGuidedExperience>（アクセス権が必要な場合があります）
