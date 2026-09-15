@@ -98,7 +98,7 @@ programs:
   font-variant-numeric:tabular-nums;}
 .cel-title{display:block;margin:.55rem 0 .3rem;font-size:.9rem;line-height:1.45;font-weight:600;color:#1b1b1b;}
 .cel-subtitle{display:block;margin:0 0 .5rem;font-size:.73rem;line-height:1.45;color:#3f4757;}
-.cel-meta{font-size:.72rem;color:#61697a;}
+.cel-meta{display:block;font-size:.72rem;line-height:1.45;color:#61697a;}
 
 .cel-start{border:1px solid #e3e6ea;border-radius:12px;padding:1rem 1.2rem;background:#fafbfc;}
 .cel-start ol{margin:.4rem 0 0;padding-left:1.2rem;}
@@ -252,10 +252,26 @@ programs:
         {%- assign namekey = p.name | prepend: "," | append: "," -%}
         {%- unless drawn contains namekey -%}
         {%- assign drawn = drawn | append: p.name | append: "," -%}
+        {%- assign celinput = g.label -%}
+        {%- assign celduration = "" -%}
+        {%- if p.content -%}
+          {%- assign celinputparts = p.content | split: "| **入力** |" -%}
+          {%- if celinputparts.size > 1 -%}
+            {%- assign celinputcell = celinputparts[1] | split: "|" | first -%}
+            {%- assign celinputlabelparts = celinputcell | split: "**" -%}
+            {%- if celinputlabelparts.size > 2 -%}
+              {%- assign celinput = celinputlabelparts[1] | strip -%}
+            {%- endif -%}
+          {%- endif -%}
+          {%- assign celdurationparts = p.content | split: "| **所要** |" -%}
+          {%- if celdurationparts.size > 1 -%}
+            {%- assign celduration = celdurationparts[1] | split: "|" | first | split: "。" | first | strip | remove: "（目安）" | remove: "**" -%}
+          {%- endif -%}
+        {%- endif -%}
       <a class="cel-door {{ g.cls }}" href="{{ p.url | default: p.path | relative_url }}">
       <span class="cel-num">{{ code }}</span>
       <span class="cel-title">{{ fallback }}</span>
-      <span class="cel-meta">体験コンテンツ</span>
+      <span class="cel-meta">{{ celinput }}{% if celduration != "" %} ／ {{ celduration }}{% endif %}</span>
     </a>
         {%- endunless -%}
         {%- endif -%}
@@ -286,10 +302,26 @@ programs:
       {%- assign namekey = p.name | prepend: "," | append: "," -%}
       {%- unless drawn contains namekey -%}
       {%- assign drawn = drawn | append: p.name | append: "," -%}
+      {%- assign celinput = g.label -%}
+      {%- assign celduration = "" -%}
+      {%- if p.content -%}
+        {%- assign celinputparts = p.content | split: "| **入力** |" -%}
+        {%- if celinputparts.size > 1 -%}
+          {%- assign celinputcell = celinputparts[1] | split: "|" | first -%}
+          {%- assign celinputlabelparts = celinputcell | split: "**" -%}
+          {%- if celinputlabelparts.size > 2 -%}
+            {%- assign celinput = celinputlabelparts[1] | strip -%}
+          {%- endif -%}
+        {%- endif -%}
+        {%- assign celdurationparts = p.content | split: "| **所要** |" -%}
+        {%- if celdurationparts.size > 1 -%}
+          {%- assign celduration = celdurationparts[1] | split: "|" | first | split: "。" | first | strip | remove: "（目安）" | remove: "**" -%}
+        {%- endif -%}
+      {%- endif -%}
     <a class="cel-door {{ g.cls }}" href="{{ p.url | default: p.path | relative_url }}">
       <span class="cel-num">DOOR</span>
       <span class="cel-title">{{ stem }}</span>
-      <span class="cel-meta">体験コンテンツ</span>
+      <span class="cel-meta">{{ celinput }}{% if celduration != "" %} ／ {{ celduration }}{% endif %}</span>
     </a>
       {%- endunless -%}
       {%- endunless -%}

@@ -16,19 +16,21 @@
 | **利用** | どの Copilot を使うか |
 | **入力データ** | その体験で何を入力に使うか（下表） |
 
-**入力データ**の区分は 3 つです。実業務のデータを扱えない相手に案内するときは、**サンプル（プロンプト内）**の体験を選ぶと、ファイル準備なしで試せます。
+**入力データ**の区分は 4 つです。実業務のデータを扱えない相手に案内するときは、**サンプル（プロンプト内）**の体験を選ぶと、ファイル準備なしで試せます。各体験ページでは、「入力」欄の先頭にも同じ区分を記載しています。
 
 | 表記 | 意味 |
 | --- | --- |
 | 自分の業務データ | 参加者自身のメール・会議・チャット・ファイルを使う |
 | サンプル ファイル | 架空企業を題材にしたサンプル ファイルを使う（どのファイルを使うかは各体験の「入力」欄を参照） |
 | サンプル（プロンプト内） | 題材がプロンプトに含まれ、ファイル準備なしで試せる |
+| 公開情報 | 自社の公式Webサイトなど、公開されている情報を使う |
 
 ## 一覧
 
 | ID | 体験 | カテゴリ | 所要 | 利用 | 入力データ |
 | --- | --- | --- | --- | --- | --- |
 | SETUP-01 | [サインイン確認と安全なAI利用の土台づくり](00-setup/SETUP-01_サインイン確認と安全なAI利用の土台づくり.md) | Setup | 約 10 分 | Copilot Chat / OneDrive / SharePoint | サンプル ファイル |
+| SETUP-02 | [日本のCXO向けCopilotデモ環境の構築](00-setup/SETUP-02_日本のCXO向けCopilotデモ環境の構築.md) | Setup | 作業 約 2 時間＋文字起こしの反映待ち（数時間〜半日） | Copilot Chat / Outlook / Teams / SharePoint / OneDrive / Word / Excel / PowerPoint | サンプル ファイル |
 | CHAT-01 | [競合3社のメモを比較表と示唆に変える](01-copilot-chat/CHAT-01_競合3社のメモを比較表と示唆に変える.md) | Copilot Chat | 約 10 分 | Copilot Chat | サンプル（プロンプト内） |
 | CHAT-02 | [キャンペーンブリーフと役員向けプレゼン骨子を作る](01-copilot-chat/CHAT-02_キャンペーンブリーフと役員向けプレゼン骨子を作る.md) | Copilot Chat | 約 15 分 | Copilot Chat | サンプル（プロンプト内） |
 | CHAT-03 | [顧客クレームを論点整理し返信案まで作る](01-copilot-chat/CHAT-03_顧客クレームを論点整理し返信案まで作る.md) | Copilot Chat | 約 10 分 | Copilot Chat | サンプル（プロンプト内） |
@@ -48,7 +50,7 @@
 | CHAT-17 | [自分専用の「鉄板プロンプト」を作る](01-copilot-chat/CHAT-17_自分専用の「鉄板プロンプト」を作る.md) | Copilot Chat | 約 20 分 | Copilot Chat（Work）／ Prompt Gallery | 自分の業務データ |
 | CHAT-18 | [既存資料を要約する](01-copilot-chat/CHAT-18_既存資料を要約する.md) | Copilot Chat | 約 10 分 | Copilot Chat（Work）／ Word の Copilot | 自分の業務データ |
 | CHAT-IMG-01 | [自分のワークペルソナを1枚のスケッチにする](01-copilot-chat/CHAT-IMG-01_自分のワークペルソナを1枚のスケッチにする.md) | Copilot Chat（画像生成） | 約 10 分 | Copilot Chat | 自分の業務データ |
-| CHAT-IMG-02 | [自社のホームページから企業紹介インフォグラフィックを作る](01-copilot-chat/CHAT-IMG-02_自社のホームページから企業紹介インフォグラフィックを作る.md) | Copilot Chat（画像生成） | 約 10 分 | Copilot Chat | 自社の公開情報 |
+| CHAT-IMG-02 | [自社のホームページから企業紹介インフォグラフィックを作る](01-copilot-chat/CHAT-IMG-02_自社のホームページから企業紹介インフォグラフィックを作る.md) | Copilot Chat（画像生成） | 約 10 分 | Copilot Chat | 公開情報 |
 | CATCH-01 | [メールとチャットから未対応のフォローアップを洗い出す](02-outlook-teams/CATCH-01_メールとチャットから未対応のフォローアップを洗い出す.md) | Outlook / Teams | 約 15 分 | Outlook / Teams / Copilot Chat（Work） | 自分の業務データ |
 | MAL-01 | [メール返信を3パターン作る](02-outlook-teams/MAL-01_メール返信を3パターン作る.md) | Outlook / Teams | 約 5 分 | Outlook の Copilot ／ Copilot Chat（Work） | 自分の業務データ |
 | MAL-02 | [長いメールスレッドから結論だけを得る](02-outlook-teams/MAL-02_長いメールスレッドから結論だけを得る.md) | Outlook / Teams | 約 10 分 | Outlook の Copilot ／ Copilot Chat（Work） | 自分の業務データ |
