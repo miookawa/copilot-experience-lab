@@ -15,7 +15,12 @@ optional_front_matter:
 
 defaults:
   - scope:
-      path: "contents/*/*.md"
+      path: "contents"
       type: "pages"
     values:
       strip_title: true
+  - scope:
+      path: "contents/README.md"
+      type: "pages"
+    values:
+      strip_title: false
