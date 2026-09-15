@@ -142,9 +142,9 @@ html[data-theme="dark"] {
     <ul class="smb-nav">
       <li><a href="#stage0">0 信頼の土台</a></li>
       <li><a href="#stage1">1 早く着手する</a></li>
-      <li><a href="#stage2">2 業務につなげる</a></li>
-      <li><a href="#stage3">3 大きな仕事を任せる</a></li>
-      <li><a href="#stage4">4 繰り返しを再利用する</a></li>
+      <li><a href="#stage2">2 業務コンテキストを活用する</a></li>
+      <li><a href="#stage3">3 大きな仕事を委任する</a></li>
+      <li><a href="#stage4">4 繰り返し業務を仕組み化する</a></li>
     </ul>
   </nav>
 
@@ -174,7 +174,7 @@ html[data-theme="dark"] {
   </section>
 
   <section class="smb-stage" id="stage2">
-    <h2>2 ｜ 自分の仕事につなげる</h2>
+    <h2>2 ｜ 業務コンテキストを活用する</h2>
     <p>社内ファイル、メール、会議、データを使い、業務コンテキストに根ざした回答を体験します。</p>
     <div class="smb-rule">このステージ：5 つの体験から 2 つ選択</div>
     <div class="smb-grid">
@@ -187,7 +187,7 @@ html[data-theme="dark"] {
   </section>
 
   <section class="smb-stage" id="stage3">
-    <h2>3 ｜ 大きな仕事を任せる</h2>
+    <h2>3 ｜ 大きな仕事を委任する</h2>
     <p>時間のかかる調査や分析をエージェントへ委任します。</p>
     <div class="smb-rule">このステージ：2 つの体験から 1 つ以上選択（体験またはデモ視聴）</div>
     <div class="smb-grid">
@@ -197,7 +197,7 @@ html[data-theme="dark"] {
   </section>
 
   <section class="smb-stage" id="stage4">
-    <h2>4 ｜ 繰り返しを再利用する</h2>
+    <h2>4 ｜ 繰り返し業務を仕組み化する</h2>
     <p>定型業務を再利用可能なアシスタントにします。</p>
     <div class="smb-rule">このステージ：AGB-04 は必須。時間があれば AGB-05（発展）にも挑戦</div>
     <div class="smb-grid">
