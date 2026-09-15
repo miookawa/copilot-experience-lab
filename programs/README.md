@@ -20,7 +20,7 @@
 | --- | --- |
 | 短時間で価値を体感してもらいたい。その場で完結させたい | [SMB Guided Experience](smb-guided-experience/README.md) |
 | 期間をかけて、業務への定着まで伴走したい | [Copilot in 30](copilot-in-30/README.md) |
-| 参加者が実業務のデータを使いにくい | [SMB Guided Experience](smb-guided-experience/README.md)（レイクショアのサンプルデータで通しで実施できます） |
+| 参加者が実業務のデータを使いにくい | [SMB Guided Experience](smb-guided-experience/README.md)（架空の企業レイクショアのサンプルデータで通しで実施できます） |
 | 上記に当てはまらない。相手に合わせて独自に組みたい | [自分で組み立てる](templates/README.md) |
 
 ## プログラムの共通構造
@@ -33,7 +33,7 @@
 | `index.md` | エンドユーザー | GitHub Pages 用のページ。実施する体験が順番に並んでいる |
 
 エンドユーザー向けページを持たないプログラムもあります。その場合は、進行役が README の体験リンクを直接案内します。
-両方を持つ場合は、**体験の並びと ★ を `README.md` と `index.md` で一致させてください。**
+両方を持つ場合は、**体験の並びと必須・選択・発展の区分を `README.md` と `index.md` で一致させてください。**
 
 補足資料（週次メールの雛形など）が必要な場合は、各プログラムのフォルダー配下に置いてください。
 

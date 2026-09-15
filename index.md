@@ -5,9 +5,6 @@ description: 自分の仕事で試す、Microsoft Copilot 体験ラボ
 
 # 体験カードは、この groups の順に contents/<dir>/ 配下の実ファイルから
 # 自動生成されます。コンテンツを追加・リネームしても index.md の修正は不要です。
-#
-# ★ は下の key: 一覧で管理します。追加すると ★ が付き、削除すると ★ が外れます。
-# ファイル名ではなく、体験 ID（例: SETUP-01）を指定してください。
 groups:
   - dir: "00-setup"
     cls: "g0"
@@ -45,17 +42,6 @@ groups:
     cls: "g8"
     label: "Personas"
     lead: "役割別の使いどころ"
-
-# ★ を付ける推奨体験（プログラム上の必須・選択とは別に管理）
-key:
-  - "SETUP-01"
-  - "CHAT-IMG-01"
-  - "CHAT-06"
-  - "CATCH-01"
-  - "MTG-01"
-  - "XLS-01"
-  - "WRD-01"
-  - "AGB-04"
 
 # プログラム（連続体験）のカード。リンク先は programs/<dir>/ の
 # index.md（あれば）または README.md を自動で選びます。
@@ -113,7 +99,6 @@ programs:
 .cel-title{display:block;margin:.55rem 0 .3rem;font-size:.9rem;line-height:1.45;font-weight:600;color:#1b1b1b;}
 .cel-subtitle{display:block;margin:0 0 .5rem;font-size:.73rem;line-height:1.45;color:#3f4757;}
 .cel-meta{font-size:.72rem;color:#61697a;}
-.cel-door.is-key:after{content:"\2605";position:absolute;top:.6rem;right:.7rem;font-size:.8rem;color:var(--c);}
 
 .cel-start{border:1px solid #e3e6ea;border-radius:12px;padding:1rem 1.2rem;background:#fafbfc;}
 .cel-start ol{margin:.4rem 0 0;padding-left:1.2rem;}
@@ -166,7 +151,6 @@ programs:
 ## 体験一覧
 
 順番どおりでなくて構いません。**試したい体験から始めてください**。
-★ は、迷ったときに最初に選ぶ推奨体験の目印です。プログラム上の必須・選択とは別に管理しています。
 
 {% comment %}
   Jekyll のページと素の .md を 1 つの配列にまとめる。
@@ -177,7 +161,6 @@ programs:
   先に来るページ側（正しい .html リンクを持つ方）だけを採用しています。
 {% endcomment %}
 {% assign celall = site.pages | concat: site.static_files %}
-{% assign celkeys = page.key | join: "," | prepend: "," | append: "," %}
 
 {% comment %} ---------- 凡例（件数付き） ---------- {% endcomment %}
 {% assign celtotal = 0 %}
@@ -266,13 +249,10 @@ programs:
         {%- assign chk = num | plus: 0 | prepend: "0" | slice: -2, 2 -%}
         {%- if cp.size > 1 and chk == num and num == pad -%}
         {%- assign fallback = stem | remove_first: code | remove_first: "_" -%}
-        {%- assign iskey = false -%}
-        {%- assign kcode = code | prepend: "," | append: "," -%}
-        {%- if celkeys contains kcode -%}{%- assign iskey = true -%}{%- endif -%}
         {%- assign namekey = p.name | prepend: "," | append: "," -%}
         {%- unless drawn contains namekey -%}
         {%- assign drawn = drawn | append: p.name | append: "," -%}
-    <a class="cel-door {{ g.cls }}{% if iskey %} is-key{% endif %}" href="{{ p.url | default: p.path | relative_url }}">
+      <a class="cel-door {{ g.cls }}" href="{{ p.url | default: p.path | relative_url }}">
       <span class="cel-num">{{ code }}</span>
       <span class="cel-title">{{ fallback }}</span>
       <span class="cel-meta">体験コンテンツ</span>
@@ -303,13 +283,10 @@ programs:
       {%- assign numbered = false -%}
       {%- if cp.size > 1 and chk == num -%}{%- assign numbered = true -%}{%- endif -%}
       {%- unless numbered -%}
-      {%- assign iskey = false -%}
-      {%- assign kcode = code | prepend: "," | append: "," -%}
-      {%- if celkeys contains kcode -%}{%- assign iskey = true -%}{%- endif -%}
       {%- assign namekey = p.name | prepend: "," | append: "," -%}
       {%- unless drawn contains namekey -%}
       {%- assign drawn = drawn | append: p.name | append: "," -%}
-    <a class="cel-door {{ g.cls }}{% if iskey %} is-key{% endif %}" href="{{ p.url | default: p.path | relative_url }}">
+    <a class="cel-door {{ g.cls }}" href="{{ p.url | default: p.path | relative_url }}">
       <span class="cel-num">DOOR</span>
       <span class="cel-title">{{ stem }}</span>
       <span class="cel-meta">体験コンテンツ</span>
