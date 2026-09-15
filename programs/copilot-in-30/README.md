@@ -1,11 +1,11 @@
 # Copilot in 30 ／ 30 日間 AI 活用プログラム
 
 - **対象**：Microsoft 365 Copilot Business トライアル（25 ユーザー／30 日）を伴走支援するパートナー
-- **期間**：Day 0 〜 Day 21
+- **期間**：30 日 (Day 0 〜 Day 21)
 - **ゴール**：参加者が**繰り返し業務を 1 つ Copilot に置き換え**、その成果を導入判断の材料として残せるよう支援する
 
 > この README は、パートナーが参加者へ体験を案内し、利用状況を確認しながら定着を支援するための**進行ガイド**です。
-> 参加者に見せるページは同じフォルダーの [index.md](./index.md)（公開時は [Pages | Copilot in 30](https://aka.ms/copilot-in-30-hands-on)）で、扉の並びと ★ はこの README と同じです。
+> エンドユーザー向けページは同じフォルダーの [index.md](./index.md)（公開時は [Pages | Copilot in 30](https://aka.ms/copilot-in-30-hands-on)）で、扉の並びと ★ はこの README と同じです。
 
 ---
 
@@ -31,7 +31,7 @@ Week 1〜3 で選択肢を広げ、Day 15 で定番にする作業を 1 つ決�
 |---|---|
 | ★ | **できれば全員に開けてほしい扉**。迷ったらここから案内する |
 | 扉（`CHAT-01` など） | 体験 ID。`contents/` 配下のファイル名と一致 |
-| 位置づけ | 参加者ページの副題。役割や、その扉を選ぶ理由 |
+| 位置づけ | エンドユーザー向けページの副題。役割や、その扉を選ぶ理由 |
 
 > **Week はあくまで目安です。** 扉の番号は見分けるための番号で、順番ではありません。
 > 参加者には「今日いちばん困っていることに近い扉から開けてよい」と伝えてください。
@@ -247,7 +247,7 @@ Teams を利用できない場合や参加者がメールでの連絡に慣れ�
 
 実行証跡として Copilot の出力結果やスクリーンショット等を返信してもらい、振り返りの際に価値を思い返せるようにすることがおすすめです。
 
-参加者には、扉の一覧である [index.md](./index.md)（公開時は `index.html`）のリンクを渡すと、毎週の案内が「今週はこのあたり」で済みます。
+参加者には、扉の一覧である [index.md](./index.md)（公開時は [Pages | Copilot in 30](https://aka.ms/copilot-in-30-hands-on)）のリンクを渡すと、毎週の案内が「今週はこのあたり」で済みます。
 
 ### 参加者との接点
 
@@ -300,7 +300,7 @@ Teams を利用できない場合や参加者がメールでの連絡に慣れ�
 
 ## 扉の一覧（全 37 件）
 
-参加者ページ [index.md](./index.md) と同じ並びです。
+エンドユーザー向けページ [index.md](./index.md) と同じ並びです。
 
 | # | 扉 | 体験 | 区分 | 所要 |
 |---|---|---|---|---|
@@ -346,11 +346,11 @@ Teams を利用できない場合や参加者がメールでの連絡に慣れ�
 
 ---
 
-## 関連資料
+## 参考資料
 
 - ラボ全体のコンテンツ一覧：[リポジトリの README](../../README.md)
-- 参加者向けの扉ページ：[index.md](./index.md)
-- レイクショア サンプルデータ（日本語版）：[contents/assets/lakeshore-sample-data-ja](../../contents/assets/lakeshore-sample-data-ja/README.md)
-- Copilot in 30 キット一式（週次メール、Teams チャネル ガイド、管理者設定ガイド）：https://aka.ms/Copilotin30Kit
+- エンドユーザー向けの扉ページ：[index.md](./index.md)
+- レイクショア（架空の企業） サンプルデータ（日本語版）：[サンプルデータ一式をダウンロード](https://github.com/miookawa/copilot-experience-lab/releases/download/lakeshore-sample-data-ja-v1.0.0/lakeshore-sample-data-ja.zip)
+- Copilot in 30 キット一式（週次メール、Teams チャネル ガイド、管理者設定ガイド）：https://aka.ms/Copilotin30Kit（サインインが必要）
 - Copilot Success Planner（役割別の 30 日プラン）：https://adoption.microsoft.com/copilot/success-planner
-- M365 Copilot + Agents Guided Experience：https://aka.ms/CopilotBusinessGuidedExperience
+- M365 Copilot + Agents Guided Experience：https://aka.ms/CopilotBusinessGuidedExperience（アクセス権が必要な場合があります）

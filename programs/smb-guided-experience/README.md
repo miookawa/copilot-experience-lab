@@ -1,6 +1,7 @@
 # M365 Copilot + Agents SMB Guided Experience（日本語版）
 
 > このファイルは**ポインタ + 順番 + ルール**だけを持ちます。体験の中身は `contents/` にあります。
+> エンドユーザー向けページは同じフォルダーの [index.md](./index.md)（公開時は [GitHub Pages](https://miookawa.github.io/copilot-experience-lab/programs/smb-guided-experience/)）です。
 
 - **対象**：SMB のお客様、および本ワークショップを実施するパートナー
 - **所要**：約 90 分（元教材の推奨時間。人数・アクセス状況で調整可）
@@ -138,3 +139,12 @@ AI が支援する 4 つのステージ：
 | 会議のリキャップがない | トランスクリプト・リキャップ・録画・会議チャット・Copilot が利用できる会議を選ぶ |
 | Excel の Copilot が分析できない | ブックが OneDrive / SharePoint に保存され、データがテーブル形式になっていることを確認する |
 | PowerPoint に Copilot が出ない | PowerPoint 向けの Microsoft 365 Copilot アクセスがない、または組織で有効化されていない可能性がある |
+
+---
+
+## 参考資料
+
+- ラボ全体のコンテンツ一覧：[リポジトリの README](../../README.md)
+- エンドユーザー向けページ：[index.md](./index.md)
+- レイクショア（架空の企業）サンプルデータ：[サンプルデータ一式をダウンロード](https://github.com/miookawa/copilot-experience-lab/releases/download/lakeshore-sample-data-ja-v1.0.0/lakeshore-sample-data-ja.zip)
+- M365 Copilot + Agents Guided Experience：https://aka.ms/CopilotBusinessGuidedExperience（アクセス権が必要な場合があります）
