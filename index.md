@@ -59,7 +59,7 @@ programs:
 ---
 
 <!-- GitHub Pages (Jekyll 3.x) 用トップページ。
-  体験のリンクは site.pages / site.static_files から自動生成しているため、
+  体験のリンクは site.pages から自動生成しているため、
      ファイル名をここに書き写す必要はありません。
      Jekyll 4 専用の記法（where_exp の and/or、push フィルター）は使っていません。 -->
 
@@ -153,14 +153,10 @@ programs:
 順番どおりでなくて構いません。**試したい体験から始めてください**。
 
 {% comment %}
-  Jekyll のページと素の .md を 1 つの配列にまとめる。
-  GitHub Pages の jekyll-optional-front-matter は、front matter を持たない .md を
-  ページへ変換したうえで、既定では元の .md を静的ファイルとしても出力します。
-  そのため同じファイルが site.pages と site.static_files の両方に現れ、
-  そのまま並べると体験カードが二重に描画されます。以下ではファイル名で重複を除外し、
-  先に来るページ側（正しい .html リンクを持つ方）だけを採用しています。
+  jekyll-optional-front-matter で変換されたページだけを対象にする。
+  _config.yml では元の .md を出力しないため、カードは必ず .html を指します。
 {% endcomment %}
-{% assign celall = site.pages | concat: site.static_files %}
+{% assign celall = site.pages %}
 
 {% comment %} ---------- 凡例（件数付き） ---------- {% endcomment %}
 {% assign celtotal = 0 %}
