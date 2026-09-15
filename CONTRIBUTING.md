@@ -240,4 +240,4 @@ GitHub Pages と GitHub 上の Markdown の両方で自動再生するデモは�
 - [ ] プライバシー上の注意（自分の業務データを使う演習）が明記されている
 - [ ] プログラムに追加した場合、`README.md` と `index.md` で体験の並びと ★ が一致している
 - [ ] 特定のサンプルデータ名を、それを使う体験・プログラム以外の場所に書いていない
-- [ ] GitHub Pages の表示が崩れていない
+- [ ] [Codespaces で GitHub Pages をプレビューする](CODESPACES_PREVIEW.md)手順などを使い、GitHub Pages の表示が崩れていないことを確認した
