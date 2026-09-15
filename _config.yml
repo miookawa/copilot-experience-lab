@@ -8,6 +8,14 @@ plugins:
   - jekyll-default-layout
   - jekyll-relative-links
   - jekyll-github-metadata
+  - jekyll-titles-from-headings
 
 optional_front_matter:
   remove_originals: true
+
+defaults:
+  - scope:
+      path: "contents/*/*.md"
+      type: "pages"
+    values:
+      strip_title: true
