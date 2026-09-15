@@ -89,7 +89,8 @@ html[data-theme="dark"] {
 .smb-stage{margin:0 0 2rem;scroll-margin-top:1rem;}
 .smb-stage h2{margin:0 0 .25rem;padding:0 0 .45rem;border-bottom:2px solid var(--cp-accent);font-size:1.2rem;color:var(--cp-text);letter-spacing:0;}
 .smb-stage>p{margin:.45rem 0 .9rem;color:var(--cp-text-muted);line-height:1.65;}
-.smb-rule{margin:.7rem 0 .9rem;padding:.65rem .8rem;border-left:4px solid var(--cp-accent);background:var(--cp-accent-soft);color:var(--cp-text);font-weight:600;line-height:1.5;}
+.smb-rule{margin:.55rem 0 .9rem;padding:.45rem .65rem;border:1px solid var(--cp-border);border-radius:.375rem;background:var(--cp-surface-soft);color:var(--cp-text-muted);font-size:.82rem;font-weight:400;line-height:1.5;}
+.smb-rule strong{color:var(--cp-text);font-weight:600;}
 .smb-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:.8rem;}
 .smb-card{display:flex;min-height:142px;flex-direction:column;padding:1rem;border:1px solid var(--cp-border);border-radius:16px;background:var(--cp-surface);color:var(--cp-text);text-decoration:none;box-shadow:0 0 2px var(--cp-border),0 1px 2px var(--cp-border);transition:transform .15s ease,border-color .15s ease;}
 .smb-card:hover{transform:translateY(-2px);border-color:var(--cp-accent);text-decoration:none;}
@@ -151,7 +152,7 @@ html[data-theme="dark"] {
   <section class="smb-stage" id="stage0">
     <h2>0 ｜ 信頼とストーリーの土台</h2>
     <p>正しい職場アカウントでサインインし、安全に体験を進める準備を整えます。</p>
-    <div class="smb-rule">このステージ：必須の体験を 1 つ完了</div>
+    <div class="smb-rule"><strong>完了条件：</strong>SETUP-01 を完了する</div>
     <div class="smb-grid">
       <a class="smb-card" href="../../contents/00-setup/SETUP-01_サインイン確認と安全なAI利用の土台づくり.html">
         <span class="smb-cardhead"><span class="smb-id">SETUP-01</span><span class="smb-status">必須</span></span>
@@ -164,7 +165,7 @@ html[data-theme="dark"] {
   <section class="smb-stage" id="stage1">
     <h2>1 ｜ 早く着手する</h2>
     <p>調査、執筆、要約、発想を Copilot Chat で始め、最初の成功体験を作ります。</p>
-    <div class="smb-rule">このステージ：4 つの体験から 3 つ選択</div>
+    <div class="smb-rule"><strong>完了条件：</strong>4 つの体験から 3 つを選んで完了する</div>
     <div class="smb-grid">
       <a class="smb-card" href="../../contents/01-copilot-chat/CHAT-01_競合3社のメモを比較表と示唆に変える.html"><span class="smb-cardhead"><span class="smb-id">CHAT-01</span><span class="smb-status">選択</span></span><strong>競合3社のメモを比較表と示唆に変える</strong><small>商品企画 ／ 比較と示唆</small></a>
       <a class="smb-card" href="../../contents/01-copilot-chat/CHAT-02_キャンペーンブリーフと役員向けプレゼン骨子を作る.html"><span class="smb-cardhead"><span class="smb-id">CHAT-02</span><span class="smb-status">選択</span></span><strong>キャンペーンブリーフと役員向けプレゼン骨子を作る</strong><small>マーケティング ／ 初稿作成</small></a>
@@ -176,7 +177,7 @@ html[data-theme="dark"] {
   <section class="smb-stage" id="stage2">
     <h2>2 ｜ 業務コンテキストを活用する</h2>
     <p>社内ファイル、メール、会議、データを使い、業務コンテキストに根ざした回答を体験します。</p>
-    <div class="smb-rule">このステージ：5 つの体験から 2 つ選択</div>
+    <div class="smb-rule"><strong>完了条件：</strong>5 つの体験から 2 つを選んで完了する</div>
     <div class="smb-grid">
       <a class="smb-card" href="../../contents/02-outlook-teams/CATCH-01_メールとチャットから未対応のフォローアップを洗い出す.html"><span class="smb-cardhead"><span class="smb-id">CATCH-01</span><span class="smb-status">選択</span></span><strong>メールとチャットから未対応のフォローアップを洗い出す</strong><small>Outlook / Teams ／ 自分の業務データ</small></a>
       <a class="smb-card" href="../../contents/01-copilot-chat/CHAT-06_自社ファイルを根拠に競合分析を自社視点へ引き上げる.html"><span class="smb-cardhead"><span class="smb-id">CHAT-06</span><span class="smb-status">選択</span></span><strong>自社ファイルを根拠に競合分析を自社視点へ引き上げる</strong><small>Copilot Chat ／ 社内ファイル</small></a>
@@ -189,7 +190,7 @@ html[data-theme="dark"] {
   <section class="smb-stage" id="stage3">
     <h2>3 ｜ 大きな仕事を委任する</h2>
     <p>時間のかかる調査や分析をエージェントへ委任します。</p>
-    <div class="smb-rule">このステージ：2 つの体験から 1 つ以上選択（体験またはデモ視聴）</div>
+    <div class="smb-rule"><strong>完了条件：</strong>2 つの体験から 1 つ以上を選び、自分で操作するかデモを視聴する</div>
     <div class="smb-grid">
       <a class="smb-card" href="../../contents/06-researcher-analyst/AGT-01_Researcherに市場調査ブリーフを委任する.html"><span class="smb-cardhead"><span class="smb-id">AGT-01</span><span class="smb-status">選択</span></span><strong>Researcherに市場調査ブリーフを委任する</strong><small>Researcher ／ 市場調査</small></a>
       <a class="smb-card" href="../../contents/06-researcher-analyst/AGT-02_Analystにリスクの高いSKU特定を委任する.html"><span class="smb-cardhead"><span class="smb-id">AGT-02</span><span class="smb-status">選択</span></span><strong>Analystにリスクの高いSKU特定を委任する</strong><small>Analyst ／ リスク分析</small></a>
@@ -199,7 +200,7 @@ html[data-theme="dark"] {
   <section class="smb-stage" id="stage4">
     <h2>4 ｜ 繰り返し業務を仕組み化する</h2>
     <p>定型業務を再利用可能なアシスタントにします。</p>
-    <div class="smb-rule">このステージ：AGB-04 は必須。時間があれば AGB-05（発展）にも挑戦</div>
+    <div class="smb-rule"><strong>完了条件：</strong>AGB-04 を完了する。時間に余裕があれば AGB-05 にも取り組む</div>
     <div class="smb-grid">
       <a class="smb-card" href="../../contents/07-agent-builder/AGB-04_顧客フォローアップ用エージェントを作る.html"><span class="smb-cardhead"><span class="smb-id">AGB-04</span><span class="smb-status">必須</span></span><strong>顧客フォローアップ用エージェントを作る</strong><small>Agent Builder ／ 定型業務の再利用</small></a>
       <a class="smb-card" href="../../contents/07-agent-builder/AGB-05_提案書作成エージェントを作る.html"><span class="smb-cardhead"><span class="smb-id">AGB-05</span><span class="smb-status">発展</span></span><strong>提案書作成エージェントを作る</strong><small>Agent Builder ／ 時間があれば</small></a>
