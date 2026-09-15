@@ -342,4 +342,4 @@ programs:
 
 ---
 
-<p class="cel-meta">コンテンツとプログラムの全一覧、追加のルールは <a href="{{ '/README.html' | relative_url }}">リポジトリの README</a> にまとめています。</p>
+<p class="cel-meta">ラボの構成、運営者向けガイド、コンテンツの追加方法は、<a href="{{ '/README.html' | relative_url }}">リポジトリの README</a> を参照してください。</p>
