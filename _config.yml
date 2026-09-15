@@ -13,14 +13,5 @@ plugins:
 optional_front_matter:
   remove_originals: true
 
-defaults:
-  - scope:
-      path: "contents"
-      type: "pages"
-    values:
-      strip_title: true
-  - scope:
-      path: "contents/README.md"
-      type: "pages"
-    values:
-      strip_title: false
+titles_from_headings:
+  strip_title: true
