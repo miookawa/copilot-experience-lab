@@ -80,6 +80,7 @@ copilot-experience-lab/
 ├─ index.md                     … GitHub Pages のトップ（体験カードは自動生成）
 ├─ README.md                    … このファイル（ラボ全体の入口）
 ├─ CONTRIBUTING.md              … 追加・改訂のルール
+├─ CODESPACES_PREVIEW.md        … Codespaces で Pages をプレビューする手順
 ├─ _config.yml                  … GitHub Pages の設定
 ├─ _includes/                   … Pages のテンプレート部品
 ├─ .github/workflows/           … GitHub Actions（アクセス統計の自動収集など）
