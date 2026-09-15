@@ -27,6 +27,7 @@ Microsoft Copilot を試すための日本語の体験コンテンツ集です�
 | やりたいこと | 開く場所 |
 | --- | --- |
 | 環境の準備をしたい | [SETUP-01 サインイン確認と安全なAI利用の土台づくり](contents/00-setup/SETUP-01_サインイン確認と安全なAI利用の土台づくり.md) |
+| とりあえずまずは1つ試してみたい | [自分のワークペルソナを1枚のスケッチにする](contents/01-copilot-chat/CHAT-IMG-01_自分のワークペルソナを1枚のスケッチにする.md) |
 | 体験を探したい・選びたい | [体験の一覧](contents/README.md) |
 | プログラムを実施したい | [プログラムの一覧](programs/README.md) |
 | 自分でプログラムを組みたい | [プログラム雛形](programs/templates/README.md) |
