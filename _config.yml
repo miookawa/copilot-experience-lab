@@ -1,11 +1,13 @@
 theme: jekyll-theme-cayman
 title: Copilot Experience Lab
 description: Microsoft Copilot Experience Labs
+repository: miookawa/copilot-experience-lab
 
 plugins:
   - jekyll-optional-front-matter
   - jekyll-default-layout
   - jekyll-relative-links
+  - jekyll-github-metadata
 
 optional_front_matter:
   remove_originals: true
