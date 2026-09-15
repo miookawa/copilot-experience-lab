@@ -57,9 +57,9 @@ description: Copilot Chat から Agent Builder までを約 90 分で体験す�
 .smb-status{padding:.15rem .45rem;border:1px solid var(--c);border-radius:999px;background:#fff;font-size:.68rem;color:var(--c);}
 .smb-card strong{display:block;margin:.6rem 0 .35rem;font-size:.92rem;line-height:1.5;color:var(--cp-text);}
 .smb-card small{margin-top:auto;color:var(--cp-text-muted);line-height:1.45;}
-.smb-close{padding:1rem 1.2rem;border:1px solid var(--cp-border);border-left:5px solid var(--cp-success);border-radius:16px;background:var(--cp-surface);}
-.smb-close h2{margin:0 0 .5rem;font-size:1.1rem;color:var(--cp-text);border:0;letter-spacing:0;}
-.smb-close ul{margin:.4rem 0 0;padding-left:1.2rem;}
+.smb-close{margin:2.4rem 0 0;}
+.smb-close h2{margin:0 0 .8rem;padding:0 0 .45rem;border:0;border-bottom:2px solid #0f766e;font-size:1.2rem;color:#0f766e;letter-spacing:0;}
+.smb-close ol{margin:0;padding:1rem 1.2rem 1rem 2.5rem;border:1px solid #e3e6ea;border-radius:12px;background:#fafbfc;}
 .smb-close li{margin:.3rem 0;line-height:1.6;}
 @media(max-width:680px){.smb-story{grid-template-columns:1fr}.smb-hero{padding:1.4rem 1.1rem}.smb-hero h1{font-size:1.55rem}.smb-grid{grid-template-columns:1fr}}
 </style>
@@ -167,9 +167,9 @@ description: Copilot Chat から Agent Builder までを約 90 分で体験す�
 
   <section class="smb-close">
     <h2>振り返りと次の一歩</h2>
-    <ul>
+    <ol>
       <li>一番使えそうだった体験を 1 つ選び、自分の業務ならどう使うかを言葉にする</li>
       <li>自社で最初に作るエージェントの候補を 1 つ決める</li>
-    </ul>
+    </ol>
   </section>
 </div>
