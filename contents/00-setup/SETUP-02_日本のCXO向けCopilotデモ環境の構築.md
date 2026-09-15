@@ -8,7 +8,7 @@
 | **目的** | 日本の経営層に向けたライブ デモ環境を、デモ用 M365 テナント上に構築する |
 | **所要** | 作業 約 2 時間＋文字起こしの反映待ち（数時間〜半日）。**デモ前日までに完了させてください** |
 | **利用** | Copilot Chat / Outlook / Teams / SharePoint / OneDrive / Word / Excel / PowerPoint |
-| **入力** | デモ用 M365 テナント、デモ用アカウント 4 名分、[CXO_Demo_Outline.docx](https://github.com/miookawa/copilot-experience-lab/releases/download/setup-02-v1.0.0/CXO_Demo_Outline.docx) |
+| **入力** | **サンプル ファイル**：[CXO_Demo_Outline.docx](https://github.com/miookawa/copilot-experience-lab/releases/download/setup-02-v1.0.0/CXO_Demo_Outline.docx) |
 | **成果** | 顧客に合わせたデモ台本とデモ素材、テナントへのメール・会議・ファイル・文字起こしの配置 |
 
 ---

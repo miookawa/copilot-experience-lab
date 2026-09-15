@@ -3,19 +3,8 @@ layout: default
 title: Copilot Experience Lab
 description: 自分の仕事で試す、Microsoft Copilot 体験ラボ
 
-# 扉（カード）は、この groups の順に contents/<dir>/ 配下の実ファイルから
+# 体験カードは、この groups の順に contents/<dir>/ 配下の実ファイルから
 # 自動生成されます。コンテンツを追加・リネームしても index.md の修正は不要です。
-#
-# 各コンテンツ .md の front matter で見え方を調整できます（すべて任意）:
-#   id:       カード左上の体験 ID（未指定ならファイル名の先頭。例: CHAT-01）
-#   title:    カードの見出し（未指定ならファイル名から生成）
-#   subtitle: 見出し下の一文
-#   minutes:  所要分数（例: 10 -> 「約 10 分」）
-#   duration: 自由記述の所要（minutes より優先）
-#   key:      true にすると ★ が付きます
-#
-# 現在の contents/ 配下は front matter を持たないため、★ は下の key: 一覧で指定します。
-# 体験 ID（例: SETUP-01）か、ファイル名から拡張子を除いた文字列を書いてください。
 groups:
   - dir: "00-setup"
     cls: "g0"
@@ -37,34 +26,22 @@ groups:
     cls: "g4"
     label: "Word"
     lead: "文書をゼロから書かない"
-  - dir: "05-researcher-analyst"
+  - dir: "05-powerpoint"
     cls: "g5"
-    label: "Researcher / Analyst"
-    lead: "調べる・分析するを任せる"
-  - dir: "06-agent-builder"
-    cls: "g6"
-    label: "Agent Builder"
-    lead: "自分専用のエージェントを作る"
-  - dir: "07-powerpoint"
-    cls: "g7"
     label: "PowerPoint"
     lead: "伝わる資料に仕上げる"
+  - dir: "06-researcher-analyst"
+    cls: "g6"
+    label: "Researcher / Analyst"
+    lead: "調べる・分析するを任せる"
+  - dir: "07-agent-builder"
+    cls: "g7"
+    label: "Agent Builder"
+    lead: "自分専用のエージェントを作る"
   - dir: "08-personas"
     cls: "g8"
     label: "Personas"
     lead: "役割別の使いどころ"
-
-# ★ を付ける扉（プログラムで「必須」として使っている体験）
-key:
-  - "SETUP-01"
-  - "CHAT-IMG-01"
-  - "CHAT-05_自社ファイルを根拠に競合分析を自社視点へ引き上げる"
-  - "CHAT-06"
-  - "CATCH-01"
-  - "MTG-01"
-  - "XLS-01"
-  - "WRD-01"
-  - "AGB-04"
 
 # プログラム（連続体験）のカード。リンク先は programs/<dir>/ の
 # index.md（あれば）または README.md を自動で選びます。
@@ -82,7 +59,7 @@ programs:
 ---
 
 <!-- GitHub Pages (Jekyll 3.x) 用トップページ。
-     扉のリンクは site.pages / site.static_files から自動生成しているため、
+  体験のリンクは site.pages から自動生成しているため、
      ファイル名をここに書き写す必要はありません。
      Jekyll 4 専用の記法（where_exp の and/or、push フィルター）は使っていません。 -->
 
@@ -121,8 +98,7 @@ programs:
   font-variant-numeric:tabular-nums;}
 .cel-title{display:block;margin:.55rem 0 .3rem;font-size:.9rem;line-height:1.45;font-weight:600;color:#1b1b1b;}
 .cel-subtitle{display:block;margin:0 0 .5rem;font-size:.73rem;line-height:1.45;color:#3f4757;}
-.cel-meta{font-size:.72rem;color:#61697a;}
-.cel-door.is-key:after{content:"\2605";position:absolute;top:.6rem;right:.7rem;font-size:.8rem;color:var(--c);}
+.cel-meta{display:block;font-size:.72rem;line-height:1.45;color:#61697a;}
 
 .cel-start{border:1px solid #e3e6ea;border-radius:12px;padding:1rem 1.2rem;background:#fafbfc;}
 .cel-start ol{margin:.4rem 0 0;padding-left:1.2rem;}
@@ -136,7 +112,7 @@ programs:
 
 <div class="cel-hero">
   <h1>Copilot Experience Lab</h1>
-  <p>1 つずつ、扉を開けるように試す体験ラボ。<br>
+  <p>1 つずつ、自分の仕事で試す体験ラボ。<br>
   使うのはサンプルデータだけではなく、<strong>あなた自身のメール・会議・チャット・ファイル</strong>も使います。</p>
   <p class="cel-tag">所要 5〜30 分 / 1 コンテンツ &nbsp;·&nbsp; Microsoft 365 Copilot</p>
 </div>
@@ -172,21 +148,15 @@ programs:
 
 ---
 
-## コンテンツ（扉）一覧
+## 体験一覧
 
-順番どおりでなくて構いません。**開けたい扉から開けてください**。
-★ の付いた扉は、期間中に何度も繰り返す価値のある体験です。
+順番どおりでなくて構いません。**試したい体験から始めてください**。
 
 {% comment %}
-  front matter 付きページと素の .md を 1 つの配列にまとめる。
-  GitHub Pages の jekyll-optional-front-matter は、front matter を持たない .md を
-  ページへ変換したうえで、既定では元の .md を静的ファイルとしても出力します。
-  そのため同じファイルが site.pages と site.static_files の両方に現れ、
-  そのまま並べると扉が二重に描画されます。以下ではファイル名で重複を除外し、
-  先に来るページ側（正しい .html リンクを持つ方）だけを採用しています。
+  jekyll-optional-front-matter で変換されたページだけを対象にする。
+  _config.yml では元の .md を出力しないため、カードは必ず .html を指します。
 {% endcomment %}
-{% assign celall = site.pages | concat: site.static_files %}
-{% assign celkeys = page.key | join: "," | prepend: "," | append: "," %}
+{% assign celall = site.pages %}
 
 {% comment %} ---------- 凡例（件数付き） ---------- {% endcomment %}
 {% assign celtotal = 0 %}
@@ -219,9 +189,9 @@ programs:
 {%- endfor -%}
 </ul>
 
-<p class="cel-lead">現在 {{ celtotal }} 件の扉があります。自分のデータを使う扉と、架空企業「レイクショア」の<a href="https://github.com/miookawa/copilot-experience-lab/releases/download/lakeshore-sample-data-ja-v1.0.0/lakeshore-sample-data-ja.zip">サンプルデータ一式</a>を使う扉があります。</p>
+<p class="cel-lead">現在 {{ celtotal }} 件の体験があります。自分のデータを使う体験と、架空企業「レイクショア」の<a href="https://github.com/miookawa/copilot-experience-lab/releases/download/lakeshore-sample-data-ja-v1.0.0/lakeshore-sample-data-ja.zip">サンプルデータ一式</a>を使う体験があります。</p>
 
-{% comment %} ---------- セクションごとの扉グリッド ---------- {% endcomment %}
+{% comment %} ---------- セクションごとの体験グリッド ---------- {% endcomment %}
 {% for g in page.groups %}
   {%- assign dirkey = "contents/" | append: g.dir | append: "/" -%}
   {%- assign pool = celall | where_exp: "p", "p.path contains dirkey" -%}
@@ -275,20 +245,29 @@ programs:
         {%- assign chk = num | plus: 0 | prepend: "0" | slice: -2, 2 -%}
         {%- if cp.size > 1 and chk == num and num == pad -%}
         {%- assign fallback = stem | remove_first: code | remove_first: "_" -%}
-        {%- assign iskey = false -%}
-        {%- if p.key -%}{%- assign iskey = true -%}{%- endif -%}
-        {%- assign kstem = stem | prepend: "," | append: "," -%}
-        {%- assign kcode = code | prepend: "," | append: "," -%}
-        {%- if celkeys contains kstem -%}{%- assign iskey = true -%}{%- endif -%}
-        {%- if celkeys contains kcode -%}{%- assign iskey = true -%}{%- endif -%}
         {%- assign namekey = p.name | prepend: "," | append: "," -%}
         {%- unless drawn contains namekey -%}
         {%- assign drawn = drawn | append: p.name | append: "," -%}
-    <a class="cel-door {{ g.cls }}{% if iskey %} is-key{% endif %}" href="{{ p.url | default: p.path | relative_url }}">
-      <span class="cel-num">{{ p.id | default: code }}</span>
-      <span class="cel-title">{{ p.title | default: fallback }}</span>
-      {%- if p.subtitle %}<span class="cel-subtitle">{{ p.subtitle }}</span>{% endif -%}
-      <span class="cel-meta">{% if p.duration %}{{ p.duration }}{% elsif p.minutes %}約 {{ p.minutes }} 分{% else %}体験コンテンツ{% endif %}</span>
+        {%- assign celinput = g.label -%}
+        {%- assign celduration = "" -%}
+        {%- if p.content -%}
+          {%- assign celinputparts = p.content | split: "| **入力** |" -%}
+          {%- if celinputparts.size > 1 -%}
+            {%- assign celinputcell = celinputparts[1] | split: "|" | first -%}
+            {%- assign celinputlabelparts = celinputcell | split: "**" -%}
+            {%- if celinputlabelparts.size > 2 -%}
+              {%- assign celinput = celinputlabelparts[1] | strip -%}
+            {%- endif -%}
+          {%- endif -%}
+          {%- assign celdurationparts = p.content | split: "| **所要** |" -%}
+          {%- if celdurationparts.size > 1 -%}
+            {%- assign celduration = celdurationparts[1] | split: "|" | first | split: "。" | first | strip | remove: "（目安）" | remove: "**" -%}
+          {%- endif -%}
+        {%- endif -%}
+      <a class="cel-door {{ g.cls }}" href="{{ p.url | default: p.path | relative_url }}">
+      <span class="cel-num">{{ code }}</span>
+      <span class="cel-title">{{ fallback }}</span>
+      <span class="cel-meta">{{ celinput }}{% if celduration != "" %} ／ {{ celduration }}{% endif %}</span>
     </a>
         {%- endunless -%}
         {%- endif -%}
@@ -316,18 +295,29 @@ programs:
       {%- assign numbered = false -%}
       {%- if cp.size > 1 and chk == num -%}{%- assign numbered = true -%}{%- endif -%}
       {%- unless numbered -%}
-      {%- assign iskey = false -%}
-      {%- if p.key -%}{%- assign iskey = true -%}{%- endif -%}
-      {%- assign kstem = stem | prepend: "," | append: "," -%}
-      {%- if celkeys contains kstem -%}{%- assign iskey = true -%}{%- endif -%}
       {%- assign namekey = p.name | prepend: "," | append: "," -%}
       {%- unless drawn contains namekey -%}
       {%- assign drawn = drawn | append: p.name | append: "," -%}
-    <a class="cel-door {{ g.cls }}{% if iskey %} is-key{% endif %}" href="{{ p.url | default: p.path | relative_url }}">
-      <span class="cel-num">{{ p.id | default: "DOOR" }}</span>
-      <span class="cel-title">{{ p.title | default: stem }}</span>
-      {%- if p.subtitle %}<span class="cel-subtitle">{{ p.subtitle }}</span>{% endif -%}
-      <span class="cel-meta">{% if p.duration %}{{ p.duration }}{% elsif p.minutes %}約 {{ p.minutes }} 分{% else %}体験コンテンツ{% endif %}</span>
+      {%- assign celinput = g.label -%}
+      {%- assign celduration = "" -%}
+      {%- if p.content -%}
+        {%- assign celinputparts = p.content | split: "| **入力** |" -%}
+        {%- if celinputparts.size > 1 -%}
+          {%- assign celinputcell = celinputparts[1] | split: "|" | first -%}
+          {%- assign celinputlabelparts = celinputcell | split: "**" -%}
+          {%- if celinputlabelparts.size > 2 -%}
+            {%- assign celinput = celinputlabelparts[1] | strip -%}
+          {%- endif -%}
+        {%- endif -%}
+        {%- assign celdurationparts = p.content | split: "| **所要** |" -%}
+        {%- if celdurationparts.size > 1 -%}
+          {%- assign celduration = celdurationparts[1] | split: "|" | first | split: "。" | first | strip | remove: "（目安）" | remove: "**" -%}
+        {%- endif -%}
+      {%- endif -%}
+    <a class="cel-door {{ g.cls }}" href="{{ p.url | default: p.path | relative_url }}">
+      <span class="cel-num">DOOR</span>
+      <span class="cel-title">{{ stem }}</span>
+      <span class="cel-meta">{{ celinput }}{% if celduration != "" %} ／ {{ celduration }}{% endif %}</span>
     </a>
       {%- endunless -%}
       {%- endunless -%}
@@ -340,7 +330,7 @@ programs:
 {% endfor %}
 
 {% if celtotal == 0 %}
-<p class="cel-meta">扉が 1 つも見つかりませんでした。<code>contents/</code> 配下のフォルダ名が、この index.md の front matter にある <code>groups:</code> の <code>dir:</code> と一致しているかご確認ください。</p>
+<p class="cel-meta">体験が 1 つも見つかりませんでした。<code>contents/</code> 配下のフォルダ名が、この index.md の front matter にある <code>groups:</code> の <code>dir:</code> と一致しているかご確認ください。</p>
 {% endif %}
 
 ---
@@ -349,8 +339,8 @@ programs:
 
 <div class="cel-start" markdown="1">
 
-1. Copilot Chat を開き、**Work** が選択されていることを確認する（<a href="#00-setup">Setup</a> の扉から）
-2. 開けたい扉を 1 つ選び、**TRY — 手順**のプロンプトをそのまま貼り付ける
+1. Copilot Chat を開き、**Work** が選択されていることを確認する（<a href="#00-setup">Setup</a> の体験から）
+2. 試したい体験を 1 つ選び、**TRY — 手順**のプロンプトをそのまま貼り付ける
 3. 出てきた答えを鵜呑みにせず、**根拠リンクを 1 つ開いて確認する**
 4. 最後の **REFLECT — 振り返り**に、その日のうちに答える
 
@@ -363,7 +353,7 @@ programs:
 
 ## 続けるコツ
 
-- **新しい扉は週 3 回**くらいで十分です。残りの日は、気に入ったプロンプトを繰り返し使ってください。
+- **新しい体験は週 3 回**くらいで十分です。残りの日は、気に入ったプロンプトを繰り返し使ってください。
 - 効いたプロンプトは保存して、毎営業日使えるようにします。
 - 週に 1 回、チームのチャネルに「今週いちばん良かった 1 件」を投稿します。
 - 時間短縮は**自分で計測**します。Copilot に見積もらせないでください。
@@ -380,4 +370,4 @@ programs:
 
 ---
 
-<p class="cel-meta">コンテンツとプログラムの全一覧、追加のルールは <a href="{{ '/README.html' | relative_url }}">リポジトリの README</a> にまとめています。</p>
+<p class="cel-meta">ラボの構成、運営者向けガイド、コンテンツの追加方法は、<a href="{{ '/README.html' | relative_url }}">リポジトリの README</a> を参照してください。</p>
