@@ -80,7 +80,7 @@
 | `05-powerpoint/` | PowerPoint | 伝わる資料に仕上げる | 準備中 |
 | `06-researcher-analyst/` | Researcher / Analyst | 調べる・分析するを任せる | 公開中 |
 | `07-agent-builder/` | Agent Builder | 自分専用のエージェントを作る | 公開中 |
-| `08-personas/` | Personas | 役割別の使いどころ | 準備中 |
+| `99-personas/` | Personas | 役割別の使いどころ | 準備中 |
 
 `assets/` には、体験ごとの画像・動画と、サンプルデータを置いています。
 
