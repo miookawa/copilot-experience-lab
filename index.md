@@ -38,8 +38,12 @@ groups:
     cls: "g7"
     label: "Agent Builder"
     lead: "自分専用のエージェントを作る"
-  - dir: "99-personas"
+  - dir: "08-copilot-cowork"
     cls: "g8"
+    label: "Copilot Cowork"
+    lead: "仕事をまとめて任せ、承認しながら実行する"
+  - dir: "99-personas"
+    cls: "g9"
     label: "Personas"
     lead: "役割別の使いどころ"
 
