@@ -12,6 +12,9 @@ Microsoft Copilot を試すための日本語の体験コンテンツ集です�
 | 体験 | `contents/` | 体験の実体。1 体験 1 ファイルで、製品・シーン別のカテゴリに配置 |
 | 進行プログラム | `programs/` | 体験の順番・必須/選択・運営ルールだけを持ち、体験は相対リンクで参照 |
 
+![contents と programs の関係。programs は体験へのリンクだけを持ち、1つの体験を複数のプログラムから参照できる。contents にはプログラムから未参照の体験もある](assets/repository-architecture.svg)
+
+<!-- 編集用原本: assets/repository-architecture.excalidraw -->
 
 > **体験の中身は `contents/` にのみ置きます。`programs/` にコンテンツを複製しないでください。**
 > プログラムは「どの体験を、どの順で実施してもらうか」だけを持ちます。この分担が、このラボの設計の中心です。
@@ -109,4 +112,4 @@ copilot-experience-lab/
 
 このリポジトリを Clone または Fork して独自にカスタマイズする場合は、体験やプログラムの追加、既存コンテンツの改訂手順を **[CONTRIBUTING.md](CONTRIBUTING.md)** で確認してください。
 
-GitHub Pages へ公開する前に任意のブランチを確認する方法は、**[Codespaces で GitHub Pages をプレビューする](CODESPACES_PREVIEW.md)**を参照してください。
+GitHub Pages へ公開する前に任意のブランチを確認する方法は、**[Codespaces で GitHub Pages をプレビューする](CODESPACES_PREVIEW.md)** を参照してください。
