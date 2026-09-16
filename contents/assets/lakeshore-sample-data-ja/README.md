@@ -1,4 +1,4 @@
-# Lakeshore サンプルデータ（日本語版）
+# レイクショア サンプルデータ（日本語版）
 
 M365 Copilot + Agents SMB Guided Experience（Copilot Experience Lab 日本語版）のハンズオンで使用するサンプルデータです。
 元の Lakeshore Sample Data Bundle 7 ファイルについて、**書式・数式・テーブル構造を維持したまま**、日本企業の業務文書として自然な表現・体裁に整えています。
