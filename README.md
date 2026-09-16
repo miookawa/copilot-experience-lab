@@ -37,7 +37,7 @@ Microsoft Copilot を試すための、日本語の体験コンテンツ集で�
 | サンプル ファイル | レイクショア（架空企業）のサンプル ファイルを使う |
 | サンプル（プロンプト内） | 題材がプロンプトに含まれ、ファイル準備なしで試せる |
 
-**カテゴリ**：[Setup](#00-setup)（1） ／ [Copilot Chat](#01-copilot-chat)（20） ／ [Outlook / Teams](#02-outlook-teams)（6） ／ [Excel](#03-excel)（1） ／ [Word](#04-word)（2） ／ [PowerPoint](#05-powerpoint)（準備中） ／ [Researcher / Analyst](#06-researcher-analyst)（2） ／ [Agent Builder](#07-agent-builder)（5） ／ [Personas](#08-personas)（準備中）
+**カテゴリ**：[Setup](#00-setup)（1） ／ [Copilot Chat](#01-copilot-chat)（20） ／ [Outlook / Teams](#02-outlook-teams)（6） ／ [Excel](#03-excel)（1） ／ [Word](#04-word)（2） ／ [PowerPoint](#05-powerpoint)（準備中） ／ [Researcher / Analyst](#06-researcher-analyst)（2） ／ [Agent Builder](#07-agent-builder)（5） ／ [Personas](#99-personas)（準備中）
 
 <a id="00-setup"></a>
 
@@ -145,9 +145,9 @@ Microsoft Copilot を試すための、日本語の体験コンテンツ集で�
 | `AGB-04` | [顧客フォローアップ用エージェントを作る](./contents/07-agent-builder/AGB-04_顧客フォローアップ用エージェントを作る.md) | 毎週繰り返す業務プロセスを、再利用可能なエージェントとして定型化する | 約 20 分 | Agent Builder | サンプル ファイル |
 | `AGB-05` | [提案書作成エージェントを作る](./contents/07-agent-builder/AGB-05_提案書作成エージェントを作る.md) | 提案書作成という繰り返し業務を、より強い初稿を出すエージェントにまとめる | 約 15 分 | Agent Builder | サンプル ファイル |
 
-<a id="08-personas"></a>
+<a id="99-personas"></a>
 
-### Personas ｜ `08-personas`
+### Personas ｜ `99-personas`
 
 役割別の使いどころ（**準備中**：コンテンツはまだありません）
 
@@ -248,7 +248,7 @@ copilot-experience-lab/
 │  ├─ 05-powerpoint/            … PowerPoint（準備中）
 │  ├─ 06-researcher-analyst/    … Researcher / Analyst（2 件）
 │  ├─ 07-agent-builder/         … Agent Builder（5 件）
-│  ├─ 08-personas/              … Personas（準備中）
+│  ├─ 99-personas/              … Personas（準備中）
 │  └─ assets/                   … 体験別の画像・動画、レイクショア サンプルデータ
 └─ programs/                    … 進行プログラム（順番とルールのみ）
    ├─ copilot-in-30/            … 30 日間プログラム（README = 進行ガイド／index = 参加者向け）

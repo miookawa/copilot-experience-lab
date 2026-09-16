@@ -49,7 +49,7 @@ groups:
     cls: "g7"
     label: "PowerPoint"
     lead: "伝わる資料に仕上げる"
-  - dir: "08-personas"
+  - dir: "99-personas"
     cls: "g8"
     label: "Personas"
     lead: "役割別の使いどころ"
