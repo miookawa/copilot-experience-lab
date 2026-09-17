@@ -5,7 +5,7 @@
 | **目的** | 承認済みの価格情報を、数字を一切変えずに顧客に出せるデッキとメール下書きに変える |
 | **所要** | 約 25 分（目安） |
 | **利用** | Microsoft 365 Copilot Cowork（画像入力 / PowerPoint / Outlook） |
-| **入力** | **サンプル ファイル／公開情報／自分の業務データ**：価格表または見積の**スクリーンショット画像** 1 枚（適切な画像がない場合は、[`sample-pricing-photo-hard-jp.png`](https://github.com/miookawa/copilot-experience-lab/releases/download/cwk-04-v1.0.0/sample-pricing-photo-hard-jp.png)を使用できます） |
+| **入力** | **サンプル ファイル／公開情報／自分の業務データ**：価格表または見積の**スクリーンショット画像** 1 枚（適切な画像がない場合は、[`sample-approved-pricing-photo-jp.png`](https://github.com/miookawa/copilot-experience-lab/releases/download/cwk-04-v1.0.0/sample-approved-pricing-photo-jp.png)を使用できます） |
 | **成果** | レビュー用の価格スライド → 顧客向けデッキ一式（表紙・コンテキスト・価格・次のステップ）→ 添付付きメール下書き |
 
 > **実施条件**：Copilot Cowork が利用でき、画像を添付できる場合のみハンズオンで実施します。
@@ -36,7 +36,7 @@
 ### パート 1 — 数字だけを先に検品する
 
 1. 価格表のスクリーンショットを 1 枚用意する
-   - 適切な画像がない場合は、入力欄のリンクから演習用の価格表サンプル画像をダウンロードします
+   - 適切な画像がない場合は、演習用の価格表サンプル画像 [`sample-approved-pricing-photo-jp.png`](https://github.com/miookawa/copilot-experience-lab/releases/download/cwk-04-v1.0.0/sample-approved-pricing-photo-jp.png) をダウンロードします
 2. Copilot Cowork を開き、画像を添付する
 3. 次のプロンプトを貼り付ける
    - `[会議日]` と `[製品]` を自分の状況に合わせて置き換えます
