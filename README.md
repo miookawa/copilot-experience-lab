@@ -82,7 +82,6 @@ copilot-experience-lab/
 ├─ index.md                     … GitHub Pages のトップ（体験カードは自動生成）
 ├─ README.md                    … このファイル（ラボ全体の入口）
 ├─ CONTRIBUTING.md              … 追加・改訂のルール
-├─ CODESPACES_PREVIEW.md        … Codespaces で Pages をプレビューする手順
 ├─ _config.yml                  … GitHub Pages の設定
 ├─ _includes/                   … Pages のテンプレート部品
 ├─ .github/workflows/           … GitHub Actions（アクセス統計の自動収集など）
@@ -102,7 +101,6 @@ copilot-experience-lab/
    ├─ README.md                 … プログラムの一覧と選び方
    ├─ copilot-in-30/            … 30 日間プログラム
    ├─ smb-guided-experience/    … 90 分ワークショップ
-   ├─ ms-base/                  … 将来のプログラム用（準備中）
    └─ templates/                … 新規プログラムの雛形
 ```
 
@@ -111,5 +109,3 @@ copilot-experience-lab/
 ## 独自にカスタマイズする
 
 このリポジトリを Clone または Fork して独自にカスタマイズする場合は、体験やプログラムの追加、既存コンテンツの改訂手順を **[CONTRIBUTING.md](CONTRIBUTING.md)** で確認してください。
-
-GitHub Pages へ公開する前に任意のブランチを確認する方法は、**[Codespaces で GitHub Pages をプレビューする](CODESPACES_PREVIEW.md)** を参照してください。

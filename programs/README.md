@@ -55,7 +55,6 @@ programs/
 ├─ README.md                 … このファイル（プログラムの一覧と選び方）
 ├─ copilot-in-30/            … 伴走型プログラム
 ├─ smb-guided-experience/    … 短時間のワークショップ
-├─ ms-base/                  … 将来のプログラム用（準備中）
 └─ templates/                … 新規プログラムの雛形
 ```
 
