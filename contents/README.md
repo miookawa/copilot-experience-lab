@@ -67,6 +67,14 @@
 | AGB-03 | [ホワイトボード写真から議事録とスライドを作る](07-agent-builder/AGB-03_ホワイトボード写真から議事録とスライドを作る.md) | Agent Builder | 約 30 分 | Agent Builder ／ Copilot モバイル アプリ ／ PowerPoint の Copilot | 自分の業務データ |
 | AGB-04 | [顧客フォローアップ用エージェントを作る](07-agent-builder/AGB-04_顧客フォローアップ用エージェントを作る.md) | Agent Builder | 約 20 分 | Agent Builder | サンプル ファイル |
 | AGB-05 | [提案書作成エージェントを作る](07-agent-builder/AGB-05_提案書作成エージェントを作る.md) | Agent Builder | 約 15 分 | Agent Builder | サンプル ファイル |
+| CWK-01 | [週のバランスを取り直し、フォーカスタイムを守る](08-copilot-cowork/CWK-01_週のバランスを取り直しフォーカスタイムを守る.md) | Copilot Cowork | 約 15 分 | Microsoft 365 Copilot Cowork（Outlook カレンダー） | 自分の業務データ |
+| CWK-02 | [プロジェクトを締めくくり、関連する作業をすべて整理する](08-copilot-cowork/CWK-02_プロジェクトを締めくくり関連する作業をすべて整理する.md) | Copilot Cowork | 約 20 分 | Microsoft 365 Copilot Cowork（OneDrive / SharePoint） | 自分の業務データ |
+| CWK-03 | [受信トレイのノイズをインテリジェンス ブリーフに変える](08-copilot-cowork/CWK-03_受信トレイのノイズをインテリジェンスブリーフに変える.md) | Copilot Cowork | 約 20 分 | Microsoft 365 Copilot Cowork（Outlook） | 自分の業務データ |
+| CWK-04 | [価格のスクリーンショットから顧客向けプレゼンテーションを作る](08-copilot-cowork/CWK-04_価格のスクリーンショットから顧客向けプレゼンテーションを作る.md) | Copilot Cowork | 約 25 分 | Microsoft 365 Copilot Cowork（画像入力 / PowerPoint / Outlook） | サンプル ファイル／公開情報／自分の業務データ |
+| CWK-05 | [週次のメール レビューとフォローアップをスケジュール実行する](08-copilot-cowork/CWK-05_週次の社外顧客メールレビューをスケジュール実行する.md) | Copilot Cowork | 約 20 分 | Microsoft 365 Copilot Cowork（Outlook / Teams ／ スケジュール実行） | 自分の業務データ |
+| CWK-06 | [会議を横断してパターンを見つける](08-copilot-cowork/CWK-06_会議を横断してパターンを見つける.md) | Copilot Cowork | 約 30 分 | Microsoft 365 Copilot Cowork（Teams の会議 / 文字起こし） | 自分の業務データ |
+| CWK-07 | [基準に照らして監査し、Excel で可視化する](08-copilot-cowork/CWK-07_基準に照らして監査しExcelで可視化する.md) | Copilot Cowork | 約 30 分 | Microsoft 365 Copilot Cowork（OneDrive / SharePoint / Excel） | 自分の業務データ／サンプル ファイル |
+| CWK-08 | [不在時の引き継ぎを準備する](08-copilot-cowork/CWK-08_不在時の引き継ぎを準備する.md) | Copilot Cowork | 約 30 分 | Microsoft 365 Copilot Cowork（Outlook / Teams / OneDrive） | 自分の業務データ |
 
 ## カテゴリ
 
@@ -80,6 +88,7 @@
 | `05-powerpoint/` | PowerPoint | 伝わる資料に仕上げる | 準備中 |
 | `06-researcher-analyst/` | Researcher / Analyst | 調べる・分析するを任せる | 公開中 |
 | `07-agent-builder/` | Agent Builder | 自分専用のエージェントを作る | 公開中 |
+| `08-copilot-cowork/` | Copilot Cowork | 仕事をまとめて任せ、承認しながら実行する | 公開中 |
 | `99-personas/` | Personas | 役割別の使いどころ | 準備中 |
 
 `assets/` には、体験ごとの画像・動画と、サンプルデータを置いています。
