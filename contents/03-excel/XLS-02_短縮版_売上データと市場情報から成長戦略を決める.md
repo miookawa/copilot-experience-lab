@@ -7,7 +7,7 @@
 | **目的** | 「売上は伸びている」で止まっている会話を、投資するカテゴリ・見直すカテゴリ・次の出店先まで進める |
 | **所要** | **約 13 分** |
 | **利用** | Copilot in Excel ／ Web 検索を利用できる Copilot エクスペリエンス |
-| **入力** | [`TrendStyleJapan-SalesData.xlsx`](../assets/XLS-02/TrendStyleJapan-SalesData.xlsx)（架空企業のサンプル ブック） |
+| **入力** | [`TrendStyleJapan-SalesData.xlsx`](https://github.com/miookawa/copilot-experience-lab/releases/download/xls-02-v1.0.0/TrendStyleJapan-SalesData.xlsx)（架空企業のサンプル ブック） |
 | **成果** | 収益上の課題 3 点、投資判断用のバブルチャート 1 枚、新規出店候補 3 件、役員会向けサマリー 1 枚 |
 
 ---
@@ -181,7 +181,7 @@ A4 1ページ程度で簡潔にまとめてください。
 
 ## NEXT
 
-- [【Class room 短縮版】分析結果を役員会資料に変える｜PPT-01](../05-powerpoint/PPT-01_Classroom短縮版_分析結果を役員会資料に変える.md)（決めた投資方針を、そのまま役員会資料にする）
+- [【Class room 短縮版】分析結果を役員会資料に変える｜PPT-01](../05-powerpoint/PPT-01_短縮版_分析結果を役員会資料に変える.md)（決めた投資方針を、そのまま役員会資料にする）
 
 ---
 

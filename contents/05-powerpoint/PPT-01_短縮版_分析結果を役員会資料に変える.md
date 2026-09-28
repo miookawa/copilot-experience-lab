@@ -7,7 +7,7 @@
 | **目的** | Excel で分析した商品・地域・出店の判断を、前年の役員会資料のスタイルを使って、承認を得るための PowerPoint へ変える |
 | **所要** | **約 18 分** |
 | **利用** | Copilot in PowerPoint |
-| **入力** |  [`完成版TrendStyleJapan-SalesData.xlsx`](../assets/PPT-01/完成版TrendStyleJapan-SalesData.xlsx)（[売上データと市場情報から成長戦略を決める｜XLS-02](../03-excel/XLS-02_Classroom短縮版_売上データと市場情報から成長戦略を決める.md) で分析したサンプル ブック）、[`TrendStyleJapan_2025年度_役員会資料テンプレート.pptx`](../assets/PPT-01/TrendStyleJapan_2025年度_役員会資料テンプレート.pptx)（架空企業の前年役員会資料） |
+| **入力** |  [`完成版TrendStyleJapan-SalesData.xlsx`](https://github.com/miookawa/copilot-experience-lab/releases/download/ppt-01-v1.0.0/TrendStyleJapan-SalesData-completed.xlsx)（[売上データと市場情報から成長戦略を決める｜XLS-02](../03-excel/XLS-02_短縮版_売上データと市場情報から成長戦略を決める.md) で分析したサンプル ブック）、[`TrendStyleJapan_2025年度_役員会資料テンプレート.pptx`](https://github.com/miookawa/copilot-experience-lab/releases/download/ppt-01-v1.0.0/TrendStyleJapan-2025-Board-Meeting-Template.pptx)（架空企業の前年役員会資料） |
 | **成果** | 商品投資・重点地域・出店検証の承認事項が分かる 2026 年度の役員会資料 1 式、想定質問と回答案 |
 
 ---
@@ -27,7 +27,7 @@
 
 ## 事前準備（ファシリテーター、開始前に完了させておく）
 
-- [`完成版TrendStyleJapan-SalesData.xlsx`](../assets/PPT-01/完成版TrendStyleJapan-SalesData.xlsx) と [`TrendStyleJapan_2025年度_役員会資料テンプレート.pptx`](../assets/PPT-01/TrendStyleJapan_2025年度_役員会資料テンプレート.pptx) を OneDrive または SharePoint に保存しておく
+- [`完成版TrendStyleJapan-SalesData.xlsx`](https://github.com/miookawa/copilot-experience-lab/releases/download/ppt-01-v1.0.0/TrendStyleJapan-SalesData-completed.xlsx) と [`TrendStyleJapan_2025年度_役員会資料テンプレート.pptx`](https://github.com/miookawa/copilot-experience-lab/releases/download/ppt-01-v1.0.0/TrendStyleJapan-2025-Board-Meeting-Template.pptx) を OneDrive または SharePoint に保存しておく
 - 前年資料の 8 枚構成（表紙／AGENDA／EXECUTIVE SUMMARY／PERFORMANCE／PORTFOLIO／MARKET EXPANSION／90-DAY ACTION／DECISION REQUEST）は**口頭またはスライド 1 枚で説明**する
 - XLS-02 を実施していない参加者は、配布ブックの **完成版TrendStyleJapan-SalesData.xlsx** シートを出発点として使う
 
@@ -156,7 +156,7 @@ Excel と PowerPoint が OneDrive / SharePoint に保存され、Copilot から�
 ## NEXT
 
 - 月次報告のスライドをその場で作らせる｜CXO-07（同じ考え方を、毎月の定例報告で繰り返し使う）
-- 戻る：[【Class room 短縮版】売上データと市場情報から成長戦略を決める｜XLS-02](../03-excel/XLS-02_Classroom短縮版_売上データと市場情報から成長戦略を決める.md)
+- 戻る：[【Class room 短縮版】売上データと市場情報から成長戦略を決める｜XLS-02](../03-excel/XLS-02_短縮版_売上データと市場情報から成長戦略を決める.md)
 
 ---
 
