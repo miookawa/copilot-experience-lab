@@ -13,7 +13,7 @@
 
 **演習データの推奨条件**：1 つの導入テーマに絞り、異なる立場の意見が含まれる複数の情報源を用意します。たとえば、経営層、IT、セキュリティ、法務、利用部門などの期待や懸念が確認できるデータです。
 
-**クレジット消費の目安**：Heavy（[要記入]〜[要記入] クレジット）。この演習の参考区分です。実際の消費量は、対象データの量・形式・内容、探索範囲、作成する成果物によって変動します。Light / Medium / Heavy の区分は、Microsoft の [Copilot Credits Guide](https://www.microsoft.com/licensing/guidance/Copilot-Credits) で使われている表現に基づきます。
+> **Copilot Credits に関する注意**：Copilot Cowork の利用には Copilot Credits が消費されます。消費量は、依頼内容、参照するデータ、実行する操作などによって変動します。ハンズオンや研修などで多数の参加者が同時に実行する場合は、事前に同等の環境とデータで動作を検証し、想定されるクレジット消費量と利用可能な残量を確認してください。詳しくは、Microsoft の [Copilot Credits Guide](https://www.microsoft.com/licensing/guidance/Copilot-Credits) を参照してください。
 
 ### シナリオ
 
