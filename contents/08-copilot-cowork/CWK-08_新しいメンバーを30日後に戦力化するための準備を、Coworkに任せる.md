@@ -8,10 +8,12 @@
 | **入力** | **自分の業務データまたはサンプルデータ**：職務記述書、チーム憲章、主要ステークホルダー一覧、チームの SharePoint へのリンク |
 | **成果** | Word の 30・60・90 日計画 → 進捗トラッカーとピープルマップを備えた HTML ダッシュボード → 最初の 1 か月の 1on1 設定案 |
 
-> **実施条件**：Copilot Cowork から参照フォルダーとカレンダーにアクセスできる場合のみハンズオンで実施します。  
-> そうでない場合は、サンプル資料を用いたデモとして実施してください。  
-> **クレジット消費の目安**：`Heavy`（`[要記入]〜[要記入]` クレジット）。この演習の参考区分です。実際の消費量は、対象データの量・形式・内容や依頼する処理によって変動します。  
-> Light / Medium / Heavy の区分は、Microsoft の [Copilot Credits Guide](https://www.microsoft.com/licensing/guidance/Copilot-Credits) で使われている表現に基づきます。
+> **実施条件**：Copilot Cowork から参照フォルダーとカレンダーにアクセスできる場合のみハンズオンで実施します。
+> そうでない場合は、サンプル資料を用いたデモとして実施してください。
+
+> **クレジット消費の目安**：`Heavy`（`700` クレジット以上）。この演習の参考区分です。実際の消費量は、対象データの量・形式・内容や依頼する処理によって変動します。
+>
+> Light / Medium / Heavy の区分は、Microsoft の [Copilot Credits Guide](https://www.microsoft.com/licensing/guidance/Copilot-Credits) で使われている表現に基づきます。リンク先の「Cowork task types」を参照してください。
 
 ---
 
