@@ -53,6 +53,7 @@ Copilot Experience Lab の体験やプログラムを追加・改訂するとき
 | `PPT-` | PowerPoint | `contents/05-powerpoint/` |
 | `AGT-` | Researcher / Analyst エージェント | `contents/06-researcher-analyst/` |
 | `AGB-` | Agent Builder | `contents/07-agent-builder/` |
+| `CWK-` | Copilot Cowork | `contents/08-copilot-cowork/` |
 
 新しい ID を決める前に、`contents/` と `programs/` をリポジトリ全体で検索し、別の体験に割り当て済みでないことを確認してください。同じ領域では、原則として既存 ID の最大番号に 1 を加えます。
 

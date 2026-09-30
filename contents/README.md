@@ -67,6 +67,12 @@
 | AGB-03 | [ホワイトボード写真から議事録とスライドを作る](07-agent-builder/AGB-03_ホワイトボード写真から議事録とスライドを作る.md) | Agent Builder | 約 30 分 | Agent Builder ／ Copilot モバイル アプリ ／ PowerPoint の Copilot | 自分の業務データ |
 | AGB-04 | [顧客フォローアップ用エージェントを作る](07-agent-builder/AGB-04_顧客フォローアップ用エージェントを作る.md) | Agent Builder | 約 20 分 | Agent Builder | サンプル ファイル |
 | AGB-05 | [提案書作成エージェントを作る](07-agent-builder/AGB-05_提案書作成エージェントを作る.md) | Agent Builder | 約 15 分 | Agent Builder | サンプル ファイル |
+| CWK-01 | [今週の予定、整理しておきました。](08-copilot-cowork/CWK-01_今週の予定、整理しておきました.md) | Copilot Cowork | 約 15 分 | Microsoft 365 Copilot Cowork（Outlook カレンダー） | 自分の業務データ |
+| CWK-02 | [終わった案件を渡したら、アーカイブサイトまで出来ていた。](08-copilot-cowork/CWK-02_終わった案件を渡したら、アーカイブサイトまで出来ていた.md) | Copilot Cowork | 約 20 分 | Microsoft 365 Copilot Cowork（OneDrive / SharePoint） | 自分の業務データ |
+| CWK-03 | [読むのを諦めた100通を、5分で読める記事にした。](08-copilot-cowork/CWK-03_読むのを諦めた100通を、5分で読める記事にした.md) | Copilot Cowork | 約 20 分 | Microsoft 365 Copilot Cowork（Outlook） | 自分の業務データ |
+| CWK-04 | [月曜の朝には、返信下書きが揃っている。](08-copilot-cowork/CWK-04_月曜の朝には、返信下書きが揃っている.md) | Copilot Cowork | 約 20 分 | Microsoft 365 Copilot Cowork（Outlook / Teams ／ スケジュール実行） | 自分の業務データ |
+| CWK-05 | [フォルダーごと渡したら、改善点リストが出来ていた。](08-copilot-cowork/CWK-05_フォルダーごと渡したら、改善点リストが出来ていた.md) | Copilot Cowork | 約 30 分 | Microsoft 365 Copilot Cowork（OneDrive / SharePoint / Excel） | 自分の業務データ／サンプル ファイル |
+| CWK-06 | [仕事を止めないための引き継ぎを準備する](08-copilot-cowork/CWK-06_仕事を止めないための引き継ぎを準備する.md) | Copilot Cowork | 約 30 分 | Microsoft 365 Copilot Cowork（Outlook / Teams / OneDrive） | 自分の業務データ |
 
 ## カテゴリ
 
@@ -80,6 +86,7 @@
 | `05-powerpoint/` | PowerPoint | 伝わる資料に仕上げる | 準備中 |
 | `06-researcher-analyst/` | Researcher / Analyst | 調べる・分析するを任せる | 公開中 |
 | `07-agent-builder/` | Agent Builder | 自分専用のエージェントを作る | 公開中 |
+| `08-copilot-cowork/` | Copilot Cowork | 仕事をまとめて任せ、承認しながら実行する | 公開中 |
 | `99-personas/` | Personas | 役割別の使いどころ | 準備中 |
 
 `assets/` には、体験ごとの画像・動画と、サンプルデータを置いています。
