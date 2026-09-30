@@ -13,7 +13,8 @@
 > **この演習では、予約・購入・送信は一切行いません。** 候補の収集と比較までに限定します。
 > **社外の一般サイトを対象とするため、表示内容やサイト構成の変更により結果が変わることがあります。** 実施前に一度、同じ手順で動作を確認しておいてください。
 >
-> **Copilot Credits に関する注意**：Copilot Cowork の利用には Copilot Credits が消費されます。消費量は、依頼内容、参照するデータ、実行する操作などによって変動します。ハンズオンや研修などで多数の参加者が同時に実行する場合は、事前に同等の環境とデータで動作を検証し、想定されるクレジット消費量と利用可能な残量を確認してください。詳しくは、Microsoft の [Copilot Credits Guide](https://www.microsoft.com/licensing/guidance/Copilot-Credits) を参照してください。
+> **クレジット消費の目安**：`Medium`（`[要記入]〜[要記入]` クレジット）。この演習の参考区分です。実際の消費量は、対象データの量・形式・内容や依頼する処理によって変動します。
+> Light / Medium / Heavy の区分は、Microsoft の [Copilot Credits Guide](https://www.microsoft.com/licensing/guidance/Copilot-Credits) で使われている表現に基づきます。
 
 ---
 

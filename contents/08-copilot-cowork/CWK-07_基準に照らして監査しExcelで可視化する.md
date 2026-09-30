@@ -12,7 +12,9 @@
 > そうでない場合は、ファシリテーターのデモを見ながら進めてください。
 > **演習時は対象ファイルを 5〜10 件に絞ってください。** 件数が多いほど処理時間とクレジット消費が増えます。
 
-> **Copilot Credits に関する注意**：Copilot Cowork の利用には Copilot Credits が消費されます。消費量は、依頼内容、参照するデータ、実行する操作などによって変動します。ハンズオンや研修などで多数の参加者が同時に実行する場合は、事前に同等の環境とデータで動作を検証し、想定されるクレジット消費量と利用可能な残量を確認してください。詳しくは、Microsoft の [Copilot Credits Guide](https://www.microsoft.com/licensing/guidance/Copilot-Credits) を参照してください。
+> **クレジット消費の目安**：`[Light / Medium / Heavy から選択]`（`[要記入]〜[要記入]` クレジット）。この演習の手順を実行した場合の参考値です。実際の消費量は、対象データの量・形式・内容や、依頼する処理によって変動します。
+>
+> Light / Medium / Heavy の区分は、Microsoft の [Copilot Credits Guide](https://www.microsoft.com/licensing/guidance/Copilot-Credits) で使われている表現に基づきます。
 
 ---
 
