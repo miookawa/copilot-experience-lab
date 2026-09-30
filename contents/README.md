@@ -70,11 +70,9 @@
 | CWK-01 | [今週の予定、整理しておきました。](08-copilot-cowork/CWK-01_今週の予定、整理しておきました.md) | Copilot Cowork | 約 15 分 | Microsoft 365 Copilot Cowork（Outlook カレンダー） | 自分の業務データ |
 | CWK-02 | [終わった案件を渡したら、アーカイブサイトまで出来ていた。](08-copilot-cowork/CWK-02_終わった案件を渡したら、アーカイブサイトまで出来ていた.md) | Copilot Cowork | 約 20 分 | Microsoft 365 Copilot Cowork（OneDrive / SharePoint） | 自分の業務データ |
 | CWK-03 | [読むのを諦めた100通を、5分で読める記事にした。](08-copilot-cowork/CWK-03_読むのを諦めた100通を、5分で読める記事にした.md) | Copilot Cowork | 約 20 分 | Microsoft 365 Copilot Cowork（Outlook） | 自分の業務データ |
-| CWK-04 | [価格のスクリーンショットから顧客向けプレゼンテーションを作る](08-copilot-cowork/CWK-04_価格のスクリーンショットから顧客向けプレゼンテーションを作る.md) | Copilot Cowork | 約 25 分 | Microsoft 365 Copilot Cowork（画像入力 / PowerPoint / Outlook） | サンプル ファイル／公開情報／自分の業務データ |
-| CWK-05 | [月曜の朝には、返信下書きが揃っている。](08-copilot-cowork/CWK-05_月曜の朝には、返信下書きが揃っている.md) | Copilot Cowork | 約 20 分 | Microsoft 365 Copilot Cowork（Outlook / Teams ／ スケジュール実行） | 自分の業務データ |
-| CWK-06 | [会議を横断してパターンを見つける](08-copilot-cowork/CWK-06_会議を横断してパターンを見つける.md) | Copilot Cowork | 約 30 分 | Microsoft 365 Copilot Cowork（Teams の会議 / 文字起こし） | 自分の業務データ |
-| CWK-07 | [フォルダーごと渡したら、改善点リストが出来ていた。](08-copilot-cowork/CWK-07_フォルダーごと渡したら、改善点リストが出来ていた.md) | Copilot Cowork | 約 30 分 | Microsoft 365 Copilot Cowork（OneDrive / SharePoint / Excel） | 自分の業務データ／サンプル ファイル |
-| CWK-08 | [仕事を止めないための引き継ぎを準備する](08-copilot-cowork/CWK-08_仕事を止めないための引き継ぎを準備する.md) | Copilot Cowork | 約 30 分 | Microsoft 365 Copilot Cowork（Outlook / Teams / OneDrive） | 自分の業務データ |
+| CWK-04 | [月曜の朝には、返信下書きが揃っている。](08-copilot-cowork/CWK-04_月曜の朝には、返信下書きが揃っている.md) | Copilot Cowork | 約 20 分 | Microsoft 365 Copilot Cowork（Outlook / Teams ／ スケジュール実行） | 自分の業務データ |
+| CWK-05 | [フォルダーごと渡したら、改善点リストが出来ていた。](08-copilot-cowork/CWK-05_フォルダーごと渡したら、改善点リストが出来ていた.md) | Copilot Cowork | 約 30 分 | Microsoft 365 Copilot Cowork（OneDrive / SharePoint / Excel） | 自分の業務データ／サンプル ファイル |
+| CWK-06 | [仕事を止めないための引き継ぎを準備する](08-copilot-cowork/CWK-06_仕事を止めないための引き継ぎを準備する.md) | Copilot Cowork | 約 30 分 | Microsoft 365 Copilot Cowork（Outlook / Teams / OneDrive） | 自分の業務データ |
 
 ## カテゴリ
 
