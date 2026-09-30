@@ -10,9 +10,10 @@
 
 > **実施条件**：Copilot Cowork から添付ファイルを参照できる場合にハンズオンで実施します。
 > そうでない場合は、ファシリテーターのデモを見ながら進めてください。
+
+> **クレジット消費の目安**：`Heavy`（`700` クレジット以上）。この演習の参考区分です。実際の消費量は、対象データの量・形式・内容や依頼する処理によって変動します。
 >
-> **クレジット消費の目安**：`Heavy`（`[要記入]〜[要記入]` クレジット）。この演習の参考区分です。実際の消費量は、対象データの量・形式・内容や依頼する処理によって変動します。
-> Light / Medium / Heavy の区分は、Microsoft の [Copilot Credits Guide](https://www.microsoft.com/licensing/guidance/Copilot-Credits) で使われている表現に基づきます。
+> Light / Medium / Heavy の区分は、Microsoft の [Copilot Credits Guide](https://www.microsoft.com/licensing/guidance/Copilot-Credits) で使われている表現に基づきます。リンク先の「Cowork task types」を参照してください。
 
 ---
 

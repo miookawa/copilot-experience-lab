@@ -12,9 +12,10 @@
 > そうでない場合は、ファシリテーターのデモを見ながら進めてください。
 > **この演習では、予約・購入・送信は一切行いません。** 候補の収集と比較までに限定します。
 > **社外の一般サイトを対象とするため、表示内容やサイト構成の変更により結果が変わることがあります。** 実施前に一度、同じ手順で動作を確認しておいてください。
+
+> **クレジット消費の目安**：`Medium`（`300〜700` クレジット）。この演習の参考区分です。実際の消費量は、対象データの量・形式・内容や依頼する処理によって変動します。
 >
-> **クレジット消費の目安**：`Medium`（`[要記入]〜[要記入]` クレジット）。この演習の参考区分です。実際の消費量は、対象データの量・形式・内容や依頼する処理によって変動します。
-> Light / Medium / Heavy の区分は、Microsoft の [Copilot Credits Guide](https://www.microsoft.com/licensing/guidance/Copilot-Credits) で使われている表現に基づきます。
+> Light / Medium / Heavy の区分は、Microsoft の [Copilot Credits Guide](https://www.microsoft.com/licensing/guidance/Copilot-Credits) で使われている表現に基づきます。リンク先の「Cowork task types」を参照してください。
 
 ---
 
