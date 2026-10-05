@@ -72,6 +72,18 @@ description: 指示から委任へ。任せる範囲を広げながら Copilot C
 .cwj-care ul{margin:.4rem 0 0;padding-left:1.2rem;}
 .cwj-care li{margin:.25rem 0;line-height:1.7;}
 
+.cwj-credit{border:1px solid #d9dcf5;border-left:5px solid #4338ca;border-radius:12px;
+  padding:1rem 1.2rem;background:#f7f8ff;margin:0 0 1.6rem;}
+.cwj-credit p{margin:.4rem 0;line-height:1.8;font-size:.92rem;}
+.cwj-credit p:last-child{margin-bottom:0;}
+.cwj-credit table{width:100%;border-collapse:collapse;margin:.7rem 0;font-size:.88rem;}
+.cwj-credit th,.cwj-credit td{padding:.4rem .6rem;border-bottom:1px solid #e1e4f5;text-align:left;}
+.cwj-credit th{background:#eef0fb;font-weight:600;}
+.cwj-credit td:nth-child(1){width:6.5rem;}
+.cwj-credit td:nth-child(2){white-space:nowrap;}
+.cwj-credit .lv{display:inline-block;padding:.08rem .5rem;border:1px solid #c7d2fe;border-radius:4px;
+  background:#eef2ff;color:#312e81;font-weight:700;font-size:.82rem;}
+
 @media (max-width:480px){.cwj-grid{grid-template-columns:1fr;gap:.6rem;}
   .cwj-hero{padding:1.4rem 1.1rem;}.cwj-hero h1{font-size:1.55rem;}}
 </style>
@@ -90,6 +102,20 @@ description: 指示から委任へ。任せる範囲を広げながら Copilot C
   <p><strong>カードのラベルで、今すぐ試せるかが分かります。</strong><br>
   必要なデータと、クレジット消費の目安を表示しています。<span class="cwj-inline-warn">スケジュール実行</span> のようなオレンジ色のラベルが付いた体験は、追加の機能や準備が必要です。付いていなければ、Cowork をそのまま使って試せます。</p>
   <p><strong>体験の最後に、次のおすすめがあります。</strong>ページの末尾にある <code>NEXT</code> から、関連する体験へそのまま進めます。</p>
+</div>
+
+## クレジット消費の目安
+
+<div class="cwj-credit">
+  <p>各体験のカードに記載の<strong>クレジット消費の目安</strong>は、その体験の手順を実行した場合の参考値です。<strong>実際の消費量は、対象データの量・形式・内容や、依頼する処理によって変動します。</strong></p>
+  <table>
+    <tr><th>区分</th><th>目安</th><th>該当する体験</th></tr>
+    <tr><td><span class="lv">Light</span></td><td><code>100〜300</code> クレジット</td><td>CWK-01、CWK-02</td></tr>
+    <tr><td><span class="lv">Medium</span></td><td><code>300〜700</code> クレジット</td><td>CWK-03、CWK-04、CWK-06、CWK-11</td></tr>
+    <tr><td><span class="lv">Heavy</span></td><td><code>700</code> クレジット以上</td><td>CWK-05、CWK-07〜CWK-10、CWK-12</td></tr>
+  </table>
+  <p>Light / Medium / Heavy の区分は、Microsoft の <a href="https://www.microsoft.com/licensing/guidance/Copilot-Credits">Copilot Credits Guide</a> で使われている表現に基づきます。リンク先の「Cowork task types」を参照してください。</p>
+  <p>消費を抑えたい場合は、<strong>対象にするファイルやメールの件数を絞って</strong>依頼してください。件数が多いほど、処理時間と消費量が増えます。</p>
 </div>
 
 ## はじめる前に

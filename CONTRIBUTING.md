@@ -174,6 +174,8 @@ GitHub Pages と GitHub 上の Markdown の両方で自動再生するデモは�
 5. サンプルデータを使う場合は、必要なファイルと配置先を README の事前準備に書く
 6. エンドユーザー向けページが必要な場合は、同じフォルダーに `index.md` を作成する
 7. [`programs/README.md`](programs/README.md) の一覧に追加する
+8. ルートの [`index.md`](index.md) にプログラムカードを追加する
+9. ルートの [`README.md`](README.md) のプログラム一覧とリポジトリ構成を更新する
 
 ### プログラムフォルダーの命名
 
