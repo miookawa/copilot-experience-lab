@@ -11,6 +11,7 @@
 | --- | --- | --- | --- | --- | --- |
 | Copilot in 30 | Copilot トライアルを行うお客様と、伴走支援するパートナー | Day 0 〜 Day 21（30日） | 伴走（週次の案内とチェックイン） | [README](copilot-in-30/README.md) | [GitHub Pages](https://miookawa.github.io/copilot-experience-lab/programs/copilot-in-30/) |
 | M365 Copilot + Agents SMB Guided Experience | SMB のお客様と、実施するパートナー | 約 90 分 | ハンズオン／デモ | [README](smb-guided-experience/README.md) | [GitHub Pages](https://miookawa.github.io/copilot-experience-lab/programs/smb-guided-experience/) |
+| Copilot Cowork Journey | Copilot Cowork を利用できる業務担当者・マネージャーと、導入を支援するパートナー | 各自のペース（1 体験 15〜45 分） | 自己学習（ハンズオン／デモにも利用可） | [README](cowork-journey/README.md) | [GitHub Pages](https://miookawa.github.io/copilot-experience-lab/programs/cowork-journey/) |
 
 ## プログラムの選び方
 
@@ -21,6 +22,8 @@
 | 短時間で価値を体感してもらいたい。その場で完結させたい | [SMB Guided Experience](smb-guided-experience/README.md) |
 | 期間をかけて、業務への定着まで伴走したい | [Copilot in 30](copilot-in-30/README.md) |
 | 参加者が実業務のデータを使いにくい | [SMB Guided Experience](smb-guided-experience/README.md)（架空の企業レイクショアのサンプルデータで通しで実施できます） |
+| 集合開催はせず、URL を渡して各自に試してもらいたい | [Copilot Cowork Journey](cowork-journey/README.md) |
+| Copilot Cowork に仕事を任せる進め方を身につけてほしい | [Copilot Cowork Journey](cowork-journey/README.md) |
 | 上記に当てはまらない。相手に合わせて独自に組みたい | [自分で組み立てる](templates/README.md) |
 
 ## プログラムの共通構造
@@ -54,6 +57,7 @@
 programs/
 ├─ README.md                 … このファイル（プログラムの一覧と選び方）
 ├─ copilot-in-30/            … 伴走型プログラム
+├─ cowork-journey/           … Copilot Cowork の自己学習プログラム
 ├─ smb-guided-experience/    … 短時間のワークショップ
 └─ templates/                … 新規プログラムの雛形
 ```

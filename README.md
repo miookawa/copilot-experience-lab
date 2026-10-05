@@ -44,6 +44,7 @@ Microsoft Copilot を試すための日本語の体験コンテンツ集です�
 | --- | --- | --- | --- | --- |
 | Copilot in 30 | Copilot トライアルを行うお客様と、伴走支援するパートナー | 30日 | [進行ガイド](programs/copilot-in-30/README.md) | [体験ページ](https://miookawa.github.io/copilot-experience-lab/programs/copilot-in-30/) |
 | M365 Copilot + Agents SMB Guided Experience | SMB のお客様と、実施するパートナー | 約 90 分 | [進行ガイド](programs/smb-guided-experience/README.md) | [体験ページ](https://miookawa.github.io/copilot-experience-lab/programs/smb-guided-experience/) |
+| Copilot Cowork Journey | Copilot Cowork を利用できる業務担当者・マネージャーと、導入を支援するパートナー | 各自のペース（1 体験 15〜45 分） | [進行ガイド](programs/cowork-journey/README.md) | [体験ページ](https://miookawa.github.io/copilot-experience-lab/programs/cowork-journey/) |
 
 
 ## コンテンツを探す
@@ -95,11 +96,13 @@ copilot-experience-lab/
 │  ├─ 05-powerpoint/            … PowerPoint
 │  ├─ 06-researcher-analyst/    … Researcher / Analyst
 │  ├─ 07-agent-builder/         … Agent Builder
+│  ├─ 08-copilot-cowork/        … Copilot Cowork
 │  ├─ 99-personas/              … Personas
 │  └─ assets/                   … 体験別の画像・動画と、サンプルデータ
 └─ programs/                    … 進行プログラム（順番とルールのみ）
    ├─ README.md                 … プログラムの一覧と選び方
    ├─ copilot-in-30/            … 30 日間プログラム
+   ├─ cowork-journey/           … Copilot Cowork の自己学習プログラム
    ├─ smb-guided-experience/    … 90 分ワークショップ
    └─ templates/                … 新規プログラムの雛形
 ```
