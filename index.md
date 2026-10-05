@@ -60,6 +60,11 @@ programs:
     label: "SMB Guided Experience"
     lead: "Chat から Agent Builder までを一気通貫で体験する"
     meta: "約 90 分 ／ ハンズオンまたはデモ"
+  - dir: "cowork-journey"
+    cls: "g8"
+    label: "Copilot Cowork Journey"
+    lead: "指示から委任へ。任せる範囲を広げながら身につける"
+    meta: "各自のペース ／ 1 体験 15〜45 分"
 ---
 
 <!-- GitHub Pages (Jekyll 3.x) 用トップページ。

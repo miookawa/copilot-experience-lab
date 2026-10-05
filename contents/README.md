@@ -73,6 +73,12 @@
 | CWK-04 | [月曜の朝には、返信下書きが揃っている。](08-copilot-cowork/CWK-04_月曜の朝には、返信下書きが揃っている.md) | Copilot Cowork | 約 20 分 | Microsoft 365 Copilot Cowork（Outlook / Teams ／ スケジュール実行） | 自分の業務データ |
 | CWK-05 | [フォルダーごと渡したら、改善点リストが出来ていた。](08-copilot-cowork/CWK-05_フォルダーごと渡したら、改善点リストが出来ていた.md) | Copilot Cowork | 約 30 分 | Microsoft 365 Copilot Cowork（OneDrive / SharePoint / Excel） | 自分の業務データ／サンプル ファイル |
 | CWK-06 | [仕事を止めないための引き継ぎを準備する](08-copilot-cowork/CWK-06_仕事を止めないための引き継ぎを準備する.md) | Copilot Cowork | 約 30 分 | Microsoft 365 Copilot Cowork（Outlook / Teams / OneDrive） | 自分の業務データ |
+| CWK-07 | [社内の賛成派・反対派を全部調べてきて。](08-copilot-cowork/CWK-07_社内の賛成派・反対派を全部調べてきて.md) | Copilot Cowork | 約 30 分 | Microsoft 365 Copilot Cowork（会議 / メール / Teams / OneDrive / SharePoint） | 自分の業務データ |
+| CWK-08 | [新しいメンバーを30日後に戦力化するための準備を、Coworkに任せる](08-copilot-cowork/CWK-08_新しいメンバーを30日後に戦力化するための準備を、Coworkに任せる.md) | Copilot Cowork | 約 30 分 | Microsoft 365 Copilot Cowork（SharePoint / Word / Outlook カレンダー / HTML） | 自分の業務データまたはサンプルデータ |
+| CWK-09 | [売上データを渡したら、役員会資料まで出来ていた。](08-copilot-cowork/CWK-09_売上データを渡したら、役員会資料まで出来ていた.md) | Copilot Cowork | 約 45 分 | Microsoft 365 Copilot Cowork（Excel / PowerPoint / Web 検索） | サンプル ファイル |
+| CWK-10 | [領収書集めから申請入力までを任せる](08-copilot-cowork/CWK-10_領収書集めから申請入力までを任せる.md) | Copilot Cowork | 約 30 分 | Microsoft 365 Copilot Cowork（Outlook / OneDrive / Excel / ローカル ブラウザー） | 自分の業務データまたはサンプルデータ |
+| CWK-11 | [大阪出張の準備、全部やっておいて。](08-copilot-cowork/CWK-11_大阪出張の準備、全部やっておいて.md) | Copilot Cowork | 約 20 分 | Microsoft 365 Copilot Cowork（ローカル ブラウザー / Outlook） | 自分のアカウント・業務データ |
+| CWK-12 | [役員会で操作できる投資判断アプリを作らせる](08-copilot-cowork/CWK-12_役員会で操作できる投資判断アプリを作らせる.md) | Copilot Cowork | 約 30 分 | Microsoft 365 Copilot Cowork（App Skill） | サンプルデータ |
 
 ## カテゴリ
 
