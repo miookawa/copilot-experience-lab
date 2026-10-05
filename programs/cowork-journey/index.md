@@ -124,7 +124,7 @@ description: 指示から委任へ。任せる範囲を広げながら Copilot C
   <ol>
     <li>職場のアカウントで Microsoft 365 Copilot にサインインし、<strong>Cowork</strong> が利用できることを確認します。</li>
     <li>最初の 1 件は <strong>★ 今週の予定、整理しておきました。</strong>がおすすめです。自分のカレンダーだけで試せます。</li>
-    <li>実業務のデータを使いにくい場合は、<strong>付属サンプルあり</strong>または<strong>付属サンプルを使用</strong>のラベルが付いた体験を選んでください。</li>
+    <li>実業務のデータを使いにくい場合は、<strong>サンプルへの切替可</strong>または<strong>指定サンプルで実施</strong>のラベルが付いた体験を選んでください。</li>
   </ol>
 </div>
 
@@ -183,7 +183,7 @@ description: 指示から委任へ。任せる範囲を広げながら Copilot C
     <span class="cwj-id">CWK-05</span>
     <span class="cwj-title">フォルダーごと渡したら、改善点リストが出来ていた。</span>
     <span class="cwj-lead">複数のファイルを社内基準に照らして点検し、重大度順の Excel レポートにします。</span>
-    <ul class="cwj-labels"><li>自分の業務データ</li><li>付属サンプルあり</li><li class="is-credit">クレジット消費：<strong>Heavy</strong></li></ul>
+    <ul class="cwj-labels"><li>自分の業務データ</li><li>サンプルへの切替可</li><li class="is-credit">クレジット消費：<strong>Heavy</strong></li></ul>
     <span class="cwj-meta">約 30 分</span>
   </a>
   <a class="cwj-card s2" href="../../contents/08-copilot-cowork/CWK-02_%E7%B5%82%E3%82%8F%E3%81%A3%E3%81%9F%E6%A1%88%E4%BB%B6%E3%82%92%E6%B8%A1%E3%81%97%E3%81%9F%E3%82%89%E3%80%81%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E3%82%B5%E3%82%A4%E3%83%88%E3%81%BE%E3%81%A7%E5%87%BA%E6%9D%A5%E3%81%A6%E3%81%84%E3%81%9F.html">
@@ -204,7 +204,7 @@ description: 指示から委任へ。任せる範囲を広げながら Copilot C
     <span class="cwj-id">CWK-08</span>
     <span class="cwj-title">新しいメンバーを30日後に戦力化するための準備を、Coworkに任せる</span>
     <span class="cwj-lead">迎える側。30・60・90 日計画、進捗ダッシュボード、1on1 候補までまとめて。</span>
-    <ul class="cwj-labels"><li>自分の業務データ</li><li>付属サンプルあり</li><li class="is-credit">クレジット消費：<strong>Heavy</strong></li></ul>
+    <ul class="cwj-labels"><li>自分の業務データ</li><li>サンプルへの切替可</li><li class="is-credit">クレジット消費：<strong>Heavy</strong></li></ul>
     <span class="cwj-meta">約 30 分</span>
   </a>
 </div>
@@ -246,14 +246,14 @@ description: 指示から委任へ。任せる範囲を広げながら Copilot C
     <span class="cwj-id">CWK-09</span>
     <span class="cwj-title">売上データを渡したら、役員会資料まで出来ていた。</span>
     <span class="cwj-lead">分析用 Excel と役員会用 PowerPoint を、数字と結論が一致した状態で同時に。</span>
-    <ul class="cwj-labels"><li>付属サンプルを使用</li><li class="is-credit">クレジット消費：<strong>Heavy</strong></li></ul>
+    <ul class="cwj-labels"><li>指定サンプルで実施</li><li class="is-credit">クレジット消費：<strong>Heavy</strong></li></ul>
     <span class="cwj-meta">約 45 分</span>
   </a>
   <a class="cwj-card s4" href="../../contents/08-copilot-cowork/CWK-12_%E5%BD%B9%E5%93%A1%E4%BC%9A%E3%81%A7%E6%93%8D%E4%BD%9C%E3%81%A7%E3%81%8D%E3%82%8B%E6%8A%95%E8%B3%87%E5%88%A4%E6%96%AD%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92%E4%BD%9C%E3%82%89%E3%81%9B%E3%82%8B.html">
     <span class="cwj-id">CWK-12</span>
     <span class="cwj-title">役員会で操作できる投資判断アプリを作らせる</span>
     <span class="cwj-lead">読む資料から一歩先へ。その場の質問に答えられるアプリを、会話で育てます。</span>
-    <ul class="cwj-labels"><li>付属サンプルを使用</li><li class="is-warn">App Skill（Frontier）</li><li class="is-credit">クレジット消費：<strong>Heavy</strong></li></ul>
+    <ul class="cwj-labels"><li>指定サンプルで実施</li><li class="is-warn">App Skill（Frontier）</li><li class="is-credit">クレジット消費：<strong>Heavy</strong></li></ul>
     <span class="cwj-meta">約 30 分</span>
   </a>
 </div>
