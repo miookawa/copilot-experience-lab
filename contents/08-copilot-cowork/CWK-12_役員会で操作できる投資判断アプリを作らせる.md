@@ -5,7 +5,7 @@
 | **目的** | 売上データから、読むだけの資料ではなく、役員の質問にその場で答えられる**操作可能なアプリ**を作り、会話で経営ルールを追加していく |
 | **所要** | 約 30 分（目安／Cowork の処理時間を含む） |
 | **利用** | Microsoft 365 Copilot Cowork（App Skill） |
-| **入力** | **サンプルデータ**：[`TrendStyleJapan-SalesData.xlsx`](../assets/CWK-12/TrendStyleJapan-SalesData.xlsx)（架空企業のサンプル ブック。「カテゴリ別集計」「地域別集計」「MarketData」シートを使用） |
+| **入力** | **サンプルデータ**：[`TrendStyleJapan-SalesData.xlsx`](https://github.com/miookawa/copilot-experience-lab/releases/download/ppt-01-v1.0.0/TrendStyleJapan-SalesData-completed.xlsx)（架空企業のサンプル ブック。「カテゴリ別集計」「地域別集計」「MarketData」シートを使用） |
 | **成果** | フィルターと KPI を備えた投資判断アプリ → 経営ルールを反映した投資スコア → 未出店市場の比較 → 投資方針の切り替え比較 |
 
 > **実施条件**：**App Skill は Frontier 機能です。** テナント、ライセンス、Frontier の設定、および機能の展開状況を事前に確認してください。
